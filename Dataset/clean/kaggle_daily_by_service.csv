@@ -1,0 +1,4451 @@
+date,ServiceName,cost_usd
+2022-12-22,API Management,2.342396313364056
+2022-12-22,Advanced Data Security,0.359005323808882
+2022-12-22,Advanced Threat Protection,0.0
+2022-12-22,Application Gateway,6.052052183266262
+2022-12-22,Automation,0.071458230724086
+2022-12-22,Azure Active Directory for External Identities,0.0
+2022-12-22,Azure App Service,3.566393928502108
+2022-12-22,Azure Arc,0.0
+2022-12-22,Azure Arc Enabled Databases,0.0
+2022-12-22,Azure Bastion,0.0
+2022-12-22,Azure Container Apps,0.0
+2022-12-22,Azure Cosmos DB,0.0
+2022-12-22,Azure DNS,0.071506617117444
+2022-12-22,Azure Data Factory v2,0.0
+2022-12-22,Azure Database for MariaDB,0.0
+2022-12-22,Azure Database for MySQL,7.981773406567896
+2022-12-22,Azure Database for PostgreSQL,0.0
+2022-12-22,Azure Defender,0.0
+2022-12-22,Azure DevOps,2.1057415705101192
+2022-12-22,Azure Firewall,0.0
+2022-12-22,Azure Front Door Service,0.5114677002583929
+2022-12-22,Azure Kubernetes Service,0.0
+2022-12-22,Azure Monitor,0.011924961973973
+2022-12-22,Azure Site Recovery,0.598322580645072
+2022-12-22,Azure Synapse Analytics,0.0
+2022-12-22,Backup,1.519738617320872
+2022-12-22,Bandwidth,0.026323708817064
+2022-12-22,Container Instances,0.0
+2022-12-22,Container Registry,1.6061216054314509
+2022-12-22,Content Delivery Network,0.0
+2022-12-22,Event Hubs,0.0
+2022-12-22,ExpressRoute,0.0
+2022-12-22,Functions,0.0
+2022-12-22,Insight and Analytics,0.0
+2022-12-22,Key Vault,0.000306672086996
+2022-12-22,Load Balancer,3.127739269890875
+2022-12-22,Log Analytics,0.115602892446633
+2022-12-22,Logic Apps,0.699453109156537
+2022-12-22,Network Watcher,0.0
+2022-12-22,Redis Cache,0.0
+2022-12-22,SQL Database,0.118997791608111
+2022-12-22,Security Center,3.009758560833202
+2022-12-22,Service Bus,0.17827295853752298
+2022-12-22,Storage,15.023969940284225
+2022-12-22,Unassigned,5.76
+2022-12-22,VPN Gateway,0.0
+2022-12-22,Virtual Machines,14.65708751087531
+2022-12-22,Virtual Machines Licenses,0.0
+2022-12-22,Virtual Network,4.444908812764043
+2022-12-22,Virtual WAN,0.0
+2022-12-23,API Management,2.342396313364056
+2022-12-23,Advanced Data Security,0.359005323808882
+2022-12-23,Advanced Threat Protection,0.0
+2022-12-23,Application Gateway,6.052052183266262
+2022-12-23,Automation,0.066716258777219
+2022-12-23,Azure Active Directory for External Identities,0.0
+2022-12-23,Azure App Service,3.566393928502108
+2022-12-23,Azure Arc,0.0
+2022-12-23,Azure Arc Enabled Databases,0.0
+2022-12-23,Azure Bastion,0.0
+2022-12-23,Azure Container Apps,0.0
+2022-12-23,Azure Cosmos DB,0.0
+2022-12-23,Azure DNS,0.071506617117444
+2022-12-23,Azure Data Factory v2,0.0
+2022-12-23,Azure Database for MariaDB,0.0
+2022-12-23,Azure Database for MySQL,4.402277555793782
+2022-12-23,Azure Database for PostgreSQL,0.0
+2022-12-23,Azure Defender,0.0
+2022-12-23,Azure DevOps,2.1057415705101192
+2022-12-23,Azure Firewall,0.0
+2022-12-23,Azure Front Door Service,0.533705426356584
+2022-12-23,Azure Kubernetes Service,0.0
+2022-12-23,Azure Monitor,0.011428088558391
+2022-12-23,Azure Site Recovery,0.598322580645072
+2022-12-23,Azure Synapse Analytics,0.0
+2022-12-23,Backup,1.519738617320872
+2022-12-23,Bandwidth,0.032606895638355
+2022-12-23,Container Instances,0.0
+2022-12-23,Container Registry,1.6061216054314509
+2022-12-23,Content Delivery Network,0.0
+2022-12-23,Event Hubs,0.0
+2022-12-23,ExpressRoute,0.0
+2022-12-23,Functions,0.0
+2022-12-23,Insight and Analytics,0.0
+2022-12-23,Key Vault,0.0
+2022-12-23,Load Balancer,3.127939071675911
+2022-12-23,Log Analytics,0.128763800785441
+2022-12-23,Logic Apps,0.7004782333601899
+2022-12-23,Network Watcher,0.0
+2022-12-23,Redis Cache,0.0
+2022-12-23,SQL Database,0.118997791608111
+2022-12-23,Security Center,3.0544579454000313
+2022-12-23,Service Bus,0.188213333766127
+2022-12-23,Storage,15.18720092263932
+2022-12-23,Unassigned,5.76
+2022-12-23,VPN Gateway,0.0
+2022-12-23,Virtual Machines,14.472823229178974
+2022-12-23,Virtual Machines Licenses,0.0
+2022-12-23,Virtual Network,4.433108198072777
+2022-12-23,Virtual WAN,0.0
+2022-12-24,API Management,2.342396313364056
+2022-12-24,Advanced Data Security,0.359005323808882
+2022-12-24,Advanced Threat Protection,0.0
+2022-12-24,Application Gateway,6.052052183266262
+2022-12-24,Automation,0.071880782679748
+2022-12-24,Azure Active Directory for External Identities,0.0
+2022-12-24,Azure App Service,3.566393928502108
+2022-12-24,Azure Arc,0.0
+2022-12-24,Azure Arc Enabled Databases,0.0
+2022-12-24,Azure Bastion,0.0
+2022-12-24,Azure Container Apps,0.0
+2022-12-24,Azure Cosmos DB,0.0
+2022-12-24,Azure DNS,0.071506617117444
+2022-12-24,Azure Data Factory v2,0.0
+2022-12-24,Azure Database for MariaDB,0.0
+2022-12-24,Azure Database for MySQL,4.402277555793782
+2022-12-24,Azure Database for PostgreSQL,0.0
+2022-12-24,Azure Defender,0.0
+2022-12-24,Azure DevOps,2.1057415705101192
+2022-12-24,Azure Firewall,0.0
+2022-12-24,Azure Front Door Service,0.533705426356584
+2022-12-24,Azure Kubernetes Service,0.0
+2022-12-24,Azure Monitor,0.010931215142809
+2022-12-24,Azure Site Recovery,0.598322580645072
+2022-12-24,Azure Synapse Analytics,0.0
+2022-12-24,Backup,1.519738617320872
+2022-12-24,Bandwidth,0.024946727143079002
+2022-12-24,Container Instances,0.0
+2022-12-24,Container Registry,1.6061216054314509
+2022-12-24,Content Delivery Network,0.0
+2022-12-24,Event Hubs,0.0
+2022-12-24,ExpressRoute,0.0
+2022-12-24,Functions,0.0
+2022-12-24,Insight and Analytics,0.0
+2022-12-24,Key Vault,0.0
+2022-12-24,Load Balancer,3.127756911502566
+2022-12-24,Log Analytics,0.111496065696391
+2022-12-24,Logic Apps,0.702435492484871
+2022-12-24,Network Watcher,0.0
+2022-12-24,Redis Cache,0.0
+2022-12-24,SQL Database,0.118997791608111
+2022-12-24,Security Center,2.860760612277103
+2022-12-24,Service Bus,0.227768283654396
+2022-12-24,Storage,15.16962167775091
+2022-12-24,Unassigned,5.76
+2022-12-24,VPN Gateway,0.0
+2022-12-24,Virtual Machines,13.770489449369732
+2022-12-24,Virtual Machines Licenses,0.0
+2022-12-24,Virtual Network,4.432032496829196
+2022-12-24,Virtual WAN,0.0
+2022-12-25,API Management,2.342396313364056
+2022-12-25,Advanced Data Security,0.359005323808882
+2022-12-25,Advanced Threat Protection,0.0
+2022-12-25,Application Gateway,6.052052183266262
+2022-12-25,Automation,0.069533271814962
+2022-12-25,Azure Active Directory for External Identities,0.0
+2022-12-25,Azure App Service,3.566393928502108
+2022-12-25,Azure Arc,0.0
+2022-12-25,Azure Arc Enabled Databases,0.0
+2022-12-25,Azure Bastion,0.0
+2022-12-25,Azure Container Apps,0.0
+2022-12-25,Azure Cosmos DB,0.0
+2022-12-25,Azure DNS,0.071506617117444
+2022-12-25,Azure Data Factory v2,0.0
+2022-12-25,Azure Database for MariaDB,0.0
+2022-12-25,Azure Database for MySQL,4.402277555793782
+2022-12-25,Azure Database for PostgreSQL,0.0
+2022-12-25,Azure Defender,0.0
+2022-12-25,Azure DevOps,2.1057415705101192
+2022-12-25,Azure Firewall,0.0
+2022-12-25,Azure Front Door Service,0.533705426356584
+2022-12-25,Azure Kubernetes Service,0.0
+2022-12-25,Azure Monitor,0.010931215142809
+2022-12-25,Azure Site Recovery,0.598322580645072
+2022-12-25,Azure Synapse Analytics,0.0
+2022-12-25,Backup,1.519738617320872
+2022-12-25,Bandwidth,0.024760280047868
+2022-12-25,Container Instances,0.0
+2022-12-25,Container Registry,1.6061216054314507
+2022-12-25,Content Delivery Network,0.0
+2022-12-25,Event Hubs,0.0
+2022-12-25,ExpressRoute,0.0
+2022-12-25,Functions,0.0
+2022-12-25,Insight and Analytics,0.0
+2022-12-25,Key Vault,0.0
+2022-12-25,Load Balancer,3.127609611728064
+2022-12-25,Log Analytics,0.11146711780655
+2022-12-25,Logic Apps,0.691438358349183
+2022-12-25,Network Watcher,0.0
+2022-12-25,Redis Cache,0.0
+2022-12-25,SQL Database,0.118997791608111
+2022-12-25,Security Center,2.860760612277103
+2022-12-25,Service Bus,0.178272958537523
+2022-12-25,Storage,15.172310385514423
+2022-12-25,Unassigned,5.76
+2022-12-25,VPN Gateway,0.0
+2022-12-25,Virtual Machines,13.770489449369732
+2022-12-25,Virtual Machines Licenses,0.0
+2022-12-25,Virtual Network,4.55866819415551
+2022-12-25,Virtual WAN,0.0
+2022-12-26,API Management,2.342396313364056
+2022-12-26,Advanced Data Security,0.359005323808882
+2022-12-26,Advanced Threat Protection,0.0
+2022-12-26,Application Gateway,6.052052183266262
+2022-12-26,Automation,0.061833436178464
+2022-12-26,Azure Active Directory for External Identities,0.0
+2022-12-26,Azure App Service,3.566393928502108
+2022-12-26,Azure Arc,0.0
+2022-12-26,Azure Arc Enabled Databases,0.0
+2022-12-26,Azure Bastion,0.0
+2022-12-26,Azure Container Apps,0.0
+2022-12-26,Azure Cosmos DB,0.0
+2022-12-26,Azure DNS,0.071506617117444
+2022-12-26,Azure Data Factory v2,0.0
+2022-12-26,Azure Database for MariaDB,0.0
+2022-12-26,Azure Database for MySQL,4.402277555793782
+2022-12-26,Azure Database for PostgreSQL,0.0
+2022-12-26,Azure Defender,0.0
+2022-12-26,Azure DevOps,2.1057415705101192
+2022-12-26,Azure Firewall,0.0
+2022-12-26,Azure Front Door Service,0.5114677002583929
+2022-12-26,Azure Kubernetes Service,0.0
+2022-12-26,Azure Monitor,0.011924961973973
+2022-12-26,Azure Site Recovery,0.598322580645072
+2022-12-26,Azure Synapse Analytics,0.0
+2022-12-26,Backup,1.519737939665289
+2022-12-26,Bandwidth,0.027945520518795
+2022-12-26,Container Instances,0.0
+2022-12-26,Container Registry,1.6061216054314507
+2022-12-26,Content Delivery Network,0.0
+2022-12-26,Event Hubs,0.0
+2022-12-26,ExpressRoute,0.0
+2022-12-26,Functions,0.0
+2022-12-26,Insight and Analytics,0.0
+2022-12-26,Key Vault,0.0
+2022-12-26,Load Balancer,3.1276232223270517
+2022-12-26,Log Analytics,0.111543733093111
+2022-12-26,Logic Apps,0.700944298715569
+2022-12-26,Network Watcher,0.0
+2022-12-26,Redis Cache,0.0
+2022-12-26,SQL Database,0.118997791608111
+2022-12-26,Security Center,2.860760612277103
+2022-12-26,Service Bus,0.198071088584272
+2022-12-26,Storage,15.172146139106523
+2022-12-26,Unassigned,5.76
+2022-12-26,VPN Gateway,0.0
+2022-12-26,Virtual Machines,13.767669527678342
+2022-12-26,Virtual Machines Licenses,0.0
+2022-12-26,Virtual Network,4.55866819415551
+2022-12-26,Virtual WAN,0.0
+2022-12-27,API Management,2.342396313364056
+2022-12-27,Advanced Data Security,0.359005323808882
+2022-12-27,Advanced Threat Protection,0.0
+2022-12-27,Application Gateway,6.052052183266262
+2022-12-27,Automation,0.0389452052468
+2022-12-27,Azure Active Directory for External Identities,0.0
+2022-12-27,Azure App Service,3.566393928502108
+2022-12-27,Azure Arc,0.0
+2022-12-27,Azure Arc Enabled Databases,0.0
+2022-12-27,Azure Bastion,0.0
+2022-12-27,Azure Container Apps,0.0
+2022-12-27,Azure Cosmos DB,0.0
+2022-12-27,Azure DNS,0.071506617117444
+2022-12-27,Azure Data Factory v2,0.0
+2022-12-27,Azure Database for MariaDB,0.0
+2022-12-27,Azure Database for MySQL,4.607277555793782
+2022-12-27,Azure Database for PostgreSQL,0.0
+2022-12-27,Azure Defender,0.0
+2022-12-27,Azure DevOps,2.1057415705101192
+2022-12-27,Azure Firewall,0.0
+2022-12-27,Azure Front Door Service,0.533705426356584
+2022-12-27,Azure Kubernetes Service,0.0
+2022-12-27,Azure Monitor,0.011924961973973
+2022-12-27,Azure Site Recovery,0.598322580645072
+2022-12-27,Azure Synapse Analytics,0.0
+2022-12-27,Backup,1.519736293930302
+2022-12-27,Bandwidth,0.022051251615149
+2022-12-27,Container Instances,0.0
+2022-12-27,Container Registry,1.6061216054314507
+2022-12-27,Content Delivery Network,0.0
+2022-12-27,Event Hubs,0.0
+2022-12-27,ExpressRoute,0.0
+2022-12-27,Functions,0.0
+2022-12-27,Insight and Analytics,0.0
+2022-12-27,Key Vault,0.0
+2022-12-27,Load Balancer,3.127497707841973
+2022-12-27,Log Analytics,0.114208305859806
+2022-12-27,Logic Apps,0.7006646500416069
+2022-12-27,Network Watcher,0.0
+2022-12-27,Redis Cache,0.0
+2022-12-27,SQL Database,0.118997791608111
+2022-12-27,Security Center,2.860760612277103
+2022-12-27,Service Bus,0.19807108858427197
+2022-12-27,Storage,15.169937661341548
+2022-12-27,Unassigned,5.76
+2022-12-27,VPN Gateway,0.0
+2022-12-27,Virtual Machines,13.770020133086952
+2022-12-27,Virtual Machines Licenses,0.0
+2022-12-27,Virtual Network,4.55866819415551
+2022-12-27,Virtual WAN,0.0
+2022-12-28,API Management,2.342396313364056
+2022-12-28,Advanced Data Security,0.359005323808882
+2022-12-28,Advanced Threat Protection,0.0
+2022-12-28,Application Gateway,6.052052183266262
+2022-12-28,Automation,0.079134591251937
+2022-12-28,Azure Active Directory for External Identities,0.0
+2022-12-28,Azure App Service,3.566393928502108
+2022-12-28,Azure Arc,0.0
+2022-12-28,Azure Arc Enabled Databases,0.0
+2022-12-28,Azure Bastion,0.0
+2022-12-28,Azure Container Apps,0.0
+2022-12-28,Azure Cosmos DB,0.0
+2022-12-28,Azure DNS,0.071506617117444
+2022-12-28,Azure Data Factory v2,0.0
+2022-12-28,Azure Database for MariaDB,0.0
+2022-12-28,Azure Database for MySQL,4.709777555793782
+2022-12-28,Azure Database for PostgreSQL,0.0
+2022-12-28,Azure Defender,0.0
+2022-12-28,Azure DevOps,2.1057415705101192
+2022-12-28,Azure Firewall,0.0
+2022-12-28,Azure Front Door Service,0.533705426356584
+2022-12-28,Azure Kubernetes Service,0.0
+2022-12-28,Azure Monitor,0.011924961973973
+2022-12-28,Azure Site Recovery,0.598322580645072
+2022-12-28,Azure Synapse Analytics,0.0
+2022-12-28,Backup,1.519736293930302
+2022-12-28,Bandwidth,0.026684520199963
+2022-12-28,Container Instances,0.0
+2022-12-28,Container Registry,1.6061216054314509
+2022-12-28,Content Delivery Network,0.0
+2022-12-28,Event Hubs,0.0
+2022-12-28,ExpressRoute,0.0
+2022-12-28,Functions,0.0
+2022-12-28,Insight and Analytics,0.0
+2022-12-28,Key Vault,0.0
+2022-12-28,Load Balancer,3.1274634366219307
+2022-12-28,Log Analytics,0.12474335146732
+2022-12-28,Logic Apps,0.700757841417389
+2022-12-28,Network Watcher,0.0
+2022-12-28,Redis Cache,0.0
+2022-12-28,SQL Database,0.118997791608111
+2022-12-28,Security Center,2.860760612277103
+2022-12-28,Service Bus,0.19809353561346899
+2022-12-28,Storage,15.188365966629256
+2022-12-28,Unassigned,5.76
+2022-12-28,VPN Gateway,0.0
+2022-12-28,Virtual Machines,13.764852579372496
+2022-12-28,Virtual Machines Licenses,0.0
+2022-12-28,Virtual Network,4.560316727657643
+2022-12-28,Virtual WAN,0.0
+2022-12-29,API Management,2.342396313364056
+2022-12-29,Advanced Data Security,0.359005323808882
+2022-12-29,Advanced Threat Protection,0.0
+2022-12-29,Application Gateway,6.052052183266262
+2022-12-29,Automation,0.000492977281605
+2022-12-29,Azure Active Directory for External Identities,0.0
+2022-12-29,Azure App Service,3.566393928502108
+2022-12-29,Azure Arc,0.0
+2022-12-29,Azure Arc Enabled Databases,0.0
+2022-12-29,Azure Bastion,0.0
+2022-12-29,Azure Container Apps,0.0
+2022-12-29,Azure Cosmos DB,0.0
+2022-12-29,Azure DNS,0.071506617117444
+2022-12-29,Azure Data Factory v2,0.0
+2022-12-29,Azure Database for MariaDB,0.0
+2022-12-29,Azure Database for MySQL,4.607277555793782
+2022-12-29,Azure Database for PostgreSQL,0.0
+2022-12-29,Azure Defender,0.0
+2022-12-29,Azure DevOps,2.249288567899153
+2022-12-29,Azure Firewall,0.0
+2022-12-29,Azure Front Door Service,0.5114677002583929
+2022-12-29,Azure Kubernetes Service,0.0
+2022-12-29,Azure Monitor,0.011924961973973
+2022-12-29,Azure Site Recovery,0.598322580645072
+2022-12-29,Azure Synapse Analytics,0.0
+2022-12-29,Backup,1.519736293930302
+2022-12-29,Bandwidth,0.027897765147128
+2022-12-29,Container Instances,0.0
+2022-12-29,Container Registry,1.6061216054314507
+2022-12-29,Content Delivery Network,0.0
+2022-12-29,Event Hubs,0.0
+2022-12-29,ExpressRoute,0.0
+2022-12-29,Functions,0.0
+2022-12-29,Insight and Analytics,0.0
+2022-12-29,Key Vault,0.0
+2022-12-29,Load Balancer,3.175536980289985
+2022-12-29,Log Analytics,0.12480331521521401
+2022-12-29,Logic Apps,0.700851050129591
+2022-12-29,Network Watcher,0.0
+2022-12-29,Redis Cache,0.0
+2022-12-29,SQL Database,0.118997791608111
+2022-12-29,Security Center,2.950159381410762
+2022-12-29,Service Bus,0.168373893514149
+2022-12-29,Storage,15.191413527225285
+2022-12-29,Unassigned,5.76
+2022-12-29,VPN Gateway,0.0
+2022-12-29,Virtual Machines,14.326739601329129
+2022-12-29,Virtual Machines Licenses,0.0
+2022-12-29,Virtual Network,4.526605039750256
+2022-12-29,Virtual WAN,0.0
+2022-12-30,API Management,2.342396313364056
+2022-12-30,Advanced Data Security,0.359005323808882
+2022-12-30,Advanced Threat Protection,0.0
+2022-12-30,Application Gateway,6.052052183266262
+2022-12-30,Automation,0.067960439535555
+2022-12-30,Azure Active Directory for External Identities,0.0
+2022-12-30,Azure App Service,3.566393928502108
+2022-12-30,Azure Arc,0.0
+2022-12-30,Azure Arc Enabled Databases,0.0
+2022-12-30,Azure Bastion,0.0
+2022-12-30,Azure Container Apps,0.0
+2022-12-30,Azure Cosmos DB,0.0
+2022-12-30,Azure DNS,0.071506617117444
+2022-12-30,Azure Data Factory v2,0.0
+2022-12-30,Azure Database for MariaDB,0.0
+2022-12-30,Azure Database for MySQL,4.504777555793782
+2022-12-30,Azure Database for PostgreSQL,0.0
+2022-12-30,Azure Defender,0.0
+2022-12-30,Azure DevOps,2.249288567899153
+2022-12-30,Azure Firewall,0.0
+2022-12-30,Azure Front Door Service,0.533705426356584
+2022-12-30,Azure Kubernetes Service,0.0
+2022-12-30,Azure Monitor,0.011924961973973
+2022-12-30,Azure Site Recovery,0.598322580645072
+2022-12-30,Azure Synapse Analytics,0.0
+2022-12-30,Backup,1.519736293930302
+2022-12-30,Bandwidth,0.025183117104955
+2022-12-30,Container Instances,0.0
+2022-12-30,Container Registry,1.6061216054314507
+2022-12-30,Content Delivery Network,0.0
+2022-12-30,Event Hubs,0.0
+2022-12-30,ExpressRoute,0.0
+2022-12-30,Functions,0.0
+2022-12-30,Insight and Analytics,0.0
+2022-12-30,Key Vault,0.0
+2022-12-30,Load Balancer,3.127359642893532
+2022-12-30,Log Analytics,0.124813050464506
+2022-12-30,Logic Apps,0.701410243954301
+2022-12-30,Network Watcher,0.0
+2022-12-30,Redis Cache,0.0
+2022-12-30,SQL Database,0.118997791608111
+2022-12-30,Security Center,2.860760612277103
+2022-12-30,Service Bus,0.17827295853752298
+2022-12-30,Storage,15.165826042820498
+2022-12-30,Unassigned,5.76
+2022-12-30,VPN Gateway,0.0
+2022-12-30,Virtual Machines,13.770489449369732
+2022-12-30,Virtual Machines Licenses,0.0
+2022-12-30,Virtual Network,4.497098962248561
+2022-12-30,Virtual WAN,0.0
+2022-12-31,API Management,2.342396313364056
+2022-12-31,Advanced Data Security,0.359005323808882
+2022-12-31,Advanced Threat Protection,0.0
+2022-12-31,Application Gateway,6.052052183266262
+2022-12-31,Automation,0.076787080387151
+2022-12-31,Azure Active Directory for External Identities,0.0
+2022-12-31,Azure App Service,3.566393928502108
+2022-12-31,Azure Arc,0.0
+2022-12-31,Azure Arc Enabled Databases,0.0
+2022-12-31,Azure Bastion,0.0
+2022-12-31,Azure Container Apps,0.0
+2022-12-31,Azure Cosmos DB,0.0
+2022-12-31,Azure DNS,0.071506617117444
+2022-12-31,Azure Data Factory v2,0.0
+2022-12-31,Azure Database for MariaDB,0.0
+2022-12-31,Azure Database for MySQL,4.402277555793782
+2022-12-31,Azure Database for PostgreSQL,0.0
+2022-12-31,Azure Defender,0.0
+2022-12-31,Azure DevOps,2.249288567899153
+2022-12-31,Azure Firewall,0.0
+2022-12-31,Azure Front Door Service,0.533705426356584
+2022-12-31,Azure Kubernetes Service,0.0
+2022-12-31,Azure Monitor,0.011924961973973
+2022-12-31,Azure Site Recovery,0.598322580645072
+2022-12-31,Azure Synapse Analytics,0.0
+2022-12-31,Backup,1.519736293930302
+2022-12-31,Bandwidth,0.029116969316905
+2022-12-31,Container Instances,0.0
+2022-12-31,Container Registry,1.6061216054314507
+2022-12-31,Content Delivery Network,0.0
+2022-12-31,Event Hubs,0.0
+2022-12-31,ExpressRoute,0.0
+2022-12-31,Functions,0.0
+2022-12-31,Insight and Analytics,0.0
+2022-12-31,Key Vault,0.0
+2022-12-31,Load Balancer,3.126924640269488
+2022-12-31,Log Analytics,0.124784584386047
+2022-12-31,Logic Apps,0.703274236661257
+2022-12-31,Network Watcher,0.0
+2022-12-31,Redis Cache,0.0
+2022-12-31,SQL Database,0.118997791608111
+2022-12-31,Security Center,2.860760612277103
+2022-12-31,Service Bus,0.207970153607647
+2022-12-31,Storage,15.152484918585508
+2022-12-31,Unassigned,5.76
+2022-12-31,VPN Gateway,0.0
+2022-12-31,Virtual Machines,13.77048944936973
+2022-12-31,Virtual Machines Licenses,0.0
+2022-12-31,Virtual Network,4.46986938207057
+2022-12-31,Virtual WAN,0.0
+2023-01-01,API Management,2.342396313364056
+2023-01-01,Advanced Data Security,0.359032258064516
+2023-01-01,Advanced Threat Protection,0.0
+2023-01-01,Application Gateway,6.052456901575099
+2023-01-01,Automation,0.033240825275337
+2023-01-01,Azure Active Directory for External Identities,0.0
+2023-01-01,Azure App Service,3.566390168970814
+2023-01-01,Azure Arc,0.0
+2023-01-01,Azure Arc Enabled Databases,0.0
+2023-01-01,Azure Bastion,0.0
+2023-01-01,Azure Container Apps,0.0
+2023-01-01,Azure Cosmos DB,0.0
+2023-01-01,Azure DNS,0.07150169724361799
+2023-01-01,Azure Data Factory v2,0.0
+2023-01-01,Azure Database for MariaDB,0.0
+2023-01-01,Azure Database for MySQL,4.402566451612903
+2023-01-01,Azure Database for PostgreSQL,0.0
+2023-01-01,Azure Defender,0.0
+2023-01-01,Azure DevOps,2.249298294068187
+2023-01-01,Azure Firewall,0.0
+2023-01-01,Azure Front Door Service,0.5339754656974081
+2023-01-01,Azure Kubernetes Service,0.0
+2023-01-01,Azure Monitor,0.011908860759494
+2023-01-01,Azure Site Recovery,0.598322580645072
+2023-01-01,Azure Synapse Analytics,0.0
+2023-01-01,Backup,1.51965917576499
+2023-01-01,Bandwidth,0.023675501111371
+2023-01-01,Container Instances,0.0
+2023-01-01,Container Registry,1.6063110607146178
+2023-01-01,Content Delivery Network,0.0
+2023-01-01,Event Hubs,0.0
+2023-01-01,ExpressRoute,0.0
+2023-01-01,Functions,0.0
+2023-01-01,Insight and Analytics,0.0
+2023-01-01,Key Vault,0.0
+2023-01-01,Load Balancer,3.126943069170996
+2023-01-01,Log Analytics,0.124749003705374
+2023-01-01,Logic Apps,0.7031775517194069
+2023-01-01,Network Watcher,0.0
+2023-01-01,Redis Cache,0.0
+2023-01-01,SQL Database,0.118999051233397
+2023-01-01,Security Center,2.8607166123778507
+2023-01-01,Service Bus,0.237710665436654
+2023-01-01,Storage,15.154304225868598
+2023-01-01,Unassigned,5.75974
+2023-01-01,VPN Gateway,0.0
+2023-01-01,Virtual Machines,13.770295791934865
+2023-01-01,Virtual Machines Licenses,0.0
+2023-01-01,Virtual Network,4.469925155296066
+2023-01-01,Virtual WAN,0.0
+2023-01-02,API Management,2.342396313364056
+2023-01-02,Advanced Data Security,0.359032258064516
+2023-01-02,Advanced Threat Protection,0.0
+2023-01-02,Application Gateway,6.052456901575099
+2023-01-02,Automation,0.094221685847918
+2023-01-02,Azure Active Directory for External Identities,0.0
+2023-01-02,Azure App Service,3.566390168970814
+2023-01-02,Azure Arc,0.0
+2023-01-02,Azure Arc Enabled Databases,0.0
+2023-01-02,Azure Bastion,0.0
+2023-01-02,Azure Container Apps,0.0
+2023-01-02,Azure Cosmos DB,0.0
+2023-01-02,Azure DNS,0.07150169724361799
+2023-01-02,Azure Data Factory v2,0.0
+2023-01-02,Azure Database for MariaDB,0.0
+2023-01-02,Azure Database for MySQL,4.402566451612903
+2023-01-02,Azure Database for PostgreSQL,0.0
+2023-01-02,Azure Defender,0.0
+2023-01-02,Azure DevOps,2.249298294068187
+2023-01-02,Azure Firewall,0.0
+2023-01-02,Azure Front Door Service,0.5339754656974081
+2023-01-02,Azure Kubernetes Service,0.0
+2023-01-02,Azure Monitor,0.011908860759494
+2023-01-02,Azure Site Recovery,0.598322580645072
+2023-01-02,Azure Synapse Analytics,0.0
+2023-01-02,Backup,1.519549640837238
+2023-01-02,Bandwidth,0.020144451270168
+2023-01-02,Container Instances,0.0
+2023-01-02,Container Registry,1.6063110607146178
+2023-01-02,Content Delivery Network,0.0
+2023-01-02,Event Hubs,0.0
+2023-01-02,ExpressRoute,0.0
+2023-01-02,Functions,1.63647962e-07
+2023-01-02,Insight and Analytics,0.0
+2023-01-02,Key Vault,0.0
+2023-01-02,Load Balancer,3.126908174070086
+2023-01-02,Log Analytics,0.12530780223684
+2023-01-02,Logic Apps,0.7009946929279169
+2023-01-02,Network Watcher,0.0
+2023-01-02,Redis Cache,0.0
+2023-01-02,SQL Database,0.118999051233397
+2023-01-02,Security Center,2.8607166123778507
+2023-01-02,Service Bus,0.257488532349322
+2023-01-02,Storage,15.151481129828785
+2023-01-02,Unassigned,5.75974
+2023-01-02,VPN Gateway,0.0
+2023-01-02,Virtual Machines,13.770295791934863
+2023-01-02,Virtual Machines Licenses,0.0
+2023-01-02,Virtual Network,4.469925155296066
+2023-01-02,Virtual WAN,0.0
+2023-01-03,API Management,2.342396313364056
+2023-01-03,Advanced Data Security,0.359032258064516
+2023-01-03,Advanced Threat Protection,0.0
+2023-01-03,Application Gateway,6.052456901575099
+2023-01-03,Automation,0.053945515450387
+2023-01-03,Azure Active Directory for External Identities,0.0
+2023-01-03,Azure App Service,3.566390168970814
+2023-01-03,Azure Arc,0.0
+2023-01-03,Azure Arc Enabled Databases,0.0
+2023-01-03,Azure Bastion,0.0
+2023-01-03,Azure Container Apps,0.0
+2023-01-03,Azure Cosmos DB,0.0
+2023-01-03,Azure DNS,0.07150169724361799
+2023-01-03,Azure Data Factory v2,0.0
+2023-01-03,Azure Database for MariaDB,0.0
+2023-01-03,Azure Database for MySQL,4.402566451612903
+2023-01-03,Azure Database for PostgreSQL,0.0
+2023-01-03,Azure Defender,0.0
+2023-01-03,Azure DevOps,2.249298294068187
+2023-01-03,Azure Firewall,0.0
+2023-01-03,Azure Front Door Service,0.5117264879600161
+2023-01-03,Azure Kubernetes Service,0.0
+2023-01-03,Azure Monitor,0.011908860759494
+2023-01-03,Azure Site Recovery,0.598322580645072
+2023-01-03,Azure Synapse Analytics,0.0
+2023-01-03,Backup,1.519283627441267
+2023-01-03,Bandwidth,0.019815004815829
+2023-01-03,Container Instances,0.0
+2023-01-03,Container Registry,1.6063110607146178
+2023-01-03,Content Delivery Network,0.0
+2023-01-03,Event Hubs,0.0
+2023-01-03,ExpressRoute,0.0
+2023-01-03,Functions,0.000133119434643
+2023-01-03,Insight and Analytics,0.0
+2023-01-03,Key Vault,0.0
+2023-01-03,Load Balancer,3.126852524701443
+2023-01-03,Log Analytics,0.127021045467859
+2023-01-03,Logic Apps,0.7005679639761659
+2023-01-03,Network Watcher,0.0
+2023-01-03,Redis Cache,0.0
+2023-01-03,SQL Database,0.118999051233397
+2023-01-03,Security Center,2.8607166123778507
+2023-01-03,Service Bus,0.22778853234932203
+2023-01-03,Storage,15.203619186229155
+2023-01-03,Unassigned,5.75974
+2023-01-03,VPN Gateway,0.0
+2023-01-03,Virtual Machines,13.770295791934865
+2023-01-03,Virtual Machines Licenses,0.0
+2023-01-03,Virtual Network,4.469925155296066
+2023-01-03,Virtual WAN,0.0
+2023-01-04,API Management,2.342396313364056
+2023-01-04,Advanced Data Security,0.359032258064516
+2023-01-04,Advanced Threat Protection,0.0
+2023-01-04,Application Gateway,8.409343177002015
+2023-01-04,Automation,0.042613415924704
+2023-01-04,Azure Active Directory for External Identities,0.0
+2023-01-04,Azure App Service,3.566390168970814
+2023-01-04,Azure Arc,0.0
+2023-01-04,Azure Arc Enabled Databases,0.0
+2023-01-04,Azure Bastion,0.0
+2023-01-04,Azure Container Apps,0.0
+2023-01-04,Azure Cosmos DB,0.0
+2023-01-04,Azure DNS,0.07150169724361799
+2023-01-04,Azure Data Factory v2,0.0
+2023-01-04,Azure Database for MariaDB,0.0
+2023-01-04,Azure Database for MySQL,4.437558276931176
+2023-01-04,Azure Database for PostgreSQL,0.0
+2023-01-04,Azure Defender,0.0
+2023-01-04,Azure DevOps,2.249298294068187
+2023-01-04,Azure Firewall,0.0
+2023-01-04,Azure Front Door Service,0.5339754656974081
+2023-01-04,Azure Kubernetes Service,0.0
+2023-01-04,Azure Monitor,0.011908860759494
+2023-01-04,Azure Site Recovery,0.598322580645072
+2023-01-04,Azure Synapse Analytics,0.0
+2023-01-04,Backup,1.519283627441267
+2023-01-04,Bandwidth,0.02310792938479
+2023-01-04,Container Instances,0.0
+2023-01-04,Container Registry,1.606311060714618
+2023-01-04,Content Delivery Network,0.0
+2023-01-04,Event Hubs,0.0
+2023-01-04,ExpressRoute,0.0
+2023-01-04,Functions,0.0
+2023-01-04,Insight and Analytics,0.0
+2023-01-04,Key Vault,0.0
+2023-01-04,Load Balancer,3.3580707557131033
+2023-01-04,Log Analytics,0.125449888804358
+2023-01-04,Logic Apps,0.700847575453462
+2023-01-04,Network Watcher,0.0
+2023-01-04,Redis Cache,0.0
+2023-01-04,SQL Database,0.11899905123339699
+2023-01-04,Security Center,3.054410966340934
+2023-01-04,Service Bus,0.22781066543665401
+2023-01-04,Storage,15.47557981072791
+2023-01-04,Unassigned,5.75974
+2023-01-04,VPN Gateway,0.0
+2023-01-04,Virtual Machines,15.18933860028869
+2023-01-04,Virtual Machines Licenses,0.0
+2023-01-04,Virtual Network,4.560315854947288
+2023-01-04,Virtual WAN,0.0
+2023-01-05,API Management,2.342396313364056
+2023-01-05,Advanced Data Security,0.359032258064516
+2023-01-05,Advanced Threat Protection,0.0
+2023-01-05,Application Gateway,10.76926470392698
+2023-01-05,Automation,0.06605669681846
+2023-01-05,Azure Active Directory for External Identities,0.0
+2023-01-05,Azure App Service,3.566390168970814
+2023-01-05,Azure Arc,0.0
+2023-01-05,Azure Arc Enabled Databases,0.0
+2023-01-05,Azure Bastion,0.0
+2023-01-05,Azure Container Apps,0.0
+2023-01-05,Azure Cosmos DB,0.0
+2023-01-05,Azure DNS,0.07150169724361799
+2023-01-05,Azure Data Factory v2,0.0
+2023-01-05,Azure Database for MariaDB,0.0
+2023-01-05,Azure Database for MySQL,4.402566451612903
+2023-01-05,Azure Database for PostgreSQL,0.0
+2023-01-05,Azure Defender,0.0
+2023-01-05,Azure DevOps,2.249298294068187
+2023-01-05,Azure Firewall,0.0
+2023-01-05,Azure Front Door Service,0.5339754656974081
+2023-01-05,Azure Kubernetes Service,0.0
+2023-01-05,Azure Monitor,0.011908860759494
+2023-01-05,Azure Site Recovery,0.598322580645072
+2023-01-05,Azure Synapse Analytics,0.0
+2023-01-05,Backup,1.519283627441267
+2023-01-05,Bandwidth,0.026668442357152
+2023-01-05,Container Instances,0.0
+2023-01-05,Container Registry,1.6063110607146178
+2023-01-05,Content Delivery Network,0.0
+2023-01-05,Event Hubs,0.0
+2023-01-05,ExpressRoute,0.0
+2023-01-05,Functions,0.0
+2023-01-05,Insight and Analytics,0.0
+2023-01-05,Key Vault,0.0
+2023-01-05,Load Balancer,3.575215307273681
+2023-01-05,Log Analytics,0.124815389612895
+2023-01-05,Logic Apps,0.700288383953285
+2023-01-05,Network Watcher,0.0
+2023-01-05,Redis Cache,0.0
+2023-01-05,SQL Database,0.118999051233397
+2023-01-05,Security Center,3.218306188925082
+2023-01-05,Service Bus,0.207988532349322
+2023-01-05,Storage,15.66418077435316
+2023-01-05,Unassigned,5.75974
+2023-01-05,VPN Gateway,0.0
+2023-01-05,Virtual Machines,16.194279884235637
+2023-01-05,Virtual Machines Licenses,0.0
+2023-01-05,Virtual Network,4.6475245651715715
+2023-01-05,Virtual WAN,0.0
+2023-01-06,API Management,2.342396313364056
+2023-01-06,Advanced Data Security,0.359032258064516
+2023-01-06,Advanced Threat Protection,0.0
+2023-01-06,Application Gateway,10.76832267302136
+2023-01-06,Automation,0.058620006504731
+2023-01-06,Azure Active Directory for External Identities,0.0
+2023-01-06,Azure App Service,3.566390168970814
+2023-01-06,Azure Arc,0.0
+2023-01-06,Azure Arc Enabled Databases,0.0
+2023-01-06,Azure Bastion,0.0
+2023-01-06,Azure Container Apps,0.0
+2023-01-06,Azure Cosmos DB,0.0
+2023-01-06,Azure DNS,0.07150169724361799
+2023-01-06,Azure Data Factory v2,0.0
+2023-01-06,Azure Database for MariaDB,0.0
+2023-01-06,Azure Database for MySQL,4.402566451612903
+2023-01-06,Azure Database for PostgreSQL,0.0
+2023-01-06,Azure Defender,0.0
+2023-01-06,Azure DevOps,2.249298294068187
+2023-01-06,Azure Firewall,0.0
+2023-01-06,Azure Front Door Service,0.5339754656974081
+2023-01-06,Azure Kubernetes Service,0.0
+2023-01-06,Azure Monitor,0.011908860759494
+2023-01-06,Azure Site Recovery,0.598322580645072
+2023-01-06,Azure Synapse Analytics,0.0
+2023-01-06,Backup,1.519283627441267
+2023-01-06,Bandwidth,0.025675177057589
+2023-01-06,Container Instances,0.0
+2023-01-06,Container Registry,1.606311060714618
+2023-01-06,Content Delivery Network,0.0
+2023-01-06,Event Hubs,0.0
+2023-01-06,ExpressRoute,0.0
+2023-01-06,Functions,0.0
+2023-01-06,Insight and Analytics,0.0
+2023-01-06,Key Vault,0.0
+2023-01-06,Load Balancer,3.5751893388884604
+2023-01-06,Log Analytics,0.12485044546190299
+2023-01-06,Logic Apps,0.6882662577103951
+2023-01-06,Network Watcher,0.0
+2023-01-06,Redis Cache,0.0
+2023-01-06,SQL Database,0.118999051233397
+2023-01-06,Security Center,3.218306188925082
+2023-01-06,Service Bus,0.178288532349322
+2023-01-06,Storage,15.677477718618816
+2023-01-06,Unassigned,5.75974
+2023-01-06,VPN Gateway,0.0
+2023-01-06,Virtual Machines,16.19279832281678
+2023-01-06,Virtual Machines Licenses,0.0
+2023-01-06,Virtual Network,4.6475245651715715
+2023-01-06,Virtual WAN,0.0
+2023-01-07,API Management,2.342396313364056
+2023-01-07,Advanced Data Security,0.359032258064516
+2023-01-07,Advanced Threat Protection,0.0
+2023-01-07,Application Gateway,10.768084025191937
+2023-01-07,Automation,0.047618426548547
+2023-01-07,Azure Active Directory for External Identities,0.0
+2023-01-07,Azure App Service,3.566390168970814
+2023-01-07,Azure Arc,0.0
+2023-01-07,Azure Arc Enabled Databases,0.0
+2023-01-07,Azure Bastion,0.0
+2023-01-07,Azure Container Apps,0.0
+2023-01-07,Azure Cosmos DB,0.0
+2023-01-07,Azure DNS,0.07150169724361799
+2023-01-07,Azure Data Factory v2,0.0
+2023-01-07,Azure Database for MariaDB,0.0
+2023-01-07,Azure Database for MySQL,4.402566451612903
+2023-01-07,Azure Database for PostgreSQL,0.0
+2023-01-07,Azure Defender,0.0
+2023-01-07,Azure DevOps,2.249298294068187
+2023-01-07,Azure Firewall,0.0
+2023-01-07,Azure Front Door Service,0.5339754656974081
+2023-01-07,Azure Kubernetes Service,0.0
+2023-01-07,Azure Monitor,0.011908860759494
+2023-01-07,Azure Site Recovery,0.598322580645072
+2023-01-07,Azure Synapse Analytics,0.0
+2023-01-07,Backup,1.519283627441267
+2023-01-07,Bandwidth,0.021795322527262
+2023-01-07,Container Instances,0.0
+2023-01-07,Container Registry,1.6063110607146178
+2023-01-07,Content Delivery Network,0.0
+2023-01-07,Event Hubs,0.0
+2023-01-07,ExpressRoute,0.0
+2023-01-07,Functions,0.0
+2023-01-07,Insight and Analytics,0.0
+2023-01-07,Key Vault,0.0
+2023-01-07,Load Balancer,3.575169548162536
+2023-01-07,Log Analytics,0.124694120346066
+2023-01-07,Logic Apps,0.7014999653306051
+2023-01-07,Network Watcher,0.0
+2023-01-07,Redis Cache,0.0
+2023-01-07,SQL Database,0.118999051233397
+2023-01-07,Security Center,3.218306188925082
+2023-01-07,Service Bus,0.277288532349322
+2023-01-07,Storage,15.675335054692507
+2023-01-07,Unassigned,5.75974
+2023-01-07,VPN Gateway,0.0
+2023-01-07,Virtual Machines,16.189978526912814
+2023-01-07,Virtual Machines Licenses,0.0
+2023-01-07,Virtual Network,4.6475245651715715
+2023-01-07,Virtual WAN,0.0
+2023-01-08,API Management,2.342396313364056
+2023-01-08,Advanced Data Security,0.359032258064516
+2023-01-08,Advanced Threat Protection,0.0
+2023-01-08,Application Gateway,10.768096585604013
+2023-01-08,Automation,0.058383921097946
+2023-01-08,Azure Active Directory for External Identities,0.0
+2023-01-08,Azure App Service,3.566390168970814
+2023-01-08,Azure Arc,0.0
+2023-01-08,Azure Arc Enabled Databases,0.0
+2023-01-08,Azure Bastion,0.0
+2023-01-08,Azure Container Apps,0.0
+2023-01-08,Azure Cosmos DB,0.0
+2023-01-08,Azure DNS,0.07150169724361799
+2023-01-08,Azure Data Factory v2,0.0
+2023-01-08,Azure Database for MariaDB,0.0
+2023-01-08,Azure Database for MySQL,4.402566451612903
+2023-01-08,Azure Database for PostgreSQL,0.0
+2023-01-08,Azure Defender,0.0
+2023-01-08,Azure DevOps,2.249298294068187
+2023-01-08,Azure Firewall,0.0
+2023-01-08,Azure Front Door Service,0.5339754656974081
+2023-01-08,Azure Kubernetes Service,0.0
+2023-01-08,Azure Monitor,0.011908860759494
+2023-01-08,Azure Site Recovery,0.598322580645072
+2023-01-08,Azure Synapse Analytics,0.0
+2023-01-08,Backup,1.519283627441267
+2023-01-08,Bandwidth,0.028308666721033
+2023-01-08,Container Instances,0.0
+2023-01-08,Container Registry,1.606311060714618
+2023-01-08,Content Delivery Network,0.0
+2023-01-08,Event Hubs,0.0
+2023-01-08,ExpressRoute,0.0
+2023-01-08,Functions,0.0
+2023-01-08,Insight and Analytics,0.0
+2023-01-08,Key Vault,0.0
+2023-01-08,Load Balancer,3.575145247625243
+2023-01-08,Log Analytics,0.12475321747923701
+2023-01-08,Logic Apps,0.703363980670777
+2023-01-08,Network Watcher,0.0
+2023-01-08,Redis Cache,0.0
+2023-01-08,SQL Database,0.118999051233397
+2023-01-08,Security Center,3.218306188925082
+2023-01-08,Service Bus,0.188188532349322
+2023-01-08,Storage,15.681957303125994
+2023-01-08,Unassigned,5.75974
+2023-01-08,VPN Gateway,0.0
+2023-01-08,Virtual Machines,16.189835199979065
+2023-01-08,Virtual Machines Licenses,0.0
+2023-01-08,Virtual Network,4.6475245651715715
+2023-01-08,Virtual WAN,0.0
+2023-01-09,API Management,2.342396313364056
+2023-01-09,Advanced Data Security,0.359032258064516
+2023-01-09,Advanced Threat Protection,0.0
+2023-01-09,Application Gateway,10.770859876260495
+2023-01-09,Automation,0.031092448073593
+2023-01-09,Azure Active Directory for External Identities,0.0
+2023-01-09,Azure App Service,3.566390168970814
+2023-01-09,Azure Arc,0.0
+2023-01-09,Azure Arc Enabled Databases,0.0
+2023-01-09,Azure Bastion,0.0
+2023-01-09,Azure Container Apps,0.0
+2023-01-09,Azure Cosmos DB,0.0
+2023-01-09,Azure DNS,0.07150169724361799
+2023-01-09,Azure Data Factory v2,0.0
+2023-01-09,Azure Database for MariaDB,0.0
+2023-01-09,Azure Database for MySQL,4.542533752885994
+2023-01-09,Azure Database for PostgreSQL,0.0
+2023-01-09,Azure Defender,0.0
+2023-01-09,Azure DevOps,2.249298294068187
+2023-01-09,Azure Firewall,0.0
+2023-01-09,Azure Front Door Service,0.5339754656974081
+2023-01-09,Azure Kubernetes Service,0.0
+2023-01-09,Azure Monitor,0.011908860759494
+2023-01-09,Azure Site Recovery,0.598322580645072
+2023-01-09,Azure Synapse Analytics,0.0
+2023-01-09,Backup,1.519259414155787
+2023-01-09,Bandwidth,0.08940404298231
+2023-01-09,Container Instances,0.0
+2023-01-09,Container Registry,1.6063110607146178
+2023-01-09,Content Delivery Network,0.0
+2023-01-09,Event Hubs,0.0
+2023-01-09,ExpressRoute,0.0
+2023-01-09,Functions,0.0
+2023-01-09,Insight and Analytics,0.0
+2023-01-09,Key Vault,0.0
+2023-01-09,Load Balancer,3.6185386085354483
+2023-01-09,Log Analytics,0.806111325924017
+2023-01-09,Logic Apps,0.699449561162016
+2023-01-09,Network Watcher,0.0
+2023-01-09,Redis Cache,0.0
+2023-01-09,SQL Database,0.118999051233397
+2023-01-09,Security Center,3.3077035830618895
+2023-01-09,Service Bus,0.276590770983994
+2023-01-09,Storage,15.705776793389502
+2023-01-09,Unassigned,5.75974
+2023-01-09,VPN Gateway,0.0
+2023-01-09,Virtual Machines,16.696957231164298
+2023-01-09,Virtual Machines Licenses,0.0
+2023-01-09,Virtual Network,4.6475245651715715
+2023-01-09,Virtual WAN,0.0
+2023-01-10,API Management,2.342396313364056
+2023-01-10,Advanced Data Security,0.359032258064516
+2023-01-10,Advanced Threat Protection,0.0
+2023-01-10,Application Gateway,10.770734272139746
+2023-01-10,Automation,0.060603123921725
+2023-01-10,Azure Active Directory for External Identities,0.0
+2023-01-10,Azure App Service,3.566390168970814
+2023-01-10,Azure Arc,0.0
+2023-01-10,Azure Arc Enabled Databases,0.0
+2023-01-10,Azure Bastion,1.210137351429271
+2023-01-10,Azure Container Apps,0.0
+2023-01-10,Azure Cosmos DB,0.0
+2023-01-10,Azure DNS,0.07150169724361799
+2023-01-10,Azure Data Factory v2,0.0
+2023-01-10,Azure Database for MariaDB,0.0
+2023-01-10,Azure Database for MySQL,4.402566451612903
+2023-01-10,Azure Database for PostgreSQL,0.0
+2023-01-10,Azure Defender,0.0
+2023-01-10,Azure DevOps,2.249298294068187
+2023-01-10,Azure Firewall,0.0
+2023-01-10,Azure Front Door Service,0.5339754656974081
+2023-01-10,Azure Kubernetes Service,0.0
+2023-01-10,Azure Monitor,0.011908860759494
+2023-01-10,Azure Site Recovery,0.598322580645072
+2023-01-10,Azure Synapse Analytics,0.0
+2023-01-10,Backup,1.519200610462478
+2023-01-10,Bandwidth,0.028940200286871
+2023-01-10,Container Instances,0.0
+2023-01-10,Container Registry,1.6063110607146178
+2023-01-10,Content Delivery Network,0.0
+2023-01-10,Event Hubs,0.0
+2023-01-10,ExpressRoute,0.0
+2023-01-10,Functions,0.0
+2023-01-10,Insight and Analytics,0.0
+2023-01-10,Key Vault,0.0
+2023-01-10,Load Balancer,3.757618966616181
+2023-01-10,Log Analytics,0.47570258160263196
+2023-01-10,Logic Apps,0.698238120710389
+2023-01-10,Network Watcher,0.0
+2023-01-10,Redis Cache,0.0
+2023-01-10,SQL Database,0.11899905123339699
+2023-01-10,Security Center,3.7397909880564595
+2023-01-10,Service Bus,0.169012759059637
+2023-01-10,Storage,15.90883986400299
+2023-01-10,Unassigned,5.75574
+2023-01-10,VPN Gateway,0.0
+2023-01-10,Virtual Machines,19.601602783770936
+2023-01-10,Virtual Machines Licenses,0.0
+2023-01-10,Virtual Network,4.684850246701947
+2023-01-10,Virtual WAN,0.44
+2023-01-11,API Management,2.342396313364056
+2023-01-11,Advanced Data Security,0.359032258064516
+2023-01-11,Advanced Threat Protection,0.0
+2023-01-11,Application Gateway,10.771538138512541
+2023-01-11,Automation,0.060791992247153
+2023-01-11,Azure Active Directory for External Identities,0.0
+2023-01-11,Azure App Service,3.566390168970814
+2023-01-11,Azure Arc,0.0
+2023-01-11,Azure Arc Enabled Databases,0.0
+2023-01-11,Azure Bastion,2.7647357684880474
+2023-01-11,Azure Container Apps,0.0
+2023-01-11,Azure Cosmos DB,0.0
+2023-01-11,Azure DNS,0.078417114096242
+2023-01-11,Azure Data Factory v2,0.0
+2023-01-11,Azure Database for MariaDB,0.0
+2023-01-11,Azure Database for MySQL,4.42006236427204
+2023-01-11,Azure Database for PostgreSQL,0.0
+2023-01-11,Azure Defender,0.0
+2023-01-11,Azure DevOps,2.249298294068187
+2023-01-11,Azure Firewall,0.0
+2023-01-11,Azure Front Door Service,0.5339754656974081
+2023-01-11,Azure Kubernetes Service,0.0
+2023-01-11,Azure Monitor,0.011908860759494
+2023-01-11,Azure Site Recovery,0.598322580645072
+2023-01-11,Azure Synapse Analytics,0.0
+2023-01-11,Backup,1.519200610462478
+2023-01-11,Bandwidth,0.025018928968952997
+2023-01-11,Container Instances,0.0
+2023-01-11,Container Registry,1.606311060714618
+2023-01-11,Content Delivery Network,0.0
+2023-01-11,Event Hubs,0.0
+2023-01-11,ExpressRoute,0.0
+2023-01-11,Functions,0.0
+2023-01-11,Insight and Analytics,0.0
+2023-01-11,Key Vault,0.0
+2023-01-11,Load Balancer,3.779634019700886
+2023-01-11,Log Analytics,0.742396336484621
+2023-01-11,Logic Apps,0.7003025270468851
+2023-01-11,Network Watcher,0.0
+2023-01-11,Redis Cache,0.0
+2023-01-11,SQL Database,0.118999051233397
+2023-01-11,Security Center,3.2779044516829536
+2023-01-11,Service Bus,0.22687906635321398
+2023-01-11,Storage,15.713161468999363
+2023-01-11,Unassigned,5.75974
+2023-01-11,VPN Gateway,0.0
+2023-01-11,Virtual Machines,16.738121168978836
+2023-01-11,Virtual Machines Licenses,0.0
+2023-01-11,Virtual Network,4.789262871983558
+2023-01-11,Virtual WAN,0.0
+2023-01-12,API Management,2.342396313364056
+2023-01-12,Advanced Data Security,0.359032258064516
+2023-01-12,Advanced Threat Protection,0.0
+2023-01-12,Application Gateway,10.770420261837874
+2023-01-12,Automation,0.07174635512198
+2023-01-12,Azure Active Directory for External Identities,0.0
+2023-01-12,Azure App Service,3.566390168970814
+2023-01-12,Azure Arc,0.0
+2023-01-12,Azure Arc Enabled Databases,0.0
+2023-01-12,Azure Bastion,0.0
+2023-01-12,Azure Container Apps,0.0
+2023-01-12,Azure Cosmos DB,0.0
+2023-01-12,Azure DNS,0.08341864678422099
+2023-01-12,Azure Data Factory v2,0.0
+2023-01-12,Azure Database for MariaDB,0.0
+2023-01-12,Azure Database for MySQL,4.56002966554513
+2023-01-12,Azure Database for PostgreSQL,0.0
+2023-01-12,Azure Defender,0.0
+2023-01-12,Azure DevOps,2.249298294068187
+2023-01-12,Azure Firewall,0.0
+2023-01-12,Azure Front Door Service,0.48947751022262403
+2023-01-12,Azure Kubernetes Service,0.0
+2023-01-12,Azure Monitor,0.011908860759494
+2023-01-12,Azure Site Recovery,0.598322580645072
+2023-01-12,Azure Synapse Analytics,0.0
+2023-01-12,Backup,1.519200610462478
+2023-01-12,Bandwidth,0.026122444243398
+2023-01-12,Container Instances,0.0
+2023-01-12,Container Registry,1.606311060714618
+2023-01-12,Content Delivery Network,0.0
+2023-01-12,Event Hubs,0.0
+2023-01-12,ExpressRoute,0.0
+2023-01-12,Functions,0.0
+2023-01-12,Insight and Analytics,0.0
+2023-01-12,Key Vault,0.0
+2023-01-12,Load Balancer,4.106114476632373
+2023-01-12,Log Analytics,0.133106596192343
+2023-01-12,Logic Apps,0.700761459273211
+2023-01-12,Network Watcher,0.0
+2023-01-12,Redis Cache,0.0
+2023-01-12,SQL Database,0.118999051233397
+2023-01-12,Security Center,3.605694896851248
+2023-01-12,Service Bus,0.34659234246744897
+2023-01-12,Storage,15.740143537685212
+2023-01-12,Unassigned,5.75974
+2023-01-12,VPN Gateway,0.0
+2023-01-12,Virtual Machines,18.44422527105178
+2023-01-12,Virtual Machines Licenses,0.004449982283068
+2023-01-12,Virtual Network,4.903942963148599
+2023-01-12,Virtual WAN,0.0
+2023-01-13,API Management,2.342396313364056
+2023-01-13,Advanced Data Security,0.359032258064516
+2023-01-13,Advanced Threat Protection,0.0
+2023-01-13,Application Gateway,10.77023185565675
+2023-01-13,Automation,0.072973999237263
+2023-01-13,Azure Active Directory for External Identities,0.0
+2023-01-13,Azure App Service,3.566390168970814
+2023-01-13,Azure Arc,0.0
+2023-01-13,Azure Arc Enabled Databases,0.0
+2023-01-13,Azure Bastion,0.0
+2023-01-13,Azure Container Apps,0.0
+2023-01-13,Azure Cosmos DB,0.0
+2023-01-13,Azure DNS,0.08341864678422099
+2023-01-13,Azure Data Factory v2,0.0
+2023-01-13,Azure Database for MariaDB,0.0
+2023-01-13,Azure Database for MySQL,4.822468355432175
+2023-01-13,Azure Database for PostgreSQL,0.0
+2023-01-13,Azure Defender,0.0
+2023-01-13,Azure DevOps,2.249298294068187
+2023-01-13,Azure Firewall,7.113532895724761
+2023-01-13,Azure Front Door Service,0.5339754656974081
+2023-01-13,Azure Kubernetes Service,0.0
+2023-01-13,Azure Monitor,0.011908860759494
+2023-01-13,Azure Site Recovery,0.598322580645072
+2023-01-13,Azure Synapse Analytics,0.0
+2023-01-13,Backup,1.519200610462478
+2023-01-13,Bandwidth,0.03699116248061
+2023-01-13,Container Instances,0.0
+2023-01-13,Container Registry,1.6063110607146178
+2023-01-13,Content Delivery Network,0.0
+2023-01-13,Event Hubs,0.0
+2023-01-13,ExpressRoute,0.0
+2023-01-13,Functions,0.0
+2023-01-13,Insight and Analytics,0.0
+2023-01-13,Key Vault,4.297906306e-06
+2023-01-13,Load Balancer,3.576079641431496
+2023-01-13,Log Analytics,0.223357259459545
+2023-01-13,Logic Apps,0.70047506478765
+2023-01-13,Network Watcher,0.0
+2023-01-13,Redis Cache,0.0
+2023-01-13,SQL Database,0.118999051233397
+2023-01-13,Security Center,4.171878393051031
+2023-01-13,Service Bus,0.21789458105305898
+2023-01-13,Storage,17.337745848658486
+2023-01-13,Unassigned,5.7517499999999995
+2023-01-13,VPN Gateway,0.0
+2023-01-13,Virtual Machines,20.67484146132907
+2023-01-13,Virtual Machines Licenses,0.0
+2023-01-13,Virtual Network,5.242147533812275
+2023-01-13,Virtual WAN,0.0
+2023-01-14,API Management,2.342396313364056
+2023-01-14,Advanced Data Security,0.359032258064516
+2023-01-14,Advanced Threat Protection,0.0
+2023-01-14,Application Gateway,10.769704318349604
+2023-01-14,Automation,0.073351735888119
+2023-01-14,Azure Active Directory for External Identities,0.0
+2023-01-14,Azure App Service,3.566390168970814
+2023-01-14,Azure Arc,0.0
+2023-01-14,Azure Arc Enabled Databases,0.0
+2023-01-14,Azure Bastion,0.0
+2023-01-14,Azure Container Apps,0.0
+2023-01-14,Azure Cosmos DB,0.0
+2023-01-14,Azure DNS,0.08341864678422099
+2023-01-14,Azure Data Factory v2,0.0
+2023-01-14,Azure Database for MariaDB,0.0
+2023-01-14,Azure Database for MySQL,4.822468355432175
+2023-01-14,Azure Database for PostgreSQL,0.0
+2023-01-14,Azure Defender,0.0
+2023-01-14,Azure DevOps,2.249298294068187
+2023-01-14,Azure Firewall,14.066376971188376
+2023-01-14,Azure Front Door Service,0.5339754656974081
+2023-01-14,Azure Kubernetes Service,0.0
+2023-01-14,Azure Monitor,0.011908860759494
+2023-01-14,Azure Site Recovery,0.598322580645072
+2023-01-14,Azure Synapse Analytics,0.0
+2023-01-14,Backup,1.519200610462478
+2023-01-14,Bandwidth,0.039139496783382
+2023-01-14,Container Instances,0.0
+2023-01-14,Container Registry,1.606311060714618
+2023-01-14,Content Delivery Network,0.0
+2023-01-14,Event Hubs,0.0
+2023-01-14,ExpressRoute,0.0
+2023-01-14,Functions,0.0
+2023-01-14,Insight and Analytics,0.0
+2023-01-14,Key Vault,0.0
+2023-01-14,Load Balancer,3.575618439243645
+2023-01-14,Log Analytics,0.13046410586868198
+2023-01-14,Logic Apps,0.691435075095384
+2023-01-14,Network Watcher,0.0
+2023-01-14,Redis Cache,0.0
+2023-01-14,SQL Database,0.118999051233397
+2023-01-14,Security Center,3.218306188925082
+2023-01-14,Service Bus,0.188214553889056
+2023-01-14,Storage,17.53912398373017
+2023-01-14,Unassigned,5.75974
+2023-01-14,VPN Gateway,0.0
+2023-01-14,Virtual Machines,16.19131676139792
+2023-01-14,Virtual Machines Licenses,0.0
+2023-01-14,Virtual Network,5.357922204673596
+2023-01-14,Virtual WAN,0.0
+2023-01-15,API Management,2.342396313364056
+2023-01-15,Advanced Data Security,0.359032258064516
+2023-01-15,Advanced Threat Protection,0.0
+2023-01-15,Application Gateway,10.767468565000266
+2023-01-15,Automation,0.000920733086462
+2023-01-15,Azure Active Directory for External Identities,0.0
+2023-01-15,Azure App Service,3.566390168970814
+2023-01-15,Azure Arc,0.0
+2023-01-15,Azure Arc Enabled Databases,0.0
+2023-01-15,Azure Bastion,0.0
+2023-01-15,Azure Container Apps,0.0
+2023-01-15,Azure Cosmos DB,0.0
+2023-01-15,Azure DNS,0.08341864678422099
+2023-01-15,Azure Data Factory v2,0.0
+2023-01-15,Azure Database for MariaDB,0.0
+2023-01-15,Azure Database for MySQL,4.455054189590312
+2023-01-15,Azure Database for PostgreSQL,0.0
+2023-01-15,Azure Defender,0.0
+2023-01-15,Azure DevOps,2.249298294068187
+2023-01-15,Azure Firewall,14.066376971188376
+2023-01-15,Azure Front Door Service,0.5117264879600161
+2023-01-15,Azure Kubernetes Service,0.0
+2023-01-15,Azure Monitor,0.011921997911358999
+2023-01-15,Azure Site Recovery,0.598322580645072
+2023-01-15,Azure Synapse Analytics,0.0
+2023-01-15,Backup,1.519200610462478
+2023-01-15,Bandwidth,0.036590278642112
+2023-01-15,Container Instances,0.0
+2023-01-15,Container Registry,1.606311060714618
+2023-01-15,Content Delivery Network,0.0
+2023-01-15,Event Hubs,0.0
+2023-01-15,ExpressRoute,0.0
+2023-01-15,Functions,0.0
+2023-01-15,Insight and Analytics,0.0
+2023-01-15,Key Vault,0.0
+2023-01-15,Load Balancer,3.575274148125187
+2023-01-15,Log Analytics,0.130611570486537
+2023-01-15,Logic Apps,0.701966258880621
+2023-01-15,Network Watcher,0.0
+2023-01-15,Redis Cache,0.0
+2023-01-15,SQL Database,0.118999051233397
+2023-01-15,Security Center,3.218306188925082
+2023-01-15,Service Bus,0.24758306477332698
+2023-01-15,Storage,17.52525153700978
+2023-01-15,Unassigned,5.75974
+2023-01-15,VPN Gateway,0.0
+2023-01-15,Virtual Machines,16.194279884235637
+2023-01-15,Virtual Machines Licenses,0.0
+2023-01-15,Virtual Network,5.283922450558801
+2023-01-15,Virtual WAN,0.0
+2023-01-16,API Management,2.342396313364056
+2023-01-16,Advanced Data Security,0.359032258064516
+2023-01-16,Advanced Threat Protection,0.0
+2023-01-16,Application Gateway,10.769026056097557
+2023-01-16,Automation,0.001015167249176
+2023-01-16,Azure Active Directory for External Identities,0.0
+2023-01-16,Azure App Service,3.566390168970814
+2023-01-16,Azure Arc,0.0
+2023-01-16,Azure Arc Enabled Databases,0.0
+2023-01-16,Azure Bastion,0.0
+2023-01-16,Azure Container Apps,0.0
+2023-01-16,Azure Cosmos DB,0.0
+2023-01-16,Azure DNS,0.08341864678422099
+2023-01-16,Azure Data Factory v2,0.0
+2023-01-16,Azure Database for MariaDB,0.0
+2023-01-16,Azure Database for MySQL,5.6704451414999495
+2023-01-16,Azure Database for PostgreSQL,0.0
+2023-01-16,Azure Defender,0.0
+2023-01-16,Azure DevOps,2.249298294068187
+2023-01-16,Azure Firewall,14.066376971188376
+2023-01-16,Azure Front Door Service,0.5339754656974081
+2023-01-16,Azure Kubernetes Service,0.0
+2023-01-16,Azure Monitor,0.011908860759494
+2023-01-16,Azure Site Recovery,0.598322580645072
+2023-01-16,Azure Synapse Analytics,0.0
+2023-01-16,Backup,1.519303783018942
+2023-01-16,Bandwidth,0.042598026735145
+2023-01-16,Container Instances,0.0
+2023-01-16,Container Registry,1.6063110607146178
+2023-01-16,Content Delivery Network,0.0
+2023-01-16,Event Hubs,0.0
+2023-01-16,ExpressRoute,0.0
+2023-01-16,Functions,7.591901701199999e-05
+2023-01-16,Insight and Analytics,0.0
+2023-01-16,Key Vault,0.0
+2023-01-16,Load Balancer,3.5870220550345002
+2023-01-16,Log Analytics,0.634882330413278
+2023-01-16,Logic Apps,0.6995432469585761
+2023-01-16,Network Watcher,0.0
+2023-01-16,Redis Cache,0.0
+2023-01-16,SQL Database,0.118999051233397
+2023-01-16,Security Center,3.367301845819762
+2023-01-16,Service Bus,0.243729891231365
+2023-01-16,Storage,18.550278409577352
+2023-01-16,Unassigned,5.75974
+2023-01-16,VPN Gateway,0.0
+2023-01-16,Virtual Machines,16.929445112514532
+2023-01-16,Virtual Machines Licenses,0.160197582233122
+2023-01-16,Virtual Network,5.369599557287958
+2023-01-16,Virtual WAN,0.0
+2023-01-17,API Management,2.342396313364056
+2023-01-17,Advanced Data Security,0.359032258064516
+2023-01-17,Advanced Threat Protection,3.190146018518118
+2023-01-17,Application Gateway,10.770307218129199
+2023-01-17,Automation,0.000849907464426
+2023-01-17,Azure Active Directory for External Identities,0.0
+2023-01-17,Azure App Service,3.566390168970814
+2023-01-17,Azure Arc,0.0
+2023-01-17,Azure Arc Enabled Databases,0.0
+2023-01-17,Azure Bastion,0.0
+2023-01-17,Azure Container Apps,0.0
+2023-01-17,Azure Cosmos DB,0.0
+2023-01-17,Azure DNS,0.08341864678422099
+2023-01-17,Azure Data Factory v2,0.0
+2023-01-17,Azure Database for MariaDB,0.0
+2023-01-17,Azure Database for MySQL,4.822468355432175
+2023-01-17,Azure Database for PostgreSQL,0.0
+2023-01-17,Azure Defender,0.29203125
+2023-01-17,Azure DevOps,2.249298294068187
+2023-01-17,Azure Firewall,14.066376971188376
+2023-01-17,Azure Front Door Service,0.5339754656974081
+2023-01-17,Azure Kubernetes Service,0.0
+2023-01-17,Azure Monitor,0.011908860759494
+2023-01-17,Azure Site Recovery,0.598322580645072
+2023-01-17,Azure Synapse Analytics,0.0
+2023-01-17,Backup,1.519510128131871
+2023-01-17,Bandwidth,0.043596664216039
+2023-01-17,Container Instances,0.0
+2023-01-17,Container Registry,1.6063110607146178
+2023-01-17,Content Delivery Network,0.0
+2023-01-17,Event Hubs,0.0
+2023-01-17,ExpressRoute,0.0
+2023-01-17,Functions,0.000137038257839
+2023-01-17,Insight and Analytics,0.0
+2023-01-17,Key Vault,4.0830109904e-05
+2023-01-17,Load Balancer,3.749374977254191
+2023-01-17,Log Analytics,1.690728126607585
+2023-01-17,Logic Apps,0.702432140551176
+2023-01-17,Network Watcher,0.0
+2023-01-17,Redis Cache,0.0
+2023-01-17,SQL Database,0.118999051233397
+2023-01-17,Security Center,3.9930857304167944
+2023-01-17,Service Bus,0.23251645841999302
+2023-01-17,Storage,18.924797171767473
+2023-01-17,Unassigned,5.76974
+2023-01-17,VPN Gateway,0.0
+2023-01-17,Virtual Machines,19.25370586792482
+2023-01-17,Virtual Machines Licenses,1.083551106396537
+2023-01-17,Virtual Network,5.507639123863265
+2023-01-17,Virtual WAN,0.0
+2023-01-18,API Management,2.342396313364056
+2023-01-18,Advanced Data Security,0.359032258064516
+2023-01-18,Advanced Threat Protection,13.60867760702974
+2023-01-18,Application Gateway,10.768938133213032
+2023-01-18,Automation,0.00094434162714
+2023-01-18,Azure Active Directory for External Identities,0.0
+2023-01-18,Azure App Service,3.566390168970814
+2023-01-18,Azure Arc,0.0
+2023-01-18,Azure Arc Enabled Databases,0.0
+2023-01-18,Azure Bastion,0.0
+2023-01-18,Azure Container Apps,0.0
+2023-01-18,Azure Cosmos DB,0.0
+2023-01-18,Azure DNS,0.083610092194098
+2023-01-18,Azure Data Factory v2,0.0
+2023-01-18,Azure Database for MariaDB,0.0
+2023-01-18,Azure Database for MySQL,4.962435656705266
+2023-01-18,Azure Database for PostgreSQL,0.0
+2023-01-18,Azure Defender,0.95953125
+2023-01-18,Azure DevOps,2.249298294068187
+2023-01-18,Azure Firewall,6.550959219521735
+2023-01-18,Azure Front Door Service,0.5549320556771701
+2023-01-18,Azure Kubernetes Service,0.0
+2023-01-18,Azure Monitor,0.011908860759494
+2023-01-18,Azure Site Recovery,0.598322580645072
+2023-01-18,Azure Synapse Analytics,0.0
+2023-01-18,Backup,1.519510128131871
+2023-01-18,Bandwidth,0.023572407282456
+2023-01-18,Container Instances,0.0
+2023-01-18,Container Registry,1.6063110607146178
+2023-01-18,Content Delivery Network,0.0
+2023-01-18,Event Hubs,0.0
+2023-01-18,ExpressRoute,0.0
+2023-01-18,Functions,0.000168462484984
+2023-01-18,Insight and Analytics,0.0
+2023-01-18,Key Vault,7.736231350099999e-05
+2023-01-18,Load Balancer,4.026888920970288
+2023-01-18,Log Analytics,0.143129201972058
+2023-01-18,Logic Apps,0.700753865384997
+2023-01-18,Network Watcher,0.0
+2023-01-18,Redis Cache,0.0
+2023-01-18,SQL Database,0.118999051233397
+2023-01-18,Security Center,4.812567005604596
+2023-01-18,Service Bus,0.22780336354479302
+2023-01-18,Storage,17.82441292156289
+2023-01-18,Unassigned,5.75974
+2023-01-18,VPN Gateway,0.0
+2023-01-18,Virtual Machines,21.817173984092992
+2023-01-18,Virtual Machines Licenses,2.135948776896974
+2023-01-18,Virtual Network,5.342686377741222
+2023-01-18,Virtual WAN,0.0
+2023-01-19,API Management,2.342396313364056
+2023-01-19,Advanced Data Security,0.359032258064516
+2023-01-19,Advanced Threat Protection,13.594523686575217
+2023-01-19,Application Gateway,10.771877269638566
+2023-01-19,Automation,0.000991558708497
+2023-01-19,Azure Active Directory for External Identities,0.0
+2023-01-19,Azure App Service,3.566390168970814
+2023-01-19,Azure Arc,0.0
+2023-01-19,Azure Arc Enabled Databases,0.0
+2023-01-19,Azure Bastion,0.0
+2023-01-19,Azure Container Apps,0.0
+2023-01-19,Azure Cosmos DB,0.0
+2023-01-19,Azure DNS,0.083401278833576
+2023-01-19,Azure Data Factory v2,0.0
+2023-01-19,Azure Database for MariaDB,0.0
+2023-01-19,Azure Database for MySQL,5.242370259251447
+2023-01-19,Azure Database for PostgreSQL,0.0
+2023-01-19,Azure Defender,1.00125
+2023-01-19,Azure DevOps,2.5363944502171503
+2023-01-19,Azure Firewall,0.0
+2023-01-19,Azure Front Door Service,0.5339754656974081
+2023-01-19,Azure Kubernetes Service,0.0
+2023-01-19,Azure Monitor,0.011921997911358999
+2023-01-19,Azure Site Recovery,0.598322580645072
+2023-01-19,Azure Synapse Analytics,0.0
+2023-01-19,Backup,1.519510128131871
+2023-01-19,Bandwidth,0.023153984536001
+2023-01-19,Container Instances,0.0
+2023-01-19,Container Registry,1.978964833548732
+2023-01-19,Content Delivery Network,0.0
+2023-01-19,Event Hubs,0.0
+2023-01-19,ExpressRoute,0.0
+2023-01-19,Functions,6.6058136318e-05
+2023-01-19,Insight and Analytics,0.0
+2023-01-19,Key Vault,2.148953153e-06
+2023-01-19,Load Balancer,4.022658209542924
+2023-01-19,Log Analytics,0.825530207726431
+2023-01-19,Logic Apps,0.7090438102031931
+2023-01-19,Network Watcher,0.0
+2023-01-19,Redis Cache,0.0
+2023-01-19,SQL Database,0.11899905123339699
+2023-01-19,Security Center,4.574173954573109
+2023-01-19,Service Bus,0.32681149416558797
+2023-01-19,Storage,17.286487956638883
+2023-01-19,Unassigned,5.75974
+2023-01-19,VPN Gateway,0.0
+2023-01-19,Virtual Machines,21.253246512855526
+2023-01-19,Virtual Machines Licenses,2.135948776896974
+2023-01-19,Virtual Network,5.260358758519318
+2023-01-19,Virtual WAN,0.0
+2023-01-20,API Management,2.342396313364056
+2023-01-20,Advanced Data Security,0.359032258064516
+2023-01-20,Advanced Threat Protection,13.617796369094165
+2023-01-20,Application Gateway,7.896630931262027
+2023-01-20,Automation,0.015558028307135999
+2023-01-20,Azure Active Directory for External Identities,0.0
+2023-01-20,Azure App Service,3.566390168970814
+2023-01-20,Azure Arc,0.0
+2023-01-20,Azure Arc Enabled Databases,0.0
+2023-01-20,Azure Bastion,0.0
+2023-01-20,Azure Container Apps,0.0
+2023-01-20,Azure Cosmos DB,0.0
+2023-01-20,Azure DNS,0.083401278833576
+2023-01-20,Azure Data Factory v2,0.0
+2023-01-20,Azure Database for MariaDB,0.0
+2023-01-20,Azure Database for MySQL,5.242370259251447
+2023-01-20,Azure Database for PostgreSQL,1.1644329896907217
+2023-01-20,Azure Defender,0.98734375
+2023-01-20,Azure DevOps,2.5363944502171503
+2023-01-20,Azure Firewall,0.0
+2023-01-20,Azure Front Door Service,0.5117264879600161
+2023-01-20,Azure Kubernetes Service,0.0
+2023-01-20,Azure Monitor,0.011908860759494
+2023-01-20,Azure Site Recovery,0.598322580645072
+2023-01-20,Azure Synapse Analytics,0.0
+2023-01-20,Backup,1.519510128131871
+2023-01-20,Bandwidth,0.021679098865706
+2023-01-20,Container Instances,0.0
+2023-01-20,Container Registry,2.866481104235935
+2023-01-20,Content Delivery Network,0.0
+2023-01-20,Event Hubs,0.0
+2023-01-20,ExpressRoute,0.0
+2023-01-20,Functions,4.2370093827e-05
+2023-01-20,Insight and Analytics,0.0
+2023-01-20,Key Vault,0.000466322834163
+2023-01-20,Load Balancer,4.01580009323984
+2023-01-20,Log Analytics,3.904803919409697
+2023-01-20,Logic Apps,0.7017146995399549
+2023-01-20,Network Watcher,0.0
+2023-01-20,Redis Cache,5.1015999999999995
+2023-01-20,SQL Database,0.118999051233397
+2023-01-20,Security Center,4.797667439915128
+2023-01-20,Service Bus,0.227814985939323
+2023-01-20,Storage,16.442457816582298
+2023-01-20,Unassigned,5.75974
+2023-01-20,VPN Gateway,0.0
+2023-01-20,Virtual Machines,20.639297192867247
+2023-01-20,Virtual Machines Licenses,2.135948776896974
+2023-01-20,Virtual Network,5.194513366198227
+2023-01-20,Virtual WAN,0.0
+2023-01-21,API Management,2.342396313364056
+2023-01-21,Advanced Data Security,0.359032258064516
+2023-01-21,Advanced Threat Protection,13.751031751804808
+2023-01-21,Application Gateway,6.052456901575099
+2023-01-21,Automation,0.007413081773051
+2023-01-21,Azure Active Directory for External Identities,0.0
+2023-01-21,Azure App Service,3.566390168970814
+2023-01-21,Azure Arc,0.0
+2023-01-21,Azure Arc Enabled Databases,0.0
+2023-01-21,Azure Bastion,0.0
+2023-01-21,Azure Container Apps,0.0
+2023-01-21,Azure Cosmos DB,0.0
+2023-01-21,Azure DNS,0.083401278833576
+2023-01-21,Azure Data Factory v2,0.0
+2023-01-21,Azure Database for MariaDB,0.0
+2023-01-21,Azure Database for MySQL,5.035613502494691
+2023-01-21,Azure Database for PostgreSQL,1.863092783505155
+2023-01-21,Azure Defender,1.00125
+2023-01-21,Azure DevOps,2.5363944502171503
+2023-01-21,Azure Firewall,0.0
+2023-01-21,Azure Front Door Service,0.5117264879600161
+2023-01-21,Azure Kubernetes Service,0.0
+2023-01-21,Azure Monitor,0.011908860759494
+2023-01-21,Azure Site Recovery,0.598322580645072
+2023-01-21,Azure Synapse Analytics,0.0
+2023-01-21,Backup,1.519510128131871
+2023-01-21,Bandwidth,0.028292392813440998
+2023-01-21,Container Instances,0.0
+2023-01-21,Container Registry,2.9659728704255337
+2023-01-21,Content Delivery Network,0.0
+2023-01-21,Event Hubs,0.0
+2023-01-21,ExpressRoute,0.0
+2023-01-21,Functions,1.3451862472e-05
+2023-01-21,Insight and Analytics,0.0
+2023-01-21,Key Vault,0.0
+2023-01-21,Load Balancer,3.89108217358476
+2023-01-21,Log Analytics,0.148067430308151
+2023-01-21,Logic Apps,0.7029912785540798
+2023-01-21,Network Watcher,0.0
+2023-01-21,Redis Cache,8.064
+2023-01-21,SQL Database,0.118999051233397
+2023-01-21,Security Center,4.648671783020449
+2023-01-21,Service Bus,0.188191988751458
+2023-01-21,Storage,16.292371804858327
+2023-01-21,Unassigned,5.75974
+2023-01-21,VPN Gateway,0.0
+2023-01-21,Virtual Machines,21.884175335675206
+2023-01-21,Virtual Machines Licenses,2.135948776896974
+2023-01-21,Virtual Network,5.067521565942339
+2023-01-21,Virtual WAN,0.0
+2023-01-22,API Management,2.342396313364056
+2023-01-22,Advanced Data Security,0.359032258064516
+2023-01-22,Advanced Threat Protection,13.789943122961464
+2023-01-22,Application Gateway,6.052456901575099
+2023-01-22,Automation,0.0046272739729869995
+2023-01-22,Azure Active Directory for External Identities,0.0
+2023-01-22,Azure App Service,3.566390168970814
+2023-01-22,Azure Arc,0.0
+2023-01-22,Azure Arc Enabled Databases,0.0
+2023-01-22,Azure Bastion,0.0
+2023-01-22,Azure Container Apps,0.0
+2023-01-22,Azure Cosmos DB,0.0
+2023-01-22,Azure DNS,0.083401278833576
+2023-01-22,Azure Data Factory v2,0.0
+2023-01-22,Azure Database for MariaDB,0.0
+2023-01-22,Azure Database for MySQL,4.887930104811293
+2023-01-22,Azure Database for PostgreSQL,1.863092783505155
+2023-01-22,Azure Defender,1.00125
+2023-01-22,Azure DevOps,2.5363944502171503
+2023-01-22,Azure Firewall,0.0
+2023-01-22,Azure Front Door Service,0.5339754656974081
+2023-01-22,Azure Kubernetes Service,0.0
+2023-01-22,Azure Monitor,0.011908860759494
+2023-01-22,Azure Site Recovery,0.598322580645072
+2023-01-22,Azure Synapse Analytics,0.0
+2023-01-22,Backup,1.519510128131871
+2023-01-22,Bandwidth,0.018896936548395
+2023-01-22,Container Instances,0.0
+2023-01-22,Container Registry,2.9659728704255337
+2023-01-22,Content Delivery Network,0.0
+2023-01-22,Event Hubs,0.0
+2023-01-22,ExpressRoute,0.0
+2023-01-22,Functions,1.3901894367e-05
+2023-01-22,Insight and Analytics,0.0
+2023-01-22,Key Vault,1.7191625223e-05
+2023-01-22,Load Balancer,4.02040585437382
+2023-01-22,Log Analytics,0.148071568798562
+2023-01-22,Logic Apps,0.703364074291007
+2023-01-22,Network Watcher,0.0
+2023-01-22,Redis Cache,8.064
+2023-01-22,SQL Database,0.118999051233397
+2023-01-22,Security Center,4.648671783020449
+2023-01-22,Service Bus,0.207991988751458
+2023-01-22,Storage,16.28622530516163
+2023-01-22,Unassigned,5.75974
+2023-01-22,VPN Gateway,0.0
+2023-01-22,Virtual Machines,21.87917866470059
+2023-01-22,Virtual Machines Licenses,2.135948776896974
+2023-01-22,Virtual Network,5.067521565942339
+2023-01-22,Virtual WAN,0.0
+2023-01-23,API Management,2.342396313364056
+2023-01-23,Advanced Data Security,0.359032258064516
+2023-01-23,Advanced Threat Protection,13.835481304386851
+2023-01-23,Application Gateway,6.052456901575099
+2023-01-23,Automation,0.004768925217058
+2023-01-23,Azure Active Directory for External Identities,0.0
+2023-01-23,Azure App Service,3.566390168970814
+2023-01-23,Azure Arc,0.0
+2023-01-23,Azure Arc Enabled Databases,0.0
+2023-01-23,Azure Bastion,0.0
+2023-01-23,Azure Container Apps,0.0
+2023-01-23,Azure Cosmos DB,0.0
+2023-01-23,Azure DNS,0.083401278833576
+2023-01-23,Azure Data Factory v2,0.0
+2023-01-23,Azure Database for MariaDB,0.0
+2023-01-23,Azure Database for MySQL,4.887930104811293
+2023-01-23,Azure Database for PostgreSQL,1.863092783505155
+2023-01-23,Azure Defender,1.00125
+2023-01-23,Azure DevOps,2.5363944502171503
+2023-01-23,Azure Firewall,0.0
+2023-01-23,Azure Front Door Service,0.784022964768081
+2023-01-23,Azure Kubernetes Service,0.0
+2023-01-23,Azure Monitor,0.011908860759494
+2023-01-23,Azure Site Recovery,0.598322580645072
+2023-01-23,Azure Synapse Analytics,0.0
+2023-01-23,Backup,1.519516705286886
+2023-01-23,Bandwidth,0.020946032311319
+2023-01-23,Container Instances,0.0
+2023-01-23,Container Registry,2.9659728704255337
+2023-01-23,Content Delivery Network,0.0
+2023-01-23,Event Hubs,0.0
+2023-01-23,ExpressRoute,0.0
+2023-01-23,Functions,2.7869793412e-05
+2023-01-23,Insight and Analytics,0.0
+2023-01-23,Key Vault,1.2893718916999999e-05
+2023-01-23,Load Balancer,4.04093257896924
+2023-01-23,Log Analytics,3.805334177267416
+2023-01-23,Logic Apps,0.7009409204525879
+2023-01-23,Network Watcher,0.0
+2023-01-23,Redis Cache,8.064
+2023-01-23,SQL Database,0.118999051233396
+2023-01-23,Security Center,5.125457885083424
+2023-01-23,Service Bus,0.257623332032595
+2023-01-23,Storage,16.326692141381187
+2023-01-23,Unassigned,5.75974
+2023-01-23,VPN Gateway,0.0
+2023-01-23,Virtual Machines,22.390570069347962
+2023-01-23,Virtual Machines Licenses,2.135948776896974
+2023-01-23,Virtual Network,5.067521565942339
+2023-01-23,Virtual WAN,0.0
+2023-01-24,API Management,2.342396313364056
+2023-01-24,Advanced Data Security,0.359032258064516
+2023-01-24,Advanced Threat Protection,13.846546019444002
+2023-01-24,Application Gateway,6.052456901575099
+2023-01-24,Automation,0.013149957157927999
+2023-01-24,Azure Active Directory for External Identities,0.0
+2023-01-24,Azure App Service,3.566390168970814
+2023-01-24,Azure Arc,0.0
+2023-01-24,Azure Arc Enabled Databases,0.0
+2023-01-24,Azure Bastion,0.0
+2023-01-24,Azure Container Apps,0.0
+2023-01-24,Azure Cosmos DB,0.0
+2023-01-24,Azure DNS,0.083401278833576
+2023-01-24,Azure Data Factory v2,0.0
+2023-01-24,Azure Database for MariaDB,0.0
+2023-01-24,Azure Database for MySQL,5.744406969863829
+2023-01-24,Azure Database for PostgreSQL,5.7201348136399695
+2023-01-24,Azure Defender,1.00125
+2023-01-24,Azure DevOps,2.5363944502171503
+2023-01-24,Azure Firewall,0.0
+2023-01-24,Azure Front Door Service,0.5117264879600161
+2023-01-24,Azure Kubernetes Service,0.0
+2023-01-24,Azure Monitor,0.011908860759494
+2023-01-24,Azure Site Recovery,0.598322580645072
+2023-01-24,Azure Synapse Analytics,0.0
+2023-01-24,Backup,1.519532678377636
+2023-01-24,Bandwidth,0.01915929649632
+2023-01-24,Container Instances,0.0
+2023-01-24,Container Registry,2.965289181432178
+2023-01-24,Content Delivery Network,0.0
+2023-01-24,Event Hubs,0.0
+2023-01-24,ExpressRoute,0.0
+2023-01-24,Functions,3.2004631917e-05
+2023-01-24,Insight and Analytics,0.0
+2023-01-24,Key Vault,5.3723828820000005e-05
+2023-01-24,Load Balancer,4.1437847198533975
+2023-01-24,Log Analytics,3.024210390731037
+2023-01-24,Logic Apps,0.7001953086695839
+2023-01-24,Network Watcher,0.0
+2023-01-24,Redis Cache,9.0944
+2023-01-24,SQL Database,0.118999051233397
+2023-01-24,Security Center,5.0658596223255525
+2023-01-24,Service Bus,0.21795775891574598
+2023-01-24,Storage,16.51037180708867
+2023-01-24,Unassigned,5.75974
+2023-01-24,VPN Gateway,0.0
+2023-01-24,Virtual Machines,22.447116125009018
+2023-01-24,Virtual Machines Licenses,2.135948776896974
+2023-01-24,Virtual Network,5.100718677857718
+2023-01-24,Virtual WAN,0.0
+2023-01-25,API Management,2.342396313364056
+2023-01-25,Advanced Data Security,0.359032258064516
+2023-01-25,Advanced Threat Protection,13.888969071201151
+2023-01-25,Application Gateway,6.052456901575099
+2023-01-25,Automation,0.007460298854408
+2023-01-25,Azure Active Directory for External Identities,0.0
+2023-01-25,Azure App Service,3.566390168970814
+2023-01-25,Azure Arc,0.0
+2023-01-25,Azure Arc Enabled Databases,0.0
+2023-01-25,Azure Bastion,0.0
+2023-01-25,Azure Container Apps,0.0
+2023-01-25,Azure Cosmos DB,0.0
+2023-01-25,Azure DNS,0.083401278833576
+2023-01-25,Azure Data Factory v2,0.0
+2023-01-25,Azure Database for MariaDB,0.0
+2023-01-25,Azure Database for MySQL,7.247504799886022
+2023-01-25,Azure Database for PostgreSQL,8.475164835164835
+2023-01-25,Azure Defender,0.98734375
+2023-01-25,Azure DevOps,2.5363944502171503
+2023-01-25,Azure Firewall,0.0
+2023-01-25,Azure Front Door Service,0.5339754656974081
+2023-01-25,Azure Kubernetes Service,0.0
+2023-01-25,Azure Monitor,0.011908860759494
+2023-01-25,Azure Site Recovery,0.598322580645072
+2023-01-25,Azure Synapse Analytics,0.0
+2023-01-25,Backup,1.519532678377636
+2023-01-25,Bandwidth,0.020403334999343003
+2023-01-25,Container Instances,0.0
+2023-01-25,Container Registry,3.0144176022050697
+2023-01-25,Content Delivery Network,0.0
+2023-01-25,Event Hubs,0.0
+2023-01-25,ExpressRoute,0.0
+2023-01-25,Functions,0.000162159029443
+2023-01-25,Insight and Analytics,0.0
+2023-01-25,Key Vault,0.00042334377110600003
+2023-01-25,Load Balancer,4.020485486959522
+2023-01-25,Log Analytics,3.379553283999878
+2023-01-25,Logic Apps,0.7127761183802389
+2023-01-25,Network Watcher,0.0
+2023-01-25,Redis Cache,12.096
+2023-01-25,SQL Database,0.118999051233397
+2023-01-25,Security Center,5.259553976288636
+2023-01-25,Service Bus,0.267391988751458
+2023-01-25,Storage,16.8334864404148
+2023-01-25,Unassigned,5.75974
+2023-01-25,VPN Gateway,0.0
+2023-01-25,Virtual Machines,22.477650334567308
+2023-01-25,Virtual Machines Licenses,2.135948776896974
+2023-01-25,Virtual Network,5.081265992494793
+2023-01-25,Virtual WAN,0.0
+2023-01-26,API Management,2.342396313364056
+2023-01-26,Advanced Data Security,0.359032258064516
+2023-01-26,Advanced Threat Protection,13.901173116929984
+2023-01-26,Application Gateway,6.052456901575099
+2023-01-26,Automation,0.008971245457831999
+2023-01-26,Azure Active Directory for External Identities,0.0
+2023-01-26,Azure App Service,3.566390168970814
+2023-01-26,Azure Arc,0.0
+2023-01-26,Azure Arc Enabled Databases,0.0
+2023-01-26,Azure Bastion,0.0
+2023-01-26,Azure Container Apps,0.0
+2023-01-26,Azure Cosmos DB,0.0
+2023-01-26,Azure DNS,0.083401278833576
+2023-01-26,Azure Data Factory v2,0.0
+2023-01-26,Azure Database for MariaDB,0.0
+2023-01-26,Azure Database for MySQL,7.548557431464969
+2023-01-26,Azure Database for PostgreSQL,8.475164835164835
+2023-01-26,Azure Defender,1.00125
+2023-01-26,Azure DevOps,2.5363944502171503
+2023-01-26,Azure Firewall,0.0
+2023-01-26,Azure Front Door Service,0.5339754656974081
+2023-01-26,Azure Kubernetes Service,0.0
+2023-01-26,Azure Monitor,0.011908860759494
+2023-01-26,Azure Site Recovery,0.598322580645072
+2023-01-26,Azure Synapse Analytics,0.0
+2023-01-26,Backup,1.519532678377636
+2023-01-26,Bandwidth,0.020324717372860998
+2023-01-26,Container Instances,0.0
+2023-01-26,Container Registry,3.0892974959273847
+2023-01-26,Content Delivery Network,0.0
+2023-01-26,Event Hubs,0.0
+2023-01-26,ExpressRoute,0.0
+2023-01-26,Functions,0.000122652510998
+2023-01-26,Insight and Analytics,0.0
+2023-01-26,Key Vault,0.000272917050409
+2023-01-26,Load Balancer,4.021181014200394
+2023-01-26,Log Analytics,3.8980308568699296
+2023-01-26,Logic Apps,3.476543187403742
+2023-01-26,Network Watcher,0.0
+2023-01-26,Redis Cache,12.096
+2023-01-26,SQL Database,0.118999051233397
+2023-01-26,Security Center,5.602245505460241
+2023-01-26,Service Bus,0.247620072018806
+2023-01-26,Storage,16.41783794282782
+2023-01-26,Unassigned,5.75974
+2023-01-26,VPN Gateway,0.0
+2023-01-26,Virtual Machines,23.23335408194565
+2023-01-26,Virtual Machines Licenses,2.135948776896974
+2023-01-26,Virtual Network,5.0230877969194845
+2023-01-26,Virtual WAN,0.0
+2023-01-27,API Management,2.342396313364056
+2023-01-27,Advanced Data Security,0.359032258064516
+2023-01-27,Advanced Threat Protection,14.074404156439792
+2023-01-27,Application Gateway,6.052456901575099
+2023-01-27,Automation,0.00616182911709
+2023-01-27,Azure Active Directory for External Identities,0.0
+2023-01-27,Azure App Service,3.566390168970814
+2023-01-27,Azure Arc,0.0
+2023-01-27,Azure Arc Enabled Databases,0.0
+2023-01-27,Azure Bastion,0.0
+2023-01-27,Azure Container Apps,0.0
+2023-01-27,Azure Cosmos DB,0.0
+2023-01-27,Azure DNS,0.083401278833576
+2023-01-27,Azure Data Factory v2,0.0
+2023-01-27,Azure Database for MariaDB,0.0
+2023-01-27,Azure Database for MySQL,7.54855743146497
+2023-01-27,Azure Database for PostgreSQL,8.475164835164835
+2023-01-27,Azure Defender,1.00125
+2023-01-27,Azure DevOps,2.5363944502171503
+2023-01-27,Azure Firewall,0.0
+2023-01-27,Azure Front Door Service,0.5339754656974081
+2023-01-27,Azure Kubernetes Service,0.0
+2023-01-27,Azure Monitor,0.011908860759494
+2023-01-27,Azure Site Recovery,0.598322580645072
+2023-01-27,Azure Synapse Analytics,0.0
+2023-01-27,Backup,1.519532678377636
+2023-01-27,Bandwidth,0.02725872064054
+2023-01-27,Container Instances,0.0
+2023-01-27,Container Registry,3.0892974959273847
+2023-01-27,Content Delivery Network,0.0
+2023-01-27,Event Hubs,0.111499663752522
+2023-01-27,ExpressRoute,0.0
+2023-01-27,Functions,0.0007846998220710001
+2023-01-27,Insight and Analytics,0.0
+2023-01-27,Key Vault,0.00021919322158699998
+2023-01-27,Load Balancer,4.021720605634676
+2023-01-27,Log Analytics,2.5942801553700674
+2023-01-27,Logic Apps,5.203310309209002
+2023-01-27,Network Watcher,0.0
+2023-01-27,Redis Cache,12.096
+2023-01-27,SQL Database,0.118999051233397
+2023-01-27,Security Center,6.168429912648328
+2023-01-27,Service Bus,0.178506717734107
+2023-01-27,Storage,16.733770137491394
+2023-01-27,Unassigned,5.75974
+2023-01-27,VPN Gateway,0.0
+2023-01-27,Virtual Machines,23.891461086890338
+2023-01-27,Virtual Machines Licenses,2.1344672294266
+2023-01-27,Virtual Network,5.043541044515581
+2023-01-27,Virtual WAN,0.0
+2023-01-28,API Management,2.342396313364056
+2023-01-28,Advanced Data Security,0.359032258064516
+2023-01-28,Advanced Threat Protection,14.089362502873332
+2023-01-28,Application Gateway,6.052456901575099
+2023-01-28,Automation,0.008971245457833
+2023-01-28,Azure Active Directory for External Identities,0.0
+2023-01-28,Azure App Service,3.566390168970814
+2023-01-28,Azure Arc,0.0
+2023-01-28,Azure Arc Enabled Databases,0.0
+2023-01-28,Azure Bastion,0.0
+2023-01-28,Azure Container Apps,0.0
+2023-01-28,Azure Cosmos DB,0.0
+2023-01-28,Azure DNS,0.083401278833576
+2023-01-28,Azure Data Factory v2,0.0
+2023-01-28,Azure Database for MariaDB,0.0
+2023-01-28,Azure Database for MySQL,7.54855743146497
+2023-01-28,Azure Database for PostgreSQL,8.475164835164835
+2023-01-28,Azure Defender,1.00125
+2023-01-28,Azure DevOps,2.5363944502171503
+2023-01-28,Azure Firewall,0.0
+2023-01-28,Azure Front Door Service,0.5339754656974081
+2023-01-28,Azure Kubernetes Service,0.0
+2023-01-28,Azure Monitor,0.011908860759494
+2023-01-28,Azure Site Recovery,0.598322580645072
+2023-01-28,Azure Synapse Analytics,0.0
+2023-01-28,Backup,1.519532678377636
+2023-01-28,Bandwidth,0.017479258088595
+2023-01-28,Container Instances,0.0
+2023-01-28,Container Registry,3.0892974959273847
+2023-01-28,Content Delivery Network,0.0
+2023-01-28,Event Hubs,0.0
+2023-01-28,ExpressRoute,0.0
+2023-01-28,Functions,1.6802281746e-05
+2023-01-28,Insight and Analytics,0.0
+2023-01-28,Key Vault,2.5787437834e-05
+2023-01-28,Load Balancer,4.021518984682474
+2023-01-28,Log Analytics,0.2607752466517
+2023-01-28,Logic Apps,5.092352665884491
+2023-01-28,Network Watcher,0.0
+2023-01-28,Redis Cache,12.096
+2023-01-28,SQL Database,0.118999051233397
+2023-01-28,Security Center,5.363853365417057
+2023-01-28,Service Bus,0.277291988751458
+2023-01-28,Storage,16.556912302699963
+2023-01-28,Unassigned,5.75974
+2023-01-28,VPN Gateway,0.0
+2023-01-28,Virtual Machines,22.735619689870607
+2023-01-28,Virtual Machines Licenses,2.135948776896974
+2023-01-28,Virtual Network,5.050718105666486
+2023-01-28,Virtual WAN,0.0
+2023-01-29,API Management,2.342396313364056
+2023-01-29,Advanced Data Security,0.359032258064516
+2023-01-29,Advanced Threat Protection,14.093960366629192
+2023-01-29,Application Gateway,6.052456901575099
+2023-01-29,Automation,0.09580345807337799
+2023-01-29,Azure Active Directory for External Identities,0.0
+2023-01-29,Azure App Service,3.566390168970814
+2023-01-29,Azure Arc,0.0
+2023-01-29,Azure Arc Enabled Databases,0.0
+2023-01-29,Azure Bastion,0.0
+2023-01-29,Azure Container Apps,0.0
+2023-01-29,Azure Cosmos DB,0.0
+2023-01-29,Azure DNS,0.083401278833576
+2023-01-29,Azure Data Factory v2,0.0
+2023-01-29,Azure Database for MariaDB,0.0
+2023-01-29,Azure Database for MySQL,7.398031115675496
+2023-01-29,Azure Database for PostgreSQL,8.475164835164835
+2023-01-29,Azure Defender,1.00125
+2023-01-29,Azure DevOps,2.5363944502171503
+2023-01-29,Azure Firewall,0.0
+2023-01-29,Azure Front Door Service,0.5339754656974081
+2023-01-29,Azure Kubernetes Service,0.0
+2023-01-29,Azure Monitor,0.011908860759494
+2023-01-29,Azure Site Recovery,0.598322580645072
+2023-01-29,Azure Synapse Analytics,0.0
+2023-01-29,Backup,1.519532678377636
+2023-01-29,Bandwidth,0.009993966410151
+2023-01-29,Container Instances,0.0
+2023-01-29,Container Registry,3.0892974959273847
+2023-01-29,Content Delivery Network,0.0
+2023-01-29,Event Hubs,0.0
+2023-01-29,ExpressRoute,0.0
+2023-01-29,Functions,1.3712608224e-05
+2023-01-29,Insight and Analytics,0.0
+2023-01-29,Key Vault,3.2234297292e-05
+2023-01-29,Load Balancer,4.002301273980495
+2023-01-29,Log Analytics,0.260726685929522
+2023-01-29,Logic Apps,5.092464213343452
+2023-01-29,Network Watcher,0.0
+2023-01-29,Redis Cache,12.096
+2023-01-29,SQL Database,0.118999051233397
+2023-01-29,Security Center,5.363853365417057
+2023-01-29,Service Bus,0.207991988751458
+2023-01-29,Storage,16.5631471201817
+2023-01-29,Unassigned,5.75974
+2023-01-29,VPN Gateway,0.0
+2023-01-29,Virtual Machines,22.737856867699954
+2023-01-29,Virtual Machines Licenses,2.135948776896974
+2023-01-29,Virtual Network,5.043268278294681
+2023-01-29,Virtual WAN,0.0
+2023-01-30,API Management,2.342396313364056
+2023-01-30,Advanced Data Security,0.359032258064516
+2023-01-30,Advanced Threat Protection,14.143974866710977
+2023-01-30,Application Gateway,6.052456901575099
+2023-01-30,Automation,0.007507515935765
+2023-01-30,Azure Active Directory for External Identities,0.0
+2023-01-30,Azure App Service,3.566390168970814
+2023-01-30,Azure Arc,0.0
+2023-01-30,Azure Arc Enabled Databases,0.0
+2023-01-30,Azure Bastion,0.0
+2023-01-30,Azure Container Apps,0.13384743406103
+2023-01-30,Azure Cosmos DB,0.0
+2023-01-30,Azure DNS,0.083401278833576
+2023-01-30,Azure Data Factory v2,0.0
+2023-01-30,Azure Database for MariaDB,1.062
+2023-01-30,Azure Database for MySQL,7.54855743146497
+2023-01-30,Azure Database for PostgreSQL,8.475164835164835
+2023-01-30,Azure Defender,1.00125
+2023-01-30,Azure DevOps,2.5363944502171503
+2023-01-30,Azure Firewall,0.0
+2023-01-30,Azure Front Door Service,0.5339754656974081
+2023-01-30,Azure Kubernetes Service,0.0
+2023-01-30,Azure Monitor,0.011908860759494
+2023-01-30,Azure Site Recovery,0.598322580645072
+2023-01-30,Azure Synapse Analytics,0.0
+2023-01-30,Backup,1.5195358046741059
+2023-01-30,Bandwidth,0.012172756746124001
+2023-01-30,Container Instances,0.0
+2023-01-30,Container Registry,3.0892974959273847
+2023-01-30,Content Delivery Network,0.0
+2023-01-30,Event Hubs,0.066899798251513
+2023-01-30,ExpressRoute,0.0
+2023-01-30,Functions,1.7640159311e-05
+2023-01-30,Insight and Analytics,0.0
+2023-01-30,Key Vault,2.7936390987e-05
+2023-01-30,Load Balancer,4.0223209669960065
+2023-01-30,Log Analytics,1.787333035464683
+2023-01-30,Logic Apps,5.158420630653328
+2023-01-30,Network Watcher,0.0
+2023-01-30,Redis Cache,12.096
+2023-01-30,SQL Database,0.118999051233397
+2023-01-30,Security Center,6.362124266611412
+2023-01-30,Service Bus,0.218905139036257
+2023-01-30,Storage,16.66645704662095
+2023-01-30,Unassigned,5.75974
+2023-01-30,VPN Gateway,0.0
+2023-01-30,Virtual Machines,23.46272666733349
+2023-01-30,Virtual Machines Licenses,2.135948776896974
+2023-01-30,Virtual Network,5.0769435429571566
+2023-01-30,Virtual WAN,0.0
+2023-01-31,API Management,2.342396313364056
+2023-01-31,Advanced Data Security,0.359032258064516
+2023-01-31,Advanced Threat Protection,14.168220159994489
+2023-01-31,Application Gateway,6.052456901575099
+2023-01-31,Automation,0.008711551510369
+2023-01-31,Azure Active Directory for External Identities,0.0
+2023-01-31,Azure App Service,3.566390168970814
+2023-01-31,Azure Arc,0.0
+2023-01-31,Azure Arc Enabled Databases,0.0
+2023-01-31,Azure Bastion,0.0
+2023-01-31,Azure Container Apps,0.34615256593897
+2023-01-31,Azure Cosmos DB,0.0
+2023-01-31,Azure DNS,0.083401278833576
+2023-01-31,Azure Data Factory v2,0.0
+2023-01-31,Azure Database for MariaDB,3.728
+2023-01-31,Azure Database for MySQL,7.54855743146497
+2023-01-31,Azure Database for PostgreSQL,8.475164835164835
+2023-01-31,Azure Defender,1.00125
+2023-01-31,Azure DevOps,2.5363944502171503
+2023-01-31,Azure Firewall,1.28
+2023-01-31,Azure Front Door Service,0.48947751022262403
+2023-01-31,Azure Kubernetes Service,0.0
+2023-01-31,Azure Monitor,0.011908860759494
+2023-01-31,Azure Site Recovery,0.598322580645072
+2023-01-31,Azure Synapse Analytics,0.0
+2023-01-31,Backup,1.519543397108389
+2023-01-31,Bandwidth,0.015278136568677
+2023-01-31,Container Instances,0.0
+2023-01-31,Container Registry,3.0892974959273847
+2023-01-31,Content Delivery Network,0.0
+2023-01-31,Event Hubs,0.136899944788366
+2023-01-31,ExpressRoute,0.0
+2023-01-31,Functions,0.000341275767476
+2023-01-31,Insight and Analytics,0.0
+2023-01-31,Key Vault,5.8021735126e-05
+2023-01-31,Load Balancer,4.129737881330738
+2023-01-31,Log Analytics,0.270516068379989
+2023-01-31,Logic Apps,5.08722477909977
+2023-01-31,Network Watcher,0.0
+2023-01-31,Redis Cache,12.096
+2023-01-31,SQL Database,0.118999051233397
+2023-01-31,Security Center,6.093932084200988
+2023-01-31,Service Bus,0.257685079849162
+2023-01-31,Storage,17.219349278630304
+2023-01-31,Unassigned,5.75974
+2023-01-31,VPN Gateway,0.0
+2023-01-31,Virtual Machines,25.47144885819949
+2023-01-31,Virtual Machines Licenses,2.135948776896974
+2023-01-31,Virtual Network,5.090998527694628
+2023-01-31,Virtual WAN,0.0
+2023-02-01,API Management,2.342391543712838
+2023-02-01,Advanced Data Security,0.35900198019802
+2023-02-01,Advanced Threat Protection,14.421236083236993
+2023-02-01,Application Gateway,6.053436079793284
+2023-02-01,Automation,0.008941650515148
+2023-02-01,Azure Active Directory for External Identities,0.0
+2023-02-01,Azure App Service,3.566397146933272
+2023-02-01,Azure Arc,0.0
+2023-02-01,Azure Arc Enabled Databases,0.0
+2023-02-01,Azure Bastion,0.0
+2023-02-01,Azure Container Apps,0.0
+2023-02-01,Azure Cosmos DB,0.0
+2023-02-01,Azure DNS,0.086081720506183
+2023-02-01,Azure Data Factory v2,0.0
+2023-02-01,Azure Database for MariaDB,3.731071428571429
+2023-02-01,Azure Database for MySQL,7.5492185854165825
+2023-02-01,Azure Database for PostgreSQL,9.386207148519444
+2023-02-01,Azure Defender,1.716962457337884
+2023-02-01,Azure DevOps,2.536398703458573
+2023-02-01,Azure Firewall,12.521438866202258
+2023-02-01,Azure Front Door Service,0.533877551020416
+2023-02-01,Azure Kubernetes Service,0.0
+2023-02-01,Azure Monitor,0.011927693960484
+2023-02-01,Azure Site Recovery,0.598357142857054
+2023-02-01,Azure Synapse Analytics,0.0
+2023-02-01,Backup,1.519606454297978
+2023-02-01,Bandwidth,0.028277188860923
+2023-02-01,Container Instances,0.0
+2023-02-01,Container Registry,3.160165101133328
+2023-02-01,Content Delivery Network,0.0
+2023-02-01,Event Hubs,0.0
+2023-02-01,ExpressRoute,0.0
+2023-02-01,Functions,0.000505211070925
+2023-02-01,Insight and Analytics,0.0
+2023-02-01,Key Vault,0.000127779197546
+2023-02-01,Load Balancer,4.856350820187357
+2023-02-01,Log Analytics,2.7268172012583776
+2023-02-01,Logic Apps,5.089178949961371
+2023-02-01,Network Watcher,0.0
+2023-02-01,Redis Cache,12.090501193317422
+2023-02-01,SQL Database,0.118999491341752
+2023-02-01,Security Center,6.1983507153275905
+2023-02-01,Service Bus,0.26741936979989195
+2023-02-01,Storage,19.441361082577707
+2023-02-01,Unassigned,5.7599
+2023-02-01,VPN Gateway,0.0
+2023-02-01,Virtual Machines,31.097492193522747
+2023-02-01,Virtual Machines Licenses,1.520000000000001
+2023-02-01,Virtual Network,5.18818976361685
+2023-02-01,Virtual WAN,0.0
+2023-02-02,API Management,2.342391543712838
+2023-02-02,Advanced Data Security,0.35900198019802
+2023-02-02,Advanced Threat Protection,14.440621786782282
+2023-02-02,Application Gateway,6.053436079793284
+2023-02-02,Automation,0.008965622768539998
+2023-02-02,Azure Active Directory for External Identities,0.0
+2023-02-02,Azure App Service,3.566397146933272
+2023-02-02,Azure Arc,0.0
+2023-02-02,Azure Arc Enabled Databases,0.0
+2023-02-02,Azure Bastion,0.0
+2023-02-02,Azure Container Apps,0.0
+2023-02-02,Azure Cosmos DB,0.0
+2023-02-02,Azure DNS,0.084242025766542
+2023-02-02,Azure Data Factory v2,0.0
+2023-02-02,Azure Database for MariaDB,3.731071428571429
+2023-02-02,Azure Database for MySQL,7.5492185854165825
+2023-02-02,Azure Database for PostgreSQL,4.166641772541153
+2023-02-02,Azure Defender,1.43778156996587
+2023-02-02,Azure DevOps,2.536398703458573
+2023-02-02,Azure Firewall,11.128561133797742
+2023-02-02,Azure Front Door Service,0.533877551020416
+2023-02-02,Azure Kubernetes Service,0.0
+2023-02-02,Azure Monitor,0.011927693960484
+2023-02-02,Azure Site Recovery,0.598357142857054
+2023-02-02,Azure Synapse Analytics,9.17727360554787
+2023-02-02,Backup,1.519606454297978
+2023-02-02,Bandwidth,0.022720610271795002
+2023-02-02,Container Instances,0.0
+2023-02-02,Container Registry,2.638155209859046
+2023-02-02,Content Delivery Network,0.0
+2023-02-02,Event Hubs,0.0
+2023-02-02,ExpressRoute,0.0
+2023-02-02,Functions,0.000206114751022
+2023-02-02,Insight and Analytics,0.0
+2023-02-02,Key Vault,0.000102223358038
+2023-02-02,Load Balancer,4.079271327695915
+2023-02-02,Log Analytics,0.27504827451523
+2023-02-02,Logic Apps,5.132379309683237
+2023-02-02,Network Watcher,0.0
+2023-02-02,Redis Cache,7.047667681581926
+2023-02-02,SQL Database,0.118999491341752
+2023-02-02,Security Center,4.7083658777248445
+2023-02-02,Service Bus,0.228701933122853
+2023-02-02,Storage,18.563099716327784
+2023-02-02,Unassigned,5.7599
+2023-02-02,VPN Gateway,0.0
+2023-02-02,Virtual Machines,22.87926611923202
+2023-02-02,Virtual Machines Licenses,0.0
+2023-02-02,Virtual Network,5.08995489679285
+2023-02-02,Virtual WAN,0.0
+2023-02-03,API Management,2.342391543712838
+2023-02-03,Advanced Data Security,0.35900198019802
+2023-02-03,Advanced Threat Protection,14.787975294610849
+2023-02-03,Application Gateway,6.053436079793284
+2023-02-03,Automation,0.006017035601346
+2023-02-03,Azure Active Directory for External Identities,0.0
+2023-02-03,Azure App Service,3.566397146933272
+2023-02-03,Azure Arc,0.0
+2023-02-03,Azure Arc Enabled Databases,0.0
+2023-02-03,Azure Bastion,0.0
+2023-02-03,Azure Container Apps,0.0
+2023-02-03,Azure Cosmos DB,0.0
+2023-02-03,Azure DNS,0.084450476283123
+2023-02-03,Azure Data Factory v2,0.0
+2023-02-03,Azure Database for MariaDB,3.731071428571429
+2023-02-03,Azure Database for MySQL,7.5492185854165825
+2023-02-03,Azure Database for PostgreSQL,1.7885472330194512
+2023-02-03,Azure Defender,1.060887372013652
+2023-02-03,Azure DevOps,2.24930268472321
+2023-02-03,Azure Firewall,0.0
+2023-02-03,Azure Front Door Service,0.533877551020416
+2023-02-03,Azure Kubernetes Service,0.0
+2023-02-03,Azure Monitor,0.011927693960484
+2023-02-03,Azure Site Recovery,0.598357142857054
+2023-02-03,Azure Synapse Analytics,54.94637785715009
+2023-02-03,Backup,1.519606454297978
+2023-02-03,Bandwidth,0.027808392871382
+2023-02-03,Container Instances,0.0
+2023-02-03,Container Registry,2.5221207671874097
+2023-02-03,Content Delivery Network,0.0
+2023-02-03,Event Hubs,0.0
+2023-02-03,ExpressRoute,0.0
+2023-02-03,Functions,0.000330105111997
+2023-02-03,Insight and Analytics,0.0
+2023-02-03,Key Vault,2.1296532924e-05
+2023-02-03,Load Balancer,3.587424451289629
+2023-02-03,Log Analytics,2.8904219058965857
+2023-02-03,Logic Apps,5.157143427325314
+2023-02-03,Network Watcher,0.0
+2023-02-03,Redis Cache,2.93723739111339
+2023-02-03,SQL Database,0.118999491341752
+2023-02-03,Security Center,4.529567697212515
+2023-02-03,Service Bus,0.227786050360725
+2023-02-03,Storage,18.001108228313093
+2023-02-03,Unassigned,5.7599
+2023-02-03,VPN Gateway,0.0
+2023-02-03,Virtual Machines,17.567508335076848
+2023-02-03,Virtual Machines Licenses,0.0
+2023-02-03,Virtual Network,5.091908710852068
+2023-02-03,Virtual WAN,0.0
+2023-02-04,API Management,2.342391543712838
+2023-02-04,Advanced Data Security,0.35900198019802
+2023-02-04,Advanced Threat Protection,14.835858826581557
+2023-02-04,Application Gateway,6.053436079793284
+2023-02-04,Automation,0.008941650515148001
+2023-02-04,Azure Active Directory for External Identities,0.0
+2023-02-04,Azure App Service,3.566397146933272
+2023-02-04,Azure Arc,0.0
+2023-02-04,Azure Arc Enabled Databases,0.0
+2023-02-04,Azure Bastion,0.0
+2023-02-04,Azure Container Apps,0.0
+2023-02-04,Azure Cosmos DB,0.0
+2023-02-04,Azure DNS,0.083530644778126
+2023-02-04,Azure Data Factory v2,0.0
+2023-02-04,Azure Database for MariaDB,3.731071428571429
+2023-02-04,Azure Database for MySQL,7.5492185854165825
+2023-02-04,Azure Database for PostgreSQL,0.568229065663422
+2023-02-04,Azure Defender,1.0050511945392493
+2023-02-04,Azure DevOps,2.24930268472321
+2023-02-04,Azure Firewall,0.0
+2023-02-04,Azure Front Door Service,0.533877551020416
+2023-02-04,Azure Kubernetes Service,0.0
+2023-02-04,Azure Monitor,0.011941014269514999
+2023-02-04,Azure Site Recovery,0.598357142857054
+2023-02-04,Azure Synapse Analytics,54.9464617125608
+2023-02-04,Backup,1.520019520192609
+2023-02-04,Bandwidth,0.020617891357112002
+2023-02-04,Container Instances,0.0
+2023-02-04,Container Registry,2.224567328113694
+2023-02-04,Content Delivery Network,0.0
+2023-02-04,Event Hubs,0.0
+2023-02-04,ExpressRoute,0.0
+2023-02-04,Functions,0.00024894511517
+2023-02-04,Insight and Analytics,0.0
+2023-02-04,Key Vault,2.5555839509e-05
+2023-02-04,Load Balancer,3.5747073780573078
+2023-02-04,Log Analytics,0.286342116473577
+2023-02-04,Logic Apps,5.09223618289611
+2023-02-04,Network Watcher,0.0
+2023-02-04,Redis Cache,2.93723739111339
+2023-02-04,SQL Database,0.118999491341752
+2023-02-04,Security Center,3.933573762171417
+2023-02-04,Service Bus,0.17830519986002702
+2023-02-04,Storage,18.061391700400385
+2023-02-04,Unassigned,5.7599
+2023-02-04,VPN Gateway,0.0
+2023-02-04,Virtual Machines,15.654573364461466
+2023-02-04,Virtual Machines Licenses,0.0
+2023-02-04,Virtual Network,5.06868454450786
+2023-02-04,Virtual WAN,0.0
+2023-02-05,API Management,2.342391543712838
+2023-02-05,Advanced Data Security,0.35900198019802
+2023-02-05,Advanced Threat Protection,14.838892826841489
+2023-02-05,Application Gateway,6.053436079793284
+2023-02-05,Automation,0.009061511782107
+2023-02-05,Azure Active Directory for External Identities,0.0
+2023-02-05,Azure App Service,3.566397146933272
+2023-02-05,Azure Arc,0.0
+2023-02-05,Azure Arc Enabled Databases,0.0
+2023-02-05,Azure Bastion,0.0
+2023-02-05,Azure Container Apps,0.328758340069199
+2023-02-05,Azure Cosmos DB,0.0
+2023-02-05,Azure DNS,0.083530644778126
+2023-02-05,Azure Data Factory v2,0.0
+2023-02-05,Azure Database for MariaDB,3.731071428571429
+2023-02-05,Azure Database for MySQL,7.5492185854165825
+2023-02-05,Azure Database for PostgreSQL,0.568229065663422
+2023-02-05,Azure Defender,0.963174061433447
+2023-02-05,Azure DevOps,2.24930268472321
+2023-02-05,Azure Firewall,0.0
+2023-02-05,Azure Front Door Service,0.533877551020416
+2023-02-05,Azure Kubernetes Service,0.0
+2023-02-05,Azure Monitor,0.011927693960484
+2023-02-05,Azure Site Recovery,0.598357142857054
+2023-02-05,Azure Synapse Analytics,54.94656351012857
+2023-02-05,Backup,1.520707963350645
+2023-02-05,Bandwidth,0.023075645909276
+2023-02-05,Container Instances,0.0
+2023-02-05,Container Registry,2.224567328113694
+2023-02-05,Content Delivery Network,0.0
+2023-02-05,Event Hubs,0.0
+2023-02-05,ExpressRoute,0.0
+2023-02-05,Functions,0.000151545536184
+2023-02-05,Insight and Analytics,0.0
+2023-02-05,Key Vault,1.4907573047e-05
+2023-02-05,Load Balancer,3.574781381522609
+2023-02-05,Log Analytics,0.285614930408317
+2023-02-05,Logic Apps,5.092813714209194
+2023-02-05,Network Watcher,0.0
+2023-02-05,Redis Cache,2.93723739111339
+2023-02-05,SQL Database,0.118999491341752
+2023-02-05,Security Center,3.933573762171417
+2023-02-05,Service Bus,0.227779088781536
+2023-02-05,Storage,18.075896071011837
+2023-02-05,Unassigned,5.7599
+2023-02-05,VPN Gateway,0.0
+2023-02-05,Virtual Machines,15.656254645629211
+2023-02-05,Virtual Machines Licenses,0.0
+2023-02-05,Virtual Network,5.06868454450786
+2023-02-05,Virtual WAN,0.0
+2023-02-06,API Management,2.342391543712838
+2023-02-06,Advanced Data Security,0.35900198019802
+2023-02-06,Advanced Threat Protection,14.718658651393776
+2023-02-06,Application Gateway,6.053436079793284
+2023-02-06,Automation,0.010619708252576
+2023-02-06,Azure Active Directory for External Identities,0.0
+2023-02-06,Azure App Service,3.566397146933272
+2023-02-06,Azure Arc,0.0
+2023-02-06,Azure Arc Enabled Databases,0.0
+2023-02-06,Azure Bastion,0.0
+2023-02-06,Azure Container Apps,0.39451000808304
+2023-02-06,Azure Cosmos DB,0.0
+2023-02-06,Azure DNS,0.085446822300699
+2023-02-06,Azure Data Factory v2,0.0
+2023-02-06,Azure Database for MariaDB,3.731071428571429
+2023-02-06,Azure Database for MySQL,7.287334609672823
+2023-02-06,Azure Database for PostgreSQL,0.568229065663422
+2023-02-06,Azure Defender,1.116723549488055
+2023-02-06,Azure DevOps,2.24930268472321
+2023-02-06,Azure Firewall,1.7699822625684478
+2023-02-06,Azure Front Door Service,0.638236525379391
+2023-02-06,Azure Kubernetes Service,0.0
+2023-02-06,Azure Monitor,0.011927693960484
+2023-02-06,Azure Site Recovery,0.598357142857054
+2023-02-06,Azure Synapse Analytics,18.315566240311647
+2023-02-06,Backup,1.521376445351689
+2023-02-06,Bandwidth,0.029365363921716
+2023-02-06,Container Instances,0.0
+2023-02-06,Container Registry,2.3629518244411907
+2023-02-06,Content Delivery Network,0.0
+2023-02-06,Event Hubs,0.0
+2023-02-06,ExpressRoute,0.0
+2023-02-06,Functions,0.00020056828366399999
+2023-02-06,Insight and Analytics,0.0
+2023-02-06,Key Vault,1.7037226339000002e-05
+2023-02-06,Load Balancer,3.574586019195507
+2023-02-06,Log Analytics,1.309305111717897
+2023-02-06,Logic Apps,5.32942675910571
+2023-02-06,Network Watcher,0.0
+2023-02-06,Redis Cache,2.93723739111339
+2023-02-06,SQL Database,0.118999491341752
+2023-02-06,Security Center,4.455068455332377
+2023-02-06,Service Bus,0.168443540580714
+2023-02-06,Storage,18.315536546652773
+2023-02-06,Unassigned,5.7599
+2023-02-06,VPN Gateway,0.0
+2023-02-06,Virtual Machines,16.333608107918888
+2023-02-06,Virtual Machines Licenses,0.0
+2023-02-06,Virtual Network,4.947319533215643
+2023-02-06,Virtual WAN,0.0
+2023-02-07,API Management,2.342391543712838
+2023-02-07,Advanced Data Security,0.35900198019802
+2023-02-07,Advanced Threat Protection,14.65847788988901
+2023-02-07,Application Gateway,6.053436079793284
+2023-02-07,Automation,0.009157400795675
+2023-02-07,Azure Active Directory for External Identities,0.0
+2023-02-07,Azure App Service,3.566397146933272
+2023-02-07,Azure Arc,0.0
+2023-02-07,Azure Arc Enabled Databases,2.492631578947368
+2023-02-07,Azure Bastion,0.0
+2023-02-07,Azure Container Apps,0.39456789487812804
+2023-02-07,Azure Cosmos DB,0.0
+2023-02-07,Azure DNS,0.08557685729310399
+2023-02-07,Azure Data Factory v2,0.0
+2023-02-07,Azure Database for MariaDB,3.731071428571429
+2023-02-07,Azure Database for MySQL,7.130204224226565
+2023-02-07,Azure Database for PostgreSQL,1.1783881493414359
+2023-02-07,Azure Defender,1.786757679180888
+2023-02-07,Azure DevOps,2.24930268472321
+2023-02-07,Azure Firewall,7.050869399800117
+2023-02-07,Azure Front Door Service,0.533877551020416
+2023-02-07,Azure Kubernetes Service,0.0
+2023-02-07,Azure Monitor,0.011927693960484
+2023-02-07,Azure Site Recovery,0.598357142857054
+2023-02-07,Azure Synapse Analytics,0.0
+2023-02-07,Backup,1.522713409353353
+2023-02-07,Bandwidth,0.036223800084501
+2023-02-07,Container Instances,0.0
+2023-02-07,Container Registry,2.418709242874086
+2023-02-07,Content Delivery Network,0.0
+2023-02-07,Event Hubs,0.0
+2023-02-07,ExpressRoute,0.0
+2023-02-07,Functions,0.000153130339622
+2023-02-07,Insight and Analytics,0.0
+2023-02-07,Key Vault,1.703722634e-05
+2023-02-07,Load Balancer,3.796671698130398
+2023-02-07,Log Analytics,3.681337868695229
+2023-02-07,Logic Apps,5.067602121327679
+2023-02-07,Network Watcher,0.0
+2023-02-07,Redis Cache,2.93723739111339
+2023-02-07,SQL Database,0.118999491341752
+2023-02-07,Security Center,4.55936739396457
+2023-02-07,Service Bus,0.07977176348838501
+2023-02-07,Storage,18.74183693977774
+2023-02-07,Unassigned,5.7599
+2023-02-07,VPN Gateway,0.0
+2023-02-07,Virtual Machines,28.759466800142228
+2023-02-07,Virtual Machines Licenses,0.0
+2023-02-07,Virtual Network,5.158069559414275
+2023-02-07,Virtual WAN,0.0
+2023-02-08,API Management,2.342391543712838
+2023-02-08,Advanced Data Security,0.35900198019802
+2023-02-08,Advanced Threat Protection,14.622632260132418
+2023-02-08,Application Gateway,6.053436079793284
+2023-02-08,Automation,0.009181373049067
+2023-02-08,Azure Active Directory for External Identities,0.0
+2023-02-08,Azure App Service,3.566397146933272
+2023-02-08,Azure Arc,0.0
+2023-02-08,Azure Arc Enabled Databases,0.0
+2023-02-08,Azure Bastion,0.0
+2023-02-08,Azure Container Apps,0.304101464564009
+2023-02-08,Azure Cosmos DB,0.0
+2023-02-08,Azure DNS,0.08644404154484199
+2023-02-08,Azure Data Factory v2,0.0
+2023-02-08,Azure Database for MariaDB,3.731071428571429
+2023-02-08,Azure Database for MySQL,7.130204224226566
+2023-02-08,Azure Database for PostgreSQL,1.6911311866802021
+2023-02-08,Azure Defender,1.172559726962457
+2023-02-08,Azure DevOps,2.24930268472321
+2023-02-08,Azure Firewall,7.051922777239705
+2023-02-08,Azure Front Door Service,0.533877551020416
+2023-02-08,Azure Kubernetes Service,0.0
+2023-02-08,Azure Monitor,0.011927693960484
+2023-02-08,Azure Site Recovery,0.598357142857054
+2023-02-08,Azure Synapse Analytics,0.0
+2023-02-08,Backup,1.522713409353241
+2023-02-08,Bandwidth,0.039281899909228
+2023-02-08,Container Instances,0.0
+2023-02-08,Container Registry,2.509865017041292
+2023-02-08,Content Delivery Network,0.0
+2023-02-08,Event Hubs,0.0
+2023-02-08,ExpressRoute,0.0
+2023-02-08,Functions,0.00020385576848
+2023-02-08,Insight and Analytics,0.0
+2023-02-08,Key Vault,2.9815146094e-05
+2023-02-08,Load Balancer,4.020517134127078
+2023-02-08,Log Analytics,1.6548401289050203
+2023-02-08,Logic Apps,5.085597790199967
+2023-02-08,Network Watcher,0.0
+2023-02-08,Redis Cache,2.93723739111339
+2023-02-08,SQL Database,0.118999491341752
+2023-02-08,Security Center,4.350769516700186
+2023-02-08,Service Bus,0.019945423954698
+2023-02-08,Storage,19.951381406615862
+2023-02-08,Unassigned,5.7599
+2023-02-08,VPN Gateway,0.0
+2023-02-08,Virtual Machines,18.595811798350205
+2023-02-08,Virtual Machines Licenses,0.0
+2023-02-08,Virtual Network,5.528186573777225
+2023-02-08,Virtual WAN,0.0
+2023-02-09,API Management,2.342391543712838
+2023-02-09,Advanced Data Security,0.35900198019802
+2023-02-09,Advanced Threat Protection,14.624366301441217
+2023-02-09,Application Gateway,6.053436079793284
+2023-02-09,Automation,0.006184841375089
+2023-02-09,Azure Active Directory for External Identities,0.0
+2023-02-09,Azure App Service,3.566397146933272
+2023-02-09,Azure Arc,0.0
+2023-02-09,Azure Arc Enabled Databases,0.623157894736842
+2023-02-09,Azure Bastion,0.0
+2023-02-09,Azure Container Apps,0.323942887597454
+2023-02-09,Azure Cosmos DB,0.0
+2023-02-09,Azure DNS,0.083530644778126
+2023-02-09,Azure Data Factory v2,0.0
+2023-02-09,Azure Database for MariaDB,3.731071428571429
+2023-02-09,Azure Database for MySQL,7.130204224226565
+2023-02-09,Azure Database for PostgreSQL,0.568229065663422
+2023-02-09,Azure Defender,1.116723549488055
+2023-02-09,Azure DevOps,2.24930268472321
+2023-02-09,Azure Firewall,7.031399347116431
+2023-02-09,Azure Front Door Service,0.533877551020416
+2023-02-09,Azure Kubernetes Service,0.0
+2023-02-09,Azure Monitor,0.011927693960484
+2023-02-09,Azure Site Recovery,0.598357142857054
+2023-02-09,Azure Synapse Analytics,0.0
+2023-02-09,Backup,1.522713409353241
+2023-02-09,Bandwidth,0.045624534446421
+2023-02-09,Container Instances,0.0
+2023-02-09,Container Registry,2.224567328113694
+2023-02-09,Content Delivery Network,0.0
+2023-02-09,Event Hubs,0.0
+2023-02-09,ExpressRoute,0.0
+2023-02-09,Functions,7.655595388e-06
+2023-02-09,Insight and Analytics,0.0
+2023-02-09,Key Vault,1.2777919755e-05
+2023-02-09,Load Balancer,4.243606467650179
+2023-02-09,Log Analytics,2.1682196235545708
+2023-02-09,Logic Apps,5.088207574048141
+2023-02-09,Network Watcher,0.0
+2023-02-09,Redis Cache,2.93723739111339
+2023-02-09,SQL Database,0.118999491341752
+2023-02-09,Security Center,4.85736436148512
+2023-02-09,Service Bus,0.020373525232964
+2023-02-09,Storage,20.627111553879967
+2023-02-09,Unassigned,5.7599
+2023-02-09,VPN Gateway,0.0
+2023-02-09,Virtual Machines,26.260558966061183
+2023-02-09,Virtual Machines Licenses,0.0
+2023-02-09,Virtual Network,5.478820549092887
+2023-02-09,Virtual WAN,0.0
+2023-02-10,API Management,2.342391543712838
+2023-02-10,Advanced Data Security,0.35900198019802
+2023-02-10,Advanced Threat Protection,14.62998707736574
+2023-02-10,Application Gateway,6.053436079793284
+2023-02-10,Automation,0.009013567275324
+2023-02-10,Azure Active Directory for External Identities,0.0
+2023-02-10,Azure App Service,3.566397146933272
+2023-02-10,Azure Arc,0.0
+2023-02-10,Azure Arc Enabled Databases,0.0
+2023-02-10,Azure Bastion,0.0
+2023-02-10,Azure Container Apps,0.33697729857093
+2023-02-10,Azure Cosmos DB,0.0
+2023-02-10,Azure DNS,0.083530644778126
+2023-02-10,Azure Data Factory v2,0.0
+2023-02-10,Azure Database for MariaDB,3.731071428571429
+2023-02-10,Azure Database for MySQL,7.130204224226565
+2023-02-10,Azure Database for PostgreSQL,0.568229065663422
+2023-02-10,Azure Defender,1.0050511945392493
+2023-02-10,Azure DevOps,2.24930268472321
+2023-02-10,Azure Firewall,7.031399347116431
+2023-02-10,Azure Front Door Service,0.511632653061232
+2023-02-10,Azure Kubernetes Service,0.0
+2023-02-10,Azure Monitor,0.011927693960484
+2023-02-10,Azure Site Recovery,0.598357142857054
+2023-02-10,Azure Synapse Analytics,0.0
+2023-02-10,Backup,1.522713409353241
+2023-02-10,Bandwidth,0.043892358816667
+2023-02-10,Container Instances,0.0
+2023-02-10,Container Registry,2.224567328113694
+2023-02-10,Content Delivery Network,0.0
+2023-02-10,Event Hubs,0.0
+2023-02-10,ExpressRoute,0.0
+2023-02-10,Functions,0.00017241035448099998
+2023-02-10,Insight and Analytics,0.0
+2023-02-10,Key Vault,1.0648266462e-05
+2023-02-10,Load Balancer,4.509173108177813
+2023-02-10,Log Analytics,0.312438150163461
+2023-02-10,Logic Apps,5.088674574889286
+2023-02-10,Network Watcher,0.0
+2023-02-10,Redis Cache,2.93723739111339
+2023-02-10,SQL Database,3.0959135729957943
+2023-02-10,Security Center,4.827564664733064
+2023-02-10,Service Bus,0.000606170038001
+2023-02-10,Storage,20.032763862616534
+2023-02-10,Unassigned,5.7599
+2023-02-10,VPN Gateway,0.0
+2023-02-10,Virtual Machines,20.227167447369105
+2023-02-10,Virtual Machines Licenses,0.0
+2023-02-10,Virtual Network,5.691568865128831
+2023-02-10,Virtual WAN,0.0
+2023-02-11,API Management,2.342391543712838
+2023-02-11,Advanced Data Security,0.35900198019802
+2023-02-11,Advanced Threat Protection,14.567123004011874
+2023-02-11,Application Gateway,6.053436079793284
+2023-02-11,Automation,0.009037539528716
+2023-02-11,Azure Active Directory for External Identities,0.0
+2023-02-11,Azure App Service,3.566397146933272
+2023-02-11,Azure Arc,0.0
+2023-02-11,Azure Arc Enabled Databases,0.0
+2023-02-11,Azure Bastion,0.0
+2023-02-11,Azure Container Apps,0.39451000808304
+2023-02-11,Azure Cosmos DB,0.0
+2023-02-11,Azure DNS,0.083530644778126
+2023-02-11,Azure Data Factory v2,0.0
+2023-02-11,Azure Database for MariaDB,3.731071428571429
+2023-02-11,Azure Database for MySQL,7.130204224226565
+2023-02-11,Azure Database for PostgreSQL,0.568229065663422
+2023-02-11,Azure Defender,1.0050511945392493
+2023-02-11,Azure DevOps,2.24930268472321
+2023-02-11,Azure Firewall,7.031399347116431
+2023-02-11,Azure Front Door Service,0.533877551020416
+2023-02-11,Azure Kubernetes Service,0.0
+2023-02-11,Azure Monitor,0.011927693960484
+2023-02-11,Azure Site Recovery,0.598357142857054
+2023-02-11,Azure Synapse Analytics,0.0
+2023-02-11,Backup,1.522713409353241
+2023-02-11,Bandwidth,0.028085207661013002
+2023-02-11,Container Instances,0.0
+2023-02-11,Container Registry,2.224567328113694
+2023-02-11,Content Delivery Network,0.0
+2023-02-11,Event Hubs,0.0
+2023-02-11,ExpressRoute,0.0
+2023-02-11,Functions,0.000466602253646
+2023-02-11,Insight and Analytics,0.0
+2023-02-11,Key Vault,1.703722634e-05
+2023-02-11,Load Balancer,4.500662789281922
+2023-02-11,Log Analytics,0.37867691801096
+2023-02-11,Logic Apps,5.09400556037972
+2023-02-11,Network Watcher,0.0
+2023-02-11,Redis Cache,2.93723739111339
+2023-02-11,SQL Database,0.118999491341752
+2023-02-11,Security Center,4.291170123196076
+2023-02-11,Service Bus,0.009995542169119
+2023-02-11,Storage,20.318780802036404
+2023-02-11,Unassigned,5.7599
+2023-02-11,VPN Gateway,0.0
+2023-02-11,Virtual Machines,19.362820162827433
+2023-02-11,Virtual Machines Licenses,0.0
+2023-02-11,Virtual Network,5.777878070276928
+2023-02-11,Virtual WAN,0.0
+2023-02-12,API Management,2.342391543712838
+2023-02-12,Advanced Data Security,0.35900198019802
+2023-02-12,Advanced Threat Protection,14.565441880179735
+2023-02-12,Application Gateway,6.053436079793284
+2023-02-12,Automation,0.01066765275936
+2023-02-12,Azure Active Directory for External Identities,0.0
+2023-02-12,Azure App Service,3.566397146933272
+2023-02-12,Azure Arc,0.0
+2023-02-12,Azure Arc Enabled Databases,0.0
+2023-02-12,Azure Bastion,0.0
+2023-02-12,Azure Container Apps,0.39451000808304
+2023-02-12,Azure Cosmos DB,0.0
+2023-02-12,Azure DNS,0.083530644778126
+2023-02-12,Azure Data Factory v2,0.0
+2023-02-12,Azure Database for MariaDB,3.731071428571429
+2023-02-12,Azure Database for MySQL,7.130204224226566
+2023-02-12,Azure Database for PostgreSQL,0.568229065663422
+2023-02-12,Azure Defender,1.0050511945392493
+2023-02-12,Azure DevOps,2.24930268472321
+2023-02-12,Azure Firewall,7.031399347116431
+2023-02-12,Azure Front Door Service,0.533877551020416
+2023-02-12,Azure Kubernetes Service,0.0
+2023-02-12,Azure Monitor,0.011927693960484
+2023-02-12,Azure Site Recovery,0.598357142857054
+2023-02-12,Azure Synapse Analytics,0.0
+2023-02-12,Backup,1.522713409353241
+2023-02-12,Bandwidth,0.035408461318795
+2023-02-12,Container Instances,0.0
+2023-02-12,Container Registry,2.224567328113694
+2023-02-12,Content Delivery Network,0.0
+2023-02-12,Event Hubs,0.0
+2023-02-12,ExpressRoute,0.0
+2023-02-12,Functions,0.000385583572479
+2023-02-12,Insight and Analytics,0.0
+2023-02-12,Key Vault,8.51861317e-06
+2023-02-12,Load Balancer,4.501756899153798
+2023-02-12,Log Analytics,0.44304949327214405
+2023-02-12,Logic Apps,5.093091895743254
+2023-02-12,Network Watcher,0.0
+2023-02-12,Redis Cache,2.93723739111339
+2023-02-12,SQL Database,0.118999491341752
+2023-02-12,Security Center,4.291170123196076
+2023-02-12,Service Bus,0.019894952505574
+2023-02-12,Storage,20.32766234565968
+2023-02-12,Unassigned,5.7599
+2023-02-12,VPN Gateway,0.0
+2023-02-12,Virtual Machines,19.36278347668495
+2023-02-12,Virtual Machines Licenses,0.0
+2023-02-12,Virtual Network,5.777878070276928
+2023-02-12,Virtual WAN,0.0
+2023-02-13,API Management,2.342391543712838
+2023-02-13,Advanced Data Security,0.35900198019802
+2023-02-13,Advanced Threat Protection,14.618100723559824
+2023-02-13,Application Gateway,6.053436079793284
+2023-02-13,Automation,0.008989595021932001
+2023-02-13,Azure Active Directory for External Identities,0.0
+2023-02-13,Azure App Service,3.566397146933272
+2023-02-13,Azure Arc,0.0
+2023-02-13,Azure Arc Enabled Databases,0.0
+2023-02-13,Azure Bastion,0.0
+2023-02-13,Azure Container Apps,0.39451000808304
+2023-02-13,Azure Cosmos DB,0.0
+2023-02-13,Azure DNS,0.083530644778126
+2023-02-13,Azure Data Factory v2,0.0
+2023-02-13,Azure Database for MariaDB,3.731071428571429
+2023-02-13,Azure Database for MySQL,7.280786748498411
+2023-02-13,Azure Database for PostgreSQL,0.544552854594113
+2023-02-13,Azure Defender,1.0050511945392493
+2023-02-13,Azure DevOps,2.24930268472321
+2023-02-13,Azure Firewall,7.031399347116431
+2023-02-13,Azure Front Door Service,0.533877551020416
+2023-02-13,Azure Kubernetes Service,0.0
+2023-02-13,Azure Monitor,0.011927693960484
+2023-02-13,Azure Site Recovery,0.598357142857054
+2023-02-13,Azure Synapse Analytics,0.0
+2023-02-13,Backup,1.52280394005797
+2023-02-13,Bandwidth,0.035914940639237
+2023-02-13,Container Instances,0.0
+2023-02-13,Container Registry,2.224567328113694
+2023-02-13,Content Delivery Network,0.0
+2023-02-13,Event Hubs,0.0
+2023-02-13,ExpressRoute,0.0
+2023-02-13,Functions,0.000885672123028
+2023-02-13,Insight and Analytics,0.0
+2023-02-13,Key Vault,2.9815146094e-05
+2023-02-13,Load Balancer,4.500965949122908
+2023-02-13,Log Analytics,0.428312498140946
+2023-02-13,Logic Apps,5.096960161548049
+2023-02-13,Network Watcher,0.0
+2023-02-13,Redis Cache,2.93723739111339
+2023-02-13,SQL Database,0.118999491341752
+2023-02-13,Security Center,5.021262693621422
+2023-02-13,Service Bus,0.019942378263803
+2023-02-13,Storage,20.359828985533397
+2023-02-13,Unassigned,5.7599
+2023-02-13,VPN Gateway,0.0
+2023-02-13,Virtual Machines,19.363156425367197
+2023-02-13,Virtual Machines Licenses,0.0
+2023-02-13,Virtual Network,5.779587234679049
+2023-02-13,Virtual WAN,0.0
+2023-02-14,API Management,2.342391543712838
+2023-02-14,Advanced Data Security,0.35900198019802
+2023-02-14,Advanced Threat Protection,14.294786830343384
+2023-02-14,Application Gateway,6.053436079793284
+2023-02-14,Automation,0.010571763745791999
+2023-02-14,Azure Active Directory for External Identities,0.0
+2023-02-14,Azure App Service,3.566397146933272
+2023-02-14,Azure Arc,0.0
+2023-02-14,Azure Arc Enabled Databases,3.11578947368421
+2023-02-14,Azure Bastion,0.0
+2023-02-14,Azure Container Apps,0.424719991860539
+2023-02-14,Azure Cosmos DB,0.0
+2023-02-14,Azure DNS,0.083530644778126
+2023-02-14,Azure Data Factory v2,0.0
+2023-02-14,Azure Database for MariaDB,3.731071428571429
+2023-02-14,Azure Database for MySQL,7.130204224226565
+2023-02-14,Azure Database for PostgreSQL,0.568229065663422
+2023-02-14,Azure Defender,1.451740614334471
+2023-02-14,Azure DevOps,2.24930268472321
+2023-02-14,Azure Firewall,7.031399347116431
+2023-02-14,Azure Front Door Service,0.511632653061232
+2023-02-14,Azure Kubernetes Service,0.0
+2023-02-14,Azure Monitor,0.012623037641193999
+2023-02-14,Azure Site Recovery,0.598357142857054
+2023-02-14,Azure Synapse Analytics,0.0
+2023-02-14,Backup,1.522954824565852
+2023-02-14,Bandwidth,0.040727831485178
+2023-02-14,Container Instances,0.0
+2023-02-14,Container Registry,2.521998698771028
+2023-02-14,Content Delivery Network,0.0
+2023-02-14,Event Hubs,0.0
+2023-02-14,ExpressRoute,0.0
+2023-02-14,Functions,0.00058320904367
+2023-02-14,Insight and Analytics,0.0
+2023-02-14,Key Vault,2.3426186217e-05
+2023-02-14,Load Balancer,4.987218259102243
+2023-02-14,Log Analytics,0.373826182198961
+2023-02-14,Logic Apps,5.229033729160988
+2023-02-14,Network Watcher,0.0
+2023-02-14,Redis Cache,2.93723739111339
+2023-02-14,SQL Database,0.118999491341752
+2023-02-14,Security Center,4.708365877724845
+2023-02-14,Service Bus,0.010159241809775
+2023-02-14,Storage,20.23388757694931
+2023-02-14,Unassigned,5.7599
+2023-02-14,VPN Gateway,0.0
+2023-02-14,Virtual Machines,21.141877821663975
+2023-02-14,Virtual Machines Licenses,0.0
+2023-02-14,Virtual Network,5.780336471509562
+2023-02-14,Virtual WAN,0.0
+2023-02-15,API Management,2.342391543712838
+2023-02-15,Advanced Data Security,0.35900198019802
+2023-02-15,Advanced Threat Protection,15.118614703492966
+2023-02-15,Application Gateway,6.053436079793284
+2023-02-15,Automation,0.008989595021932001
+2023-02-15,Azure Active Directory for External Identities,0.0
+2023-02-15,Azure App Service,3.566397146933272
+2023-02-15,Azure Arc,0.0
+2023-02-15,Azure Arc Enabled Databases,5.608421052631578
+2023-02-15,Azure Bastion,0.0
+2023-02-15,Azure Container Apps,0.39599251435176197
+2023-02-15,Azure Cosmos DB,0.0
+2023-02-15,Azure DNS,0.083530644778126
+2023-02-15,Azure Data Factory v2,0.0
+2023-02-15,Azure Database for MariaDB,3.731071428571429
+2023-02-15,Azure Database for MySQL,7.130204224226565
+2023-02-15,Azure Database for PostgreSQL,0.568229065663422
+2023-02-15,Azure Defender,1.451740614334471
+2023-02-15,Azure DevOps,2.24930268472321
+2023-02-15,Azure Firewall,7.031399347116431
+2023-02-15,Azure Front Door Service,0.511632653061232
+2023-02-15,Azure Kubernetes Service,0.0
+2023-02-15,Azure Monitor,0.016099756044741998
+2023-02-15,Azure Site Recovery,0.598357142857054
+2023-02-15,Azure Synapse Analytics,0.0
+2023-02-15,Backup,1.522954824565852
+2023-02-15,Bandwidth,0.032263480292997
+2023-02-15,Container Instances,0.0
+2023-02-15,Container Registry,3.205727984266011
+2023-02-15,Content Delivery Network,0.0
+2023-02-15,Event Hubs,0.0
+2023-02-15,ExpressRoute,0.0
+2023-02-15,Functions,0.000581587704964
+2023-02-15,Insight and Analytics,0.0
+2023-02-15,Key Vault,9.1575091575e-05
+2023-02-15,Load Balancer,5.902532431749077
+2023-02-15,Log Analytics,0.403769177686277
+2023-02-15,Logic Apps,5.199026862465674
+2023-02-15,Network Watcher,0.0
+2023-02-15,Redis Cache,2.93723739111339
+2023-02-15,SQL Database,0.118999491341752
+2023-02-15,Security Center,4.812664816357037
+2023-02-15,Service Bus,0.010093439376472
+2023-02-15,Storage,19.680729720651293
+2023-02-15,Unassigned,5.7599
+2023-02-15,VPN Gateway,0.0
+2023-02-15,Virtual Machines,22.35130536842463
+2023-02-15,Virtual Machines Licenses,0.0
+2023-02-15,Virtual Network,5.843505666727567
+2023-02-15,Virtual WAN,0.0
+2023-02-16,API Management,2.342391543712838
+2023-02-16,Advanced Data Security,0.598336633663366
+2023-02-16,Advanced Threat Protection,15.095987832632629
+2023-02-16,Application Gateway,6.053436079793284
+2023-02-16,Automation,0.0076711210853820004
+2023-02-16,Azure Active Directory for External Identities,0.0
+2023-02-16,Azure App Service,3.566397146933272
+2023-02-16,Azure Arc,0.0
+2023-02-16,Azure Arc Enabled Databases,0.0
+2023-02-16,Azure Bastion,0.0
+2023-02-16,Azure Container Apps,0.400665243822342
+2023-02-16,Azure Cosmos DB,0.0
+2023-02-16,Azure DNS,0.084304767238413
+2023-02-16,Azure Data Factory v2,0.0
+2023-02-16,Azure Database for MariaDB,3.731071428571429
+2023-02-16,Azure Database for MySQL,7.130204224226566
+2023-02-16,Azure Database for PostgreSQL,0.568229065663422
+2023-02-16,Azure Defender,1.0050511945392493
+2023-02-16,Azure DevOps,2.24930268472321
+2023-02-16,Azure Firewall,7.031399347116431
+2023-02-16,Azure Front Door Service,0.732324152962168
+2023-02-16,Azure Kubernetes Service,0.0
+2023-02-16,Azure Monitor,0.016113076353773
+2023-02-16,Azure Site Recovery,0.598357142857054
+2023-02-16,Azure Synapse Analytics,0.0
+2023-02-16,Backup,1.522954824565852
+2023-02-16,Bandwidth,0.0324110556782
+2023-02-16,Container Instances,0.0
+2023-02-16,Container Registry,3.448605267151995
+2023-02-16,Content Delivery Network,0.0
+2023-02-16,Event Hubs,0.0
+2023-02-16,ExpressRoute,0.0
+2023-02-16,Functions,0.0010421089824009999
+2023-02-16,Insight and Analytics,0.0
+2023-02-16,Key Vault,0.000129908850839
+2023-02-16,Load Balancer,6.00814928133652
+2023-02-16,Log Analytics,0.451684756289423
+2023-02-16,Logic Apps,5.098171975521511
+2023-02-16,Network Watcher,0.0
+2023-02-16,Redis Cache,2.93723739111339
+2023-02-16,SQL Database,0.118999491341752
+2023-02-16,Security Center,5.6470563254145745
+2023-02-16,Service Bus,0.010099965856962
+2023-02-16,Storage,20.36401974743752
+2023-02-16,Unassigned,5.7599
+2023-02-16,VPN Gateway,0.0
+2023-02-16,Virtual Machines,24.633377208791
+2023-02-16,Virtual Machines Licenses,0.0
+2023-02-16,Virtual Network,5.777878070276928
+2023-02-16,Virtual WAN,0.0
+2023-02-17,API Management,2.342391543712838
+2023-02-17,Advanced Data Security,1.07700594059406
+2023-02-17,Advanced Threat Protection,15.09188481092303
+2023-02-17,Application Gateway,6.053436079793284
+2023-02-17,Automation,0.007599204325206
+2023-02-17,Azure Active Directory for External Identities,0.0
+2023-02-17,Azure App Service,3.566397146933272
+2023-02-17,Azure Arc,0.0
+2023-02-17,Azure Arc Enabled Databases,0.0
+2023-02-17,Azure Bastion,0.0
+2023-02-17,Azure Container Apps,0.526680291045206
+2023-02-17,Azure Cosmos DB,0.0
+2023-02-17,Azure DNS,0.083530644778126
+2023-02-17,Azure Data Factory v2,0.0
+2023-02-17,Azure Database for MariaDB,3.731071428571429
+2023-02-17,Azure Database for MySQL,7.130204224226565
+2023-02-17,Azure Database for PostgreSQL,0.568229065663422
+2023-02-17,Azure Defender,1.0050511945392493
+2023-02-17,Azure DevOps,2.24930268472321
+2023-02-17,Azure Firewall,2.706030783460283
+2023-02-17,Azure Front Door Service,1.129217356845672
+2023-02-17,Azure Kubernetes Service,0.0
+2023-02-17,Azure Monitor,0.016126396662803997
+2023-02-17,Azure Site Recovery,0.598357142857054
+2023-02-17,Azure Synapse Analytics,0.0
+2023-02-17,Backup,1.522954824565852
+2023-02-17,Bandwidth,0.036638755087926
+2023-02-17,Container Instances,0.0
+2023-02-17,Container Registry,3.63171457414301
+2023-02-17,Content Delivery Network,0.0
+2023-02-17,Event Hubs,0.0
+2023-02-17,ExpressRoute,0.0
+2023-02-17,Functions,0.00038783884158199994
+2023-02-17,Insight and Analytics,0.0
+2023-02-17,Key Vault,1.9166879632e-05
+2023-02-17,Load Balancer,5.726831398231884
+2023-02-17,Log Analytics,0.477699660805521
+2023-02-17,Logic Apps,5.077482127647924
+2023-02-17,Network Watcher,0.0
+2023-02-17,Redis Cache,2.93723739111339
+2023-02-17,SQL Database,0.118999491341752
+2023-02-17,Security Center,5.617256628662519
+2023-02-17,Service Bus,0.010143040628198
+2023-02-17,Storage,21.440716009354453
+2023-02-17,Unassigned,5.7599
+2023-02-17,VPN Gateway,0.0
+2023-02-17,Virtual Machines,29.841912018041917
+2023-02-17,Virtual Machines Licenses,0.0
+2023-02-17,Virtual Network,5.659226294731759
+2023-02-17,Virtual WAN,0.0
+2023-02-18,API Management,2.342391543712838
+2023-02-18,Advanced Data Security,1.07700594059406
+2023-02-18,Advanced Threat Protection,15.054689326166098
+2023-02-18,Application Gateway,6.053436079793284
+2023-02-18,Automation,0.009061511782107
+2023-02-18,Azure Active Directory for External Identities,0.0
+2023-02-18,Azure App Service,3.566397146933272
+2023-02-18,Azure Arc,0.0
+2023-02-18,Azure Arc Enabled Databases,0.0
+2023-02-18,Azure Bastion,0.0
+2023-02-18,Azure Container Apps,0.78902001616608
+2023-02-18,Azure Cosmos DB,0.0
+2023-02-18,Azure DNS,0.083530644778126
+2023-02-18,Azure Data Factory v2,0.0
+2023-02-18,Azure Database for MariaDB,3.731071428571429
+2023-02-18,Azure Database for MySQL,7.130204224226565
+2023-02-18,Azure Database for PostgreSQL,0.568229065663422
+2023-02-18,Azure Defender,1.0050511945392493
+2023-02-18,Azure DevOps,2.24930268472321
+2023-02-18,Azure Firewall,0.0
+2023-02-18,Azure Front Door Service,1.129217356845672
+2023-02-18,Azure Kubernetes Service,0.0
+2023-02-18,Azure Monitor,0.016099756044741998
+2023-02-18,Azure Site Recovery,0.598357142857054
+2023-02-18,Azure Synapse Analytics,0.0
+2023-02-18,Backup,1.522954824565852
+2023-02-18,Bandwidth,0.037316567087055
+2023-02-18,Container Instances,0.0
+2023-02-18,Container Registry,3.213874367914178
+2023-02-18,Content Delivery Network,0.0
+2023-02-18,Event Hubs,0.0
+2023-02-18,ExpressRoute,0.0
+2023-02-18,Functions,0.00029589913924
+2023-02-18,Insight and Analytics,0.0
+2023-02-18,Key Vault,1.9166879632e-05
+2023-02-18,Load Balancer,5.397788410574081
+2023-02-18,Log Analytics,0.538699624247026
+2023-02-18,Logic Apps,5.08750679218287
+2023-02-18,Network Watcher,0.0
+2023-02-18,Redis Cache,2.93723739111339
+2023-02-18,SQL Database,0.118999491341752
+2023-02-18,Security Center,5.363959206270053
+2023-02-18,Service Bus,0.019918985463739002
+2023-02-18,Storage,21.524009794096685
+2023-02-18,Unassigned,5.7599
+2023-02-18,VPN Gateway,0.0
+2023-02-18,Virtual Machines,30.61840944764005
+2023-02-18,Virtual Machines Licenses,0.0
+2023-02-18,Virtual Network,5.511482752760592
+2023-02-18,Virtual WAN,0.0
+2023-02-19,API Management,2.342391543712838
+2023-02-19,Advanced Data Security,1.07700594059406
+2023-02-19,Advanced Threat Protection,15.054802244330197
+2023-02-19,Application Gateway,6.053436079793284
+2023-02-19,Automation,0.010643680505968
+2023-02-19,Azure Active Directory for External Identities,0.0
+2023-02-19,Azure App Service,3.566397146933272
+2023-02-19,Azure Arc,0.0
+2023-02-19,Azure Arc Enabled Databases,0.0
+2023-02-19,Azure Bastion,0.0
+2023-02-19,Azure Container Apps,0.78902001616608
+2023-02-19,Azure Cosmos DB,0.0
+2023-02-19,Azure DNS,0.083530644778126
+2023-02-19,Azure Data Factory v2,0.0
+2023-02-19,Azure Database for MariaDB,3.731071428571429
+2023-02-19,Azure Database for MySQL,7.130204224226565
+2023-02-19,Azure Database for PostgreSQL,0.568229065663422
+2023-02-19,Azure Defender,1.0050511945392493
+2023-02-19,Azure DevOps,2.24930268472321
+2023-02-19,Azure Firewall,0.0
+2023-02-19,Azure Front Door Service,1.129217356845672
+2023-02-19,Azure Kubernetes Service,0.0
+2023-02-19,Azure Monitor,0.016099756044741998
+2023-02-19,Azure Site Recovery,0.598357142857054
+2023-02-19,Azure Synapse Analytics,0.0
+2023-02-19,Backup,1.522954824565852
+2023-02-19,Bandwidth,0.041181793460431
+2023-02-19,Container Instances,0.0
+2023-02-19,Container Registry,3.213874367914178
+2023-02-19,Content Delivery Network,0.0
+2023-02-19,Event Hubs,0.0
+2023-02-19,ExpressRoute,0.0
+2023-02-19,Functions,0.00016021335629
+2023-02-19,Insight and Analytics,0.0
+2023-02-19,Key Vault,1.0648266462e-05
+2023-02-19,Load Balancer,5.398828645940157
+2023-02-19,Log Analytics,0.6032011447997451
+2023-02-19,Logic Apps,5.085827535972489
+2023-02-19,Network Watcher,0.0
+2023-02-19,Redis Cache,2.93723739111339
+2023-02-19,SQL Database,0.118999491341752
+2023-02-19,Security Center,5.363959206270053
+2023-02-19,Service Bus,0.019894952505574
+2023-02-19,Storage,21.485196103464208
+2023-02-19,Unassigned,5.7599
+2023-02-19,VPN Gateway,0.0
+2023-02-19,Virtual Machines,30.61785345645515
+2023-02-19,Virtual Machines Licenses,0.0
+2023-02-19,Virtual Network,5.511482752760592
+2023-02-19,Virtual WAN,0.0
+2023-02-20,API Management,2.342391543712838
+2023-02-20,Advanced Data Security,1.07700594059406
+2023-02-20,Advanced Threat Protection,14.799705601596813
+2023-02-20,Application Gateway,6.053436079793284
+2023-02-20,Automation,0.009157400795675001
+2023-02-20,Azure Active Directory for External Identities,0.0
+2023-02-20,Azure App Service,3.566397146933272
+2023-02-20,Azure Arc,0.0
+2023-02-20,Azure Arc Enabled Databases,0.0
+2023-02-20,Azure Bastion,0.0
+2023-02-20,Azure Container Apps,0.568477963036325
+2023-02-20,Azure Cosmos DB,0.0
+2023-02-20,Azure DNS,0.083530644778126
+2023-02-20,Azure Data Factory v2,0.0
+2023-02-20,Azure Database for MariaDB,3.731071428571429
+2023-02-20,Azure Database for MySQL,7.130204224226565
+2023-02-20,Azure Database for PostgreSQL,0.568229065663422
+2023-02-20,Azure Defender,0.977133105802048
+2023-02-20,Azure DevOps,2.24930268472321
+2023-02-20,Azure Firewall,0.0
+2023-02-20,Azure Front Door Service,1.4406459282742479
+2023-02-20,Azure Kubernetes Service,0.0
+2023-02-20,Azure Monitor,0.016099756044741998
+2023-02-20,Azure Site Recovery,0.598357142857054
+2023-02-20,Azure Synapse Analytics,0.0
+2023-02-20,Backup,1.522880839318238
+2023-02-20,Bandwidth,0.030063382886311
+2023-02-20,Container Instances,0.0
+2023-02-20,Container Registry,3.1436358002209106
+2023-02-20,Content Delivery Network,0.0
+2023-02-20,Event Hubs,0.0
+2023-02-20,ExpressRoute,0.0
+2023-02-20,Functions,0.001109692602318
+2023-02-20,Insight and Analytics,0.0
+2023-02-20,Key Vault,9.1575091575e-05
+2023-02-20,Load Balancer,5.400764443452521
+2023-02-20,Log Analytics,0.5366696720549571
+2023-02-20,Logic Apps,2.5874013738571997
+2023-02-20,Network Watcher,0.0
+2023-02-20,Redis Cache,2.93723739111339
+2023-02-20,SQL Database,0.118999491341752
+2023-02-20,Security Center,5.498055830481357
+2023-02-20,Service Bus,0.019980666949345
+2023-02-20,Storage,21.712699149831977
+2023-02-20,Unassigned,5.7599
+2023-02-20,VPN Gateway,0.0
+2023-02-20,Virtual Machines,32.298409447640054
+2023-02-20,Virtual Machines Licenses,0.0
+2023-02-20,Virtual Network,5.5329197648468424
+2023-02-20,Virtual WAN,0.0
+2023-02-21,API Management,2.342391543712838
+2023-02-21,Advanced Data Security,1.07700594059406
+2023-02-21,Advanced Threat Protection,14.569377469920571
+2023-02-21,Application Gateway,6.053436079793284
+2023-02-21,Automation,0.0105477914924
+2023-02-21,Azure Active Directory for External Identities,0.0
+2023-02-21,Azure App Service,3.566397146933272
+2023-02-21,Azure Arc,0.0
+2023-02-21,Azure Arc Enabled Databases,0.0
+2023-02-21,Azure Bastion,0.0
+2023-02-21,Azure Container Apps,0.18903604553979
+2023-02-21,Azure Cosmos DB,0.0
+2023-02-21,Azure DNS,0.073874209442556
+2023-02-21,Azure Data Factory v2,0.0
+2023-02-21,Azure Database for MariaDB,3.731071428571429
+2023-02-21,Azure Database for MySQL,7.130204224226565
+2023-02-21,Azure Database for PostgreSQL,0.260438321762402
+2023-02-21,Azure Defender,0.80962457337884
+2023-02-21,Azure DevOps,2.24930268472321
+2023-02-21,Azure Firewall,0.0
+2023-02-21,Azure Front Door Service,1.663094907866088
+2023-02-21,Azure Kubernetes Service,0.0
+2023-02-21,Azure Monitor,0.016099756044741998
+2023-02-21,Azure Site Recovery,0.598357142857054
+2023-02-21,Azure Synapse Analytics,0.0
+2023-02-21,Backup,1.5228561775690341
+2023-02-21,Bandwidth,0.060354907330199
+2023-02-21,Container Instances,0.0
+2023-02-21,Container Registry,2.856257118509213
+2023-02-21,Content Delivery Network,0.0
+2023-02-21,Event Hubs,0.0
+2023-02-21,ExpressRoute,0.0
+2023-02-21,Functions,0.0009272048737570001
+2023-02-21,Insight and Analytics,0.0
+2023-02-21,Key Vault,7.2408211943e-05
+2023-02-21,Load Balancer,4.968863963379663
+2023-02-21,Log Analytics,0.319386449557794
+2023-02-21,Logic Apps,0.643257462657825
+2023-02-21,Network Watcher,0.0
+2023-02-21,Redis Cache,1.31155808505966
+2023-02-21,SQL Database,0.118999491341752
+2023-02-21,Security Center,5.036159094272405
+2023-02-21,Service Bus,0.02010520770706
+2023-02-21,Storage,21.03837521089961
+2023-02-21,Unassigned,3.7719400000000003
+2023-02-21,VPN Gateway,0.0
+2023-02-21,Virtual Machines,27.36666515081053
+2023-02-21,Virtual Machines Licenses,0.0
+2023-02-21,Virtual Network,5.417061440200629
+2023-02-21,Virtual WAN,0.0
+2023-02-22,API Management,2.342391543712838
+2023-02-22,Advanced Data Security,1.07700594059406
+2023-02-22,Advanced Threat Protection,14.749064699260478
+2023-02-22,Application Gateway,6.053436079793284
+2023-02-22,Automation,0.00949301234316
+2023-02-22,Azure Active Directory for External Identities,0.0
+2023-02-22,Azure App Service,3.566397146933272
+2023-02-22,Azure Arc,0.0
+2023-02-22,Azure Arc Enabled Databases,0.0
+2023-02-22,Azure Bastion,0.0
+2023-02-22,Azure Container Apps,0.0
+2023-02-22,Azure Cosmos DB,0.0
+2023-02-22,Azure DNS,0.05966474627009
+2023-02-22,Azure Data Factory v2,0.0
+2023-02-22,Azure Database for MariaDB,3.731071428571429
+2023-02-22,Azure Database for MySQL,7.130204224226565
+2023-02-22,Azure Database for PostgreSQL,0.0
+2023-02-22,Azure Defender,0.670034129692833
+2023-02-22,Azure DevOps,2.24930268472321
+2023-02-22,Azure Firewall,0.0
+2023-02-22,Azure Front Door Service,1.098486229443252
+2023-02-22,Azure Kubernetes Service,0.0
+2023-02-22,Azure Monitor,0.016099756044741998
+2023-02-22,Azure Site Recovery,0.598357142857054
+2023-02-22,Azure Synapse Analytics,0.0
+2023-02-22,Backup,1.5228561775690341
+2023-02-22,Bandwidth,0.157212581500286
+2023-02-22,Container Instances,1.04932156584551
+2023-02-22,Container Registry,2.719220848013936
+2023-02-22,Content Delivery Network,0.0
+2023-02-22,Event Hubs,0.0
+2023-02-22,ExpressRoute,0.0
+2023-02-22,Functions,0.00042436334724
+2023-02-22,Insight and Analytics,0.0
+2023-02-22,Key Vault,4.6852372434e-05
+2023-02-22,Load Balancer,4.497888130851643
+2023-02-22,Log Analytics,0.28931871707157
+2023-02-22,Logic Apps,0.7017538834566589
+2023-02-22,Network Watcher,0.0
+2023-02-22,Redis Cache,0.0
+2023-02-22,SQL Database,0.118999491341752
+2023-02-22,Security Center,4.1123684949587025
+2023-02-22,Service Bus,0.020112501855248002
+2023-02-22,Storage,20.702987032001214
+2023-02-22,Unassigned,0.0
+2023-02-22,VPN Gateway,0.0
+2023-02-22,Virtual Machines,20.753702708275195
+2023-02-22,Virtual Machines Licenses,0.0
+2023-02-22,Virtual Network,5.2450874352442565
+2023-02-22,Virtual WAN,0.0
+2023-02-23,API Management,2.342391543712838
+2023-02-23,Advanced Data Security,1.1966732673267328
+2023-02-23,Advanced Threat Protection,14.766077736293779
+2023-02-23,Application Gateway,6.053436079793284
+2023-02-23,Automation,0.009157400795675
+2023-02-23,Azure Active Directory for External Identities,0.0
+2023-02-23,Azure App Service,3.566397146933272
+2023-02-23,Azure Arc,0.0
+2023-02-23,Azure Arc Enabled Databases,0.0
+2023-02-23,Azure Bastion,0.0
+2023-02-23,Azure Container Apps,0.0
+2023-02-23,Azure Cosmos DB,1.624662694000975
+2023-02-23,Azure DNS,0.059847469555541995
+2023-02-23,Azure Data Factory v2,0.0
+2023-02-23,Azure Database for MariaDB,3.731071428571429
+2023-02-23,Azure Database for MySQL,7.130204224226565
+2023-02-23,Azure Database for PostgreSQL,0.0
+2023-02-23,Azure Defender,0.670034129692833
+2023-02-23,Azure DevOps,2.24930268472321
+2023-02-23,Azure Firewall,0.0
+2023-02-23,Azure Front Door Service,0.511632653061232
+2023-02-23,Azure Kubernetes Service,0.0
+2023-02-23,Azure Monitor,0.016099756044741998
+2023-02-23,Azure Site Recovery,0.598357142857054
+2023-02-23,Azure Synapse Analytics,0.0
+2023-02-23,Backup,1.522856177569034
+2023-02-23,Bandwidth,0.070815362840921
+2023-02-23,Container Instances,2.0231883072166488
+2023-02-23,Container Registry,2.719220848013936
+2023-02-23,Content Delivery Network,0.0
+2023-02-23,Event Hubs,0.0
+2023-02-23,ExpressRoute,0.0
+2023-02-23,Functions,0.000593676476039
+2023-02-23,Insight and Analytics,0.0
+2023-02-23,Key Vault,6.1759945481e-05
+2023-02-23,Load Balancer,4.499299227032978
+2023-02-23,Log Analytics,0.324892414945164
+2023-02-23,Logic Apps,0.702940919176338
+2023-02-23,Network Watcher,0.0
+2023-02-23,Redis Cache,0.0
+2023-02-23,SQL Database,0.118999491341752
+2023-02-23,Security Center,4.171967888462814
+2023-02-23,Service Bus,0.019894952505574
+2023-02-23,Storage,21.924625925710146
+2023-02-23,Unassigned,0.0
+2023-02-23,VPN Gateway,0.0
+2023-02-23,Virtual Machines,22.420421281237704
+2023-02-23,Virtual Machines Licenses,0.0
+2023-02-23,Virtual Network,5.261257143746574
+2023-02-23,Virtual WAN,0.0
+2023-02-24,API Management,2.342391543712838
+2023-02-24,Advanced Data Security,1.07700594059406
+2023-02-24,Advanced Threat Protection,14.777547025008284
+2023-02-24,Application Gateway,6.053436079793284
+2023-02-24,Automation,0.010451902478833
+2023-02-24,Azure Active Directory for External Identities,0.0
+2023-02-24,Azure App Service,3.566397146933272
+2023-02-24,Azure Arc,0.0
+2023-02-24,Azure Arc Enabled Databases,0.0
+2023-02-24,Azure Bastion,0.0
+2023-02-24,Azure Container Apps,0.0
+2023-02-24,Azure Cosmos DB,2.763112464979764
+2023-02-24,Azure DNS,0.060538586199838
+2023-02-24,Azure Data Factory v2,0.0
+2023-02-24,Azure Database for MariaDB,3.731071428571429
+2023-02-24,Azure Database for MySQL,7.130204224226566
+2023-02-24,Azure Database for PostgreSQL,0.0
+2023-02-24,Azure Defender,0.670034129692833
+2023-02-24,Azure DevOps,2.24930268472321
+2023-02-24,Azure Firewall,0.0
+2023-02-24,Azure Front Door Service,0.533877551020416
+2023-02-24,Azure Kubernetes Service,0.0
+2023-02-24,Azure Monitor,0.016099756044741998
+2023-02-24,Azure Site Recovery,0.598357142857054
+2023-02-24,Azure Synapse Analytics,0.0
+2023-02-24,Backup,1.522856177569034
+2023-02-24,Bandwidth,0.032382601549205
+2023-02-24,Container Instances,2.02313806474727
+2023-02-24,Container Registry,2.719220848013936
+2023-02-24,Content Delivery Network,0.0
+2023-02-24,Event Hubs,0.022299489679336
+2023-02-24,ExpressRoute,0.0
+2023-02-24,Functions,0.000962716042724
+2023-02-24,Insight and Analytics,0.0
+2023-02-24,Key Vault,3.1944799387e-05
+2023-02-24,Load Balancer,4.501949484152168
+2023-02-24,Log Analytics,0.217802969630734
+2023-02-24,Logic Apps,0.7009928385829941
+2023-02-24,Network Watcher,0.0
+2023-02-24,Redis Cache,0.0
+2023-02-24,SQL Database,0.118999491341752
+2023-02-24,Security Center,3.8888707693182907
+2023-02-24,Service Bus,0.020181682548444
+2023-02-24,Storage,24.349434062584702
+2023-02-24,Unassigned,0.0
+2023-02-24,VPN Gateway,0.0
+2023-02-24,Virtual Machines,17.559498054814554
+2023-02-24,Virtual Machines Licenses,0.0
+2023-02-24,Virtual Network,5.299510293237158
+2023-02-24,Virtual WAN,0.0
+2023-02-25,API Management,2.342391543712838
+2023-02-25,Advanced Data Security,1.07700594059406
+2023-02-25,Advanced Threat Protection,14.744996566791228
+2023-02-25,Application Gateway,6.053436079793284
+2023-02-25,Automation,0.01212996021626
+2023-02-25,Azure Active Directory for External Identities,0.0
+2023-02-25,Azure App Service,3.566397146933272
+2023-02-25,Azure Arc,0.0
+2023-02-25,Azure Arc Enabled Databases,0.0
+2023-02-25,Azure Bastion,0.0
+2023-02-25,Azure Container Apps,0.0
+2023-02-25,Azure Cosmos DB,2.561511984702273
+2023-02-25,Azure DNS,0.05966474627009
+2023-02-25,Azure Data Factory v2,0.0
+2023-02-25,Azure Database for MariaDB,3.731071428571429
+2023-02-25,Azure Database for MySQL,7.130204224226565
+2023-02-25,Azure Database for PostgreSQL,0.0
+2023-02-25,Azure Defender,0.670034129692833
+2023-02-25,Azure DevOps,2.24930268472321
+2023-02-25,Azure Firewall,0.0
+2023-02-25,Azure Front Door Service,0.533877551020416
+2023-02-25,Azure Kubernetes Service,0.0
+2023-02-25,Azure Monitor,0.016099756044741998
+2023-02-25,Azure Site Recovery,0.598357142857054
+2023-02-25,Azure Synapse Analytics,0.0
+2023-02-25,Backup,1.5228561775690341
+2023-02-25,Bandwidth,0.026867201616709
+2023-02-25,Container Instances,2.023140742201087
+2023-02-25,Container Registry,2.719220848013936
+2023-02-25,Content Delivery Network,0.0
+2023-02-25,Event Hubs,0.0
+2023-02-25,ExpressRoute,0.0
+2023-02-25,Functions,0.001244679389754
+2023-02-25,Insight and Analytics,0.0
+2023-02-25,Key Vault,4.8982025726e-05
+2023-02-25,Load Balancer,4.498441663521937
+2023-02-25,Log Analytics,0.198140021887031
+2023-02-25,Logic Apps,0.704664211288173
+2023-02-25,Network Watcher,0.0
+2023-02-25,Redis Cache,0.0
+2023-02-25,SQL Database,0.118999491341752
+2023-02-25,Security Center,3.5759739534217148
+2023-02-25,Service Bus,0.019918985463739002
+2023-02-25,Storage,24.874216421246153
+2023-02-25,Unassigned,0.0
+2023-02-25,VPN Gateway,0.0
+2023-02-25,Virtual Machines,16.96174983159492
+2023-02-25,Virtual Machines Licenses,0.0
+2023-02-25,Virtual Network,5.333885874416368
+2023-02-25,Virtual WAN,0.0
+2023-02-26,API Management,2.342391543712838
+2023-02-26,Advanced Data Security,1.07700594059406
+2023-02-26,Advanced Threat Protection,9.900595161315357
+2023-02-26,Application Gateway,6.053436079793284
+2023-02-26,Automation,0.010499846985617
+2023-02-26,Azure Active Directory for External Identities,0.0
+2023-02-26,Azure App Service,3.566397146933272
+2023-02-26,Azure Arc,0.0
+2023-02-26,Azure Arc Enabled Databases,0.0
+2023-02-26,Azure Bastion,0.0
+2023-02-26,Azure Container Apps,0.0
+2023-02-26,Azure Cosmos DB,2.561511984702273
+2023-02-26,Azure DNS,0.05966474627009
+2023-02-26,Azure Data Factory v2,0.0
+2023-02-26,Azure Database for MariaDB,3.731071428571429
+2023-02-26,Azure Database for MySQL,7.130204224226565
+2023-02-26,Azure Database for PostgreSQL,0.0
+2023-02-26,Azure Defender,0.670034129692833
+2023-02-26,Azure DevOps,2.24930268472321
+2023-02-26,Azure Firewall,0.0
+2023-02-26,Azure Front Door Service,0.511632653061232
+2023-02-26,Azure Kubernetes Service,0.0
+2023-02-26,Azure Monitor,0.016099756044741998
+2023-02-26,Azure Site Recovery,0.598357142857054
+2023-02-26,Azure Synapse Analytics,0.0
+2023-02-26,Backup,1.5228561775690341
+2023-02-26,Bandwidth,0.03988569628638
+2023-02-26,Container Instances,2.023176105839344
+2023-02-26,Container Registry,2.719220848013936
+2023-02-26,Content Delivery Network,0.0
+2023-02-26,Event Hubs,0.0
+2023-02-26,ExpressRoute,0.0
+2023-02-26,Functions,0.000173624557193
+2023-02-26,Insight and Analytics,0.0
+2023-02-26,Key Vault,1.2777919755e-05
+2023-02-26,Load Balancer,4.499224118025479
+2023-02-26,Log Analytics,0.19193748325898902
+2023-02-26,Logic Apps,0.7044961451217799
+2023-02-26,Network Watcher,0.0
+2023-02-26,Redis Cache,0.0
+2023-02-26,SQL Database,0.118999491341752
+2023-02-26,Security Center,3.5759739534217148
+2023-02-26,Service Bus,0.019894952505574
+2023-02-26,Storage,24.883523385737107
+2023-02-26,Unassigned,0.0
+2023-02-26,VPN Gateway,0.0
+2023-02-26,Virtual Machines,16.96174983159492
+2023-02-26,Virtual Machines Licenses,0.0
+2023-02-26,Virtual Network,5.333885874416368
+2023-02-26,Virtual WAN,0.0
+2023-02-27,API Management,2.342391543712838
+2023-02-27,Advanced Data Security,1.07700594059406
+2023-02-27,Advanced Threat Protection,14.781466089660881
+2023-02-27,Application Gateway,6.053436079793284
+2023-02-27,Automation,0.010499846985616
+2023-02-27,Azure Active Directory for External Identities,0.0
+2023-02-27,Azure App Service,3.566397146933272
+2023-02-27,Azure Arc,0.0
+2023-02-27,Azure Arc Enabled Databases,0.0
+2023-02-27,Azure Bastion,0.0
+2023-02-27,Azure Container Apps,0.0
+2023-02-27,Azure Cosmos DB,2.561511984702273
+2023-02-27,Azure DNS,0.05966474627009
+2023-02-27,Azure Data Factory v2,0.0
+2023-02-27,Azure Database for MariaDB,3.731071428571429
+2023-02-27,Azure Database for MySQL,7.130204224226565
+2023-02-27,Azure Database for PostgreSQL,0.0
+2023-02-27,Azure Defender,0.670034129692833
+2023-02-27,Azure DevOps,2.24930268472321
+2023-02-27,Azure Firewall,0.0
+2023-02-27,Azure Front Door Service,0.48938775510204796
+2023-02-27,Azure Kubernetes Service,0.0
+2023-02-27,Azure Monitor,0.016099756044741998
+2023-02-27,Azure Site Recovery,0.598357142857054
+2023-02-27,Azure Synapse Analytics,0.0
+2023-02-27,Backup,1.522925001435636
+2023-02-27,Bandwidth,0.037509469456218
+2023-02-27,Container Instances,2.0231383708600736
+2023-02-27,Container Registry,2.719220848013936
+2023-02-27,Content Delivery Network,0.0
+2023-02-27,Event Hubs,0.0
+2023-02-27,ExpressRoute,0.0
+2023-02-27,Functions,0.003453137525026
+2023-02-27,Insight and Analytics,0.0
+2023-02-27,Key Vault,0.000161853650226
+2023-02-27,Load Balancer,4.498535359439975
+2023-02-27,Log Analytics,0.223667237056723
+2023-02-27,Logic Apps,0.7003384003096189
+2023-02-27,Network Watcher,0.0
+2023-02-27,Redis Cache,0.0
+2023-02-27,SQL Database,0.118999491341752
+2023-02-27,Security Center,4.037869253078566
+2023-02-27,Service Bus,0.029794362842029003
+2023-02-27,Storage,24.70920057226326
+2023-02-27,Unassigned,0.0
+2023-02-27,VPN Gateway,0.0
+2023-02-27,Virtual Machines,18.98002682795887
+2023-02-27,Virtual Machines Licenses,0.0
+2023-02-27,Virtual Network,5.348872666546088
+2023-02-27,Virtual WAN,0.0
+2023-02-28,API Management,2.342391543712838
+2023-02-28,Advanced Data Security,1.07700594059406
+2023-02-28,Advanced Threat Protection,14.595737675121688
+2023-02-28,Application Gateway,6.053436079793284
+2023-02-28,Automation,0.0090854840355
+2023-02-28,Azure Active Directory for External Identities,0.0
+2023-02-28,Azure App Service,3.566397146933272
+2023-02-28,Azure Arc,0.0
+2023-02-28,Azure Arc Enabled Databases,0.0
+2023-02-28,Azure Bastion,0.0
+2023-02-28,Azure Container Apps,0.0
+2023-02-28,Azure Cosmos DB,2.668241650731534
+2023-02-28,Azure DNS,0.072559237106358
+2023-02-28,Azure Data Factory v2,0.0
+2023-02-28,Azure Database for MariaDB,3.731071428571429
+2023-02-28,Azure Database for MySQL,7.0190739847056065
+2023-02-28,Azure Database for PostgreSQL,0.0
+2023-02-28,Azure Defender,0.502525597269625
+2023-02-28,Azure DevOps,2.24930268472321
+2023-02-28,Azure Firewall,0.0
+2023-02-28,Azure Front Door Service,0.511632653061232
+2023-02-28,Azure Kubernetes Service,0.0
+2023-02-28,Azure Monitor,0.016113076353772997
+2023-02-28,Azure Site Recovery,0.598357142857054
+2023-02-28,Azure Synapse Analytics,0.0
+2023-02-28,Backup,1.523092145111671
+2023-02-28,Bandwidth,0.10024192750123401
+2023-02-28,Container Instances,1.341542090353871
+2023-02-28,Container Registry,2.346515142347081
+2023-02-28,Content Delivery Network,0.0
+2023-02-28,Event Hubs,0.0
+2023-02-28,ExpressRoute,0.0
+2023-02-28,Functions,0.001060434098956
+2023-02-28,Insight and Analytics,0.0
+2023-02-28,Key Vault,2.23007027855865
+2023-02-28,Load Balancer,3.969067550135912
+2023-02-28,Log Analytics,0.16810685355271002
+2023-02-28,Logic Apps,0.7015430657426011
+2023-02-28,Network Watcher,0.0
+2023-02-28,Redis Cache,0.0
+2023-02-28,SQL Database,0.118999491341752
+2023-02-28,Security Center,3.54617425666966
+2023-02-28,Service Bus,0.030496576300883
+2023-02-28,Storage,23.00094262857557
+2023-02-28,Unassigned,0.0
+2023-02-28,VPN Gateway,0.0
+2023-02-28,Virtual Machines,13.581509070713148
+2023-02-28,Virtual Machines Licenses,0.0
+2023-02-28,Virtual Network,5.0140336318308
+2023-02-28,Virtual WAN,0.0
+2023-03-01,API Management,2.34236154231347
+2023-03-01,Advanced Data Security,1.0770561409026569
+2023-03-01,Advanced Threat Protection,13.805844357834394
+2023-03-01,Application Gateway,6.053115996357973
+2023-03-01,Automation,0.008701089405319
+2023-03-01,Azure Active Directory for External Identities,0.0
+2023-03-01,Azure App Service,3.5663770855867
+2023-03-01,Azure Arc,0.0
+2023-03-01,Azure Arc Enabled Databases,0.0
+2023-03-01,Azure Bastion,0.0
+2023-03-01,Azure Container Apps,0.0
+2023-03-01,Azure Cosmos DB,2.68007852084826
+2023-03-01,Azure DNS,0.087616840124129
+2023-03-01,Azure Data Factory v2,0.0
+2023-03-01,Azure Database for MariaDB,3.7310843373493965
+2023-03-01,Azure Database for MySQL,6.748720596672403
+2023-03-01,Azure Database for PostgreSQL,0.057395166961812
+2023-03-01,Azure Defender,0.0
+2023-03-01,Azure DevOps,2.249279446543032
+2023-03-01,Azure Firewall,0.0
+2023-03-01,Azure Front Door Service,0.533261600538
+2023-03-01,Azure Kubernetes Service,0.0
+2023-03-01,Azure Monitor,0.015892603980862
+2023-03-01,Azure Site Recovery,0.598313253011959
+2023-03-01,Azure Synapse Analytics,0.0
+2023-03-01,Backup,1.523025750750114
+2023-03-01,Bandwidth,0.042551435356139
+2023-03-01,Container Instances,0.0
+2023-03-01,Container Registry,2.718552585173486
+2023-03-01,Content Delivery Network,0.0
+2023-03-01,Event Hubs,0.0
+2023-03-01,ExpressRoute,0.0
+2023-03-01,Functions,0.001038130696428
+2023-03-01,Insight and Analytics,0.0
+2023-03-01,Key Vault,3.5371837776e-05
+2023-03-01,Load Balancer,2.236624547433587
+2023-03-01,Log Analytics,0.101585306312012
+2023-03-01,Logic Apps,0.700703514083937
+2023-03-01,Network Watcher,0.0
+2023-03-01,Redis Cache,0.0
+2023-03-01,SQL Database,0.118995785671282
+2023-03-01,Security Center,2.994810359161956
+2023-03-01,Service Bus,0.04059052068341899
+2023-03-01,Storage,17.64611249777962
+2023-03-01,Unassigned,0.0
+2023-03-01,VPN Gateway,0.0
+2023-03-01,Virtual Machines,5.557309206235388
+2023-03-01,Virtual Machines Licenses,0.0
+2023-03-01,Virtual Network,4.237972731998245
+2023-03-01,Virtual WAN,0.0
+2023-03-02,API Management,2.34236154231347
+2023-03-02,Advanced Data Security,1.0770561409026569
+2023-03-02,Advanced Threat Protection,13.80097525613248
+2023-03-02,Application Gateway,6.053115996357973
+2023-03-02,Automation,0.008541645358625
+2023-03-02,Azure Active Directory for External Identities,0.0
+2023-03-02,Azure App Service,3.5663770855867
+2023-03-02,Azure Arc,0.0
+2023-03-02,Azure Arc Enabled Databases,0.0
+2023-03-02,Azure Bastion,0.0
+2023-03-02,Azure Container Apps,0.0
+2023-03-02,Azure Cosmos DB,0.0
+2023-03-02,Azure DNS,0.090331598033835
+2023-03-02,Azure Data Factory v2,0.0
+2023-03-02,Azure Database for MariaDB,3.7310843373493965
+2023-03-02,Azure Database for MySQL,6.748720596672403
+2023-03-02,Azure Database for PostgreSQL,0.0
+2023-03-02,Azure Defender,0.0
+2023-03-02,Azure DevOps,2.249279446543032
+2023-03-02,Azure Firewall,0.13
+2023-03-02,Azure Front Door Service,0.533261600538
+2023-03-02,Azure Kubernetes Service,0.0
+2023-03-02,Azure Monitor,0.015892603980862
+2023-03-02,Azure Site Recovery,0.598313253011959
+2023-03-02,Azure Synapse Analytics,0.0
+2023-03-02,Backup,1.523025750750114
+2023-03-02,Bandwidth,0.0486900595243
+2023-03-02,Container Instances,0.0
+2023-03-02,Container Registry,2.718552585173486
+2023-03-02,Content Delivery Network,0.0
+2023-03-02,Event Hubs,0.0
+2023-03-02,ExpressRoute,0.0
+2023-03-02,Functions,0.001036403245425
+2023-03-02,Insight and Analytics,0.0
+2023-03-02,Key Vault,6.2420890192e-05
+2023-03-02,Load Balancer,2.231974600349525
+2023-03-02,Log Analytics,0.102069277839705
+2023-03-02,Logic Apps,0.7000513395304
+2023-03-02,Network Watcher,0.0
+2023-03-02,Redis Cache,0.0
+2023-03-02,SQL Database,0.118995785671282
+2023-03-02,Security Center,2.994810359161956
+2023-03-02,Service Bus,0.010125898277700999
+2023-03-02,Storage,17.652199145155205
+2023-03-02,Unassigned,0.0
+2023-03-02,VPN Gateway,0.0
+2023-03-02,Virtual Machines,5.55781506552491
+2023-03-02,Virtual Machines Licenses,0.0
+2023-03-02,Virtual Network,4.235369525556861
+2023-03-02,Virtual WAN,0.0
+2023-03-03,API Management,2.34236154231347
+2023-03-03,Advanced Data Security,1.436074854536876
+2023-03-03,Advanced Threat Protection,13.817594650848658
+2023-03-03,Application Gateway,6.053115996357973
+2023-03-03,Automation,0.00744831475272
+2023-03-03,Azure Active Directory for External Identities,0.0
+2023-03-03,Azure App Service,3.5663770855867
+2023-03-03,Azure Arc,0.0
+2023-03-03,Azure Arc Enabled Databases,0.61
+2023-03-03,Azure Bastion,0.0
+2023-03-03,Azure Container Apps,0.0
+2023-03-03,Azure Cosmos DB,0.0
+2023-03-03,Azure DNS,0.083378305087875
+2023-03-03,Azure Data Factory v2,0.0
+2023-03-03,Azure Database for MariaDB,3.7310843373493965
+2023-03-03,Azure Database for MySQL,6.748720596672403
+2023-03-03,Azure Database for PostgreSQL,0.0
+2023-03-03,Azure Defender,0.474656126482213
+2023-03-03,Azure DevOps,2.249279446543032
+2023-03-03,Azure Firewall,0.0
+2023-03-03,Azure Front Door Service,0.533261600538
+2023-03-03,Azure Kubernetes Service,0.554199626016182
+2023-03-03,Azure Monitor,0.017221365032486
+2023-03-03,Azure Site Recovery,0.598313253011959
+2023-03-03,Azure Synapse Analytics,0.0
+2023-03-03,Backup,1.523025750750114
+2023-03-03,Bandwidth,0.042966563678318
+2023-03-03,Container Instances,0.0
+2023-03-03,Container Registry,2.718552585173486
+2023-03-03,Content Delivery Network,0.0
+2023-03-03,Event Hubs,0.0
+2023-03-03,ExpressRoute,0.0
+2023-03-03,Functions,0.001089423540503
+2023-03-03,Insight and Analytics,0.0
+2023-03-03,Key Vault,0.000114438298684
+2023-03-03,Load Balancer,2.259326103084742
+2023-03-03,Log Analytics,1.146796030161674
+2023-03-03,Logic Apps,0.6997896353821029
+2023-03-03,Network Watcher,0.0
+2023-03-03,Redis Cache,0.0
+2023-03-03,SQL Database,6.55173115416579
+2023-03-03,Security Center,3.099106750914532
+2023-03-03,Service Bus,0.000387391130473
+2023-03-03,Storage,18.202386146307212
+2023-03-03,Unassigned,0.0
+2023-03-03,VPN Gateway,0.0
+2023-03-03,Virtual Machines,10.13767334955863
+2023-03-03,Virtual Machines Licenses,0.0
+2023-03-03,Virtual Network,4.077204609534706
+2023-03-03,Virtual WAN,0.0
+2023-03-04,API Management,2.34236154231347
+2023-03-04,Advanced Data Security,1.436074854536876
+2023-03-04,Advanced Threat Protection,13.773559190135172
+2023-03-04,Application Gateway,6.053115996357973
+2023-03-04,Automation,0.008678311684363
+2023-03-04,Azure Active Directory for External Identities,0.0
+2023-03-04,Azure App Service,3.5663770855867
+2023-03-04,Azure Arc,0.0
+2023-03-04,Azure Arc Enabled Databases,0.0
+2023-03-04,Azure Bastion,0.0
+2023-03-04,Azure Container Apps,0.0
+2023-03-04,Azure Cosmos DB,0.0
+2023-03-04,Azure DNS,0.083378305087875
+2023-03-04,Azure Data Factory v2,0.0
+2023-03-04,Azure Database for MariaDB,3.7310843373493965
+2023-03-04,Azure Database for MySQL,6.748720596672403
+2023-03-04,Azure Database for PostgreSQL,0.0
+2023-03-04,Azure Defender,0.0
+2023-03-04,Azure DevOps,2.249279446543032
+2023-03-04,Azure Firewall,0.0
+2023-03-04,Azure Front Door Service,0.533261600538
+2023-03-04,Azure Kubernetes Service,0.0
+2023-03-04,Azure Monitor,0.019878887135736
+2023-03-04,Azure Site Recovery,0.598313253011959
+2023-03-04,Azure Synapse Analytics,0.0
+2023-03-04,Backup,1.523025750750114
+2023-03-04,Bandwidth,0.021528418449829
+2023-03-04,Container Instances,0.0
+2023-03-04,Container Registry,2.718552585173486
+2023-03-04,Content Delivery Network,0.0
+2023-03-04,Event Hubs,0.0
+2023-03-04,ExpressRoute,0.0
+2023-03-04,Functions,0.001159491783505
+2023-03-04,Insight and Analytics,0.0
+2023-03-04,Key Vault,1.6645570718e-05
+2023-03-04,Load Balancer,2.231990078498686
+2023-03-04,Log Analytics,0.09218624478618
+2023-03-04,Logic Apps,0.7047107972422939
+2023-03-04,Network Watcher,0.0
+2023-03-04,Redis Cache,0.0
+2023-03-04,SQL Database,9.768098838413042
+2023-03-04,Security Center,2.860714998337213
+2023-03-04,Service Bus,9.780448092800001e-05
+2023-03-04,Storage,17.30854183721718
+2023-03-04,Unassigned,0.0
+2023-03-04,VPN Gateway,0.0
+2023-03-04,Virtual Machines,5.556753221131427
+2023-03-04,Virtual Machines Licenses,0.0
+2023-03-04,Virtual Network,4.088199459020613
+2023-03-04,Virtual WAN,0.0
+2023-03-05,API Management,2.34236154231347
+2023-03-05,Advanced Data Security,1.436074854536876
+2023-03-05,Advanced Threat Protection,13.777121338853677
+2023-03-05,Application Gateway,6.053115996357973
+2023-03-05,Automation,0.008723867126275
+2023-03-05,Azure Active Directory for External Identities,0.0
+2023-03-05,Azure App Service,3.5663770855867
+2023-03-05,Azure Arc,0.0
+2023-03-05,Azure Arc Enabled Databases,0.0
+2023-03-05,Azure Bastion,0.0
+2023-03-05,Azure Container Apps,0.0
+2023-03-05,Azure Cosmos DB,0.0
+2023-03-05,Azure DNS,0.083378305087875
+2023-03-05,Azure Data Factory v2,0.0
+2023-03-05,Azure Database for MariaDB,3.7310843373493965
+2023-03-05,Azure Database for MySQL,6.748720596672403
+2023-03-05,Azure Database for PostgreSQL,0.0
+2023-03-05,Azure Defender,0.0
+2023-03-05,Azure DevOps,2.249279446543032
+2023-03-05,Azure Firewall,0.0
+2023-03-05,Azure Front Door Service,0.533261600538
+2023-03-05,Azure Kubernetes Service,0.0
+2023-03-05,Azure Monitor,0.01979583957001
+2023-03-05,Azure Site Recovery,0.598313253011959
+2023-03-05,Azure Synapse Analytics,0.0
+2023-03-05,Backup,1.5230257507501141
+2023-03-05,Bandwidth,0.027625937502249
+2023-03-05,Container Instances,0.0
+2023-03-05,Container Registry,2.718552585173486
+2023-03-05,Content Delivery Network,0.0
+2023-03-05,Event Hubs,0.0
+2023-03-05,ExpressRoute,0.0
+2023-03-05,Functions,0.000972630435322
+2023-03-05,Insight and Analytics,0.0
+2023-03-05,Key Vault,2.4968356077e-05
+2023-03-05,Load Balancer,2.231974600349525
+2023-03-05,Log Analytics,0.100338940911675
+2023-03-05,Logic Apps,0.704319867266567
+2023-03-05,Network Watcher,0.0
+2023-03-05,Redis Cache,0.0
+2023-03-05,SQL Database,9.768098838413042
+2023-03-05,Security Center,2.8607149983372127
+2023-03-05,Service Bus,7.824358474300001e-05
+2023-03-05,Storage,17.597882752078796
+2023-03-05,Unassigned,0.0
+2023-03-05,VPN Gateway,0.0
+2023-03-05,Virtual Machines,5.55781506552491
+2023-03-05,Virtual Machines Licenses,0.0
+2023-03-05,Virtual Network,4.088199459020613
+2023-03-05,Virtual WAN,0.0
+2023-03-06,API Management,2.34236154231347
+2023-03-06,Advanced Data Security,1.436074854536876
+2023-03-06,Advanced Threat Protection,13.78526214853792
+2023-03-06,Application Gateway,6.053115996357973
+2023-03-06,Automation,0.008609978521494
+2023-03-06,Azure Active Directory for External Identities,0.0
+2023-03-06,Azure App Service,3.5663770855867
+2023-03-06,Azure Arc,0.0
+2023-03-06,Azure Arc Enabled Databases,0.0
+2023-03-06,Azure Bastion,0.0
+2023-03-06,Azure Container Apps,0.0
+2023-03-06,Azure Cosmos DB,3.391603791869922
+2023-03-06,Azure DNS,0.083378305087875
+2023-03-06,Azure Data Factory v2,0.0
+2023-03-06,Azure Database for MariaDB,3.7310843373493965
+2023-03-06,Azure Database for MySQL,6.748720596672403
+2023-03-06,Azure Database for PostgreSQL,0.0
+2023-03-06,Azure Defender,0.0
+2023-03-06,Azure DevOps,2.249279446543032
+2023-03-06,Azure Firewall,0.0
+2023-03-06,Azure Front Door Service,0.51104236718225
+2023-03-06,Azure Kubernetes Service,0.0
+2023-03-06,Azure Monitor,0.019878887135736
+2023-03-06,Azure Site Recovery,0.598313253011959
+2023-03-06,Azure Synapse Analytics,0.0
+2023-03-06,Backup,1.522042835894958
+2023-03-06,Bandwidth,0.029600382687700003
+2023-03-06,Container Instances,0.0
+2023-03-06,Container Registry,2.718552585173486
+2023-03-06,Content Delivery Network,0.0
+2023-03-06,Event Hubs,0.0
+2023-03-06,ExpressRoute,0.0
+2023-03-06,Functions,0.000997036132447
+2023-03-06,Insight and Analytics,0.0
+2023-03-06,Key Vault,4.5775319474e-05
+2023-03-06,Load Balancer,2.231974600349525
+2023-03-06,Log Analytics,0.107484861735673
+2023-03-06,Logic Apps,0.700633157263157
+2023-03-06,Network Watcher,0.0
+2023-03-06,Redis Cache,0.0
+2023-03-06,SQL Database,9.768098838413042
+2023-03-06,Security Center,2.994810359161956
+2023-03-06,Service Bus,0.000312307404999
+2023-03-06,Storage,17.597409059804
+2023-03-06,Unassigned,0.0
+2023-03-06,VPN Gateway,0.0
+2023-03-06,Virtual Machines,5.557259080420948
+2023-03-06,Virtual Machines Licenses,0.0
+2023-03-06,Virtual Network,4.088199459020613
+2023-03-06,Virtual WAN,0.0
+2023-03-07,API Management,2.34236154231347
+2023-03-07,Advanced Data Security,1.436074854536876
+2023-03-07,Advanced Threat Protection,13.798824279407546
+2023-03-07,Application Gateway,6.053115996357973
+2023-03-07,Automation,0.008632756242450001
+2023-03-07,Azure Active Directory for External Identities,0.0
+2023-03-07,Azure App Service,3.5663770855867
+2023-03-07,Azure Arc,0.0
+2023-03-07,Azure Arc Enabled Databases,0.0
+2023-03-07,Azure Bastion,0.0
+2023-03-07,Azure Container Apps,0.0
+2023-03-07,Azure Cosmos DB,5.217851987492188
+2023-03-07,Azure DNS,0.083378305087875
+2023-03-07,Azure Data Factory v2,0.0
+2023-03-07,Azure Database for MariaDB,3.7310843373493965
+2023-03-07,Azure Database for MySQL,6.748720596672403
+2023-03-07,Azure Database for PostgreSQL,0.47829305801509997
+2023-03-07,Azure Defender,0.027920948616601
+2023-03-07,Azure DevOps,2.249279446543032
+2023-03-07,Azure Firewall,0.0
+2023-03-07,Azure Front Door Service,0.533261600538
+2023-03-07,Azure Kubernetes Service,0.050278088006733
+2023-03-07,Azure Monitor,0.019382790434654
+2023-03-07,Azure Site Recovery,0.598313253011959
+2023-03-07,Azure Synapse Analytics,0.0
+2023-03-07,Backup,1.519655756961009
+2023-03-07,Bandwidth,0.030806312906303
+2023-03-07,Container Instances,0.0
+2023-03-07,Container Registry,2.718552585173486
+2023-03-07,Content Delivery Network,0.0
+2023-03-07,Event Hubs,0.0
+2023-03-07,ExpressRoute,0.0
+2023-03-07,Functions,0.0009607362650049999
+2023-03-07,Insight and Analytics,0.0
+2023-03-07,Key Vault,0.00021847311567
+2023-03-07,Load Balancer,2.252278307755687
+2023-03-07,Log Analytics,0.28977100904389697
+2023-03-07,Logic Apps,0.7004001532053971
+2023-03-07,Network Watcher,0.0
+2023-03-07,Redis Cache,0.0
+2023-03-07,SQL Database,4.541501351511256
+2023-03-07,Security Center,3.009709843698038
+2023-03-07,Service Bus,0.000320274881193
+2023-03-07,Storage,17.55044065264372
+2023-03-07,Unassigned,0.0
+2023-03-07,VPN Gateway,0.324512132030942
+2023-03-07,Virtual Machines,5.764857807831168
+2023-03-07,Virtual Machines Licenses,0.0
+2023-03-07,Virtual Network,4.0587477984925595
+2023-03-07,Virtual WAN,0.0
+2023-03-08,API Management,2.34236154231347
+2023-03-08,Advanced Data Security,1.436074854536876
+2023-03-08,Advanced Threat Protection,13.819132466579132
+2023-03-08,Application Gateway,6.053115996357973
+2023-03-08,Automation,0.008655533963405999
+2023-03-08,Azure Active Directory for External Identities,0.0
+2023-03-08,Azure App Service,3.5663770855867
+2023-03-08,Azure Arc,0.0
+2023-03-08,Azure Arc Enabled Databases,0.0
+2023-03-08,Azure Bastion,0.0
+2023-03-08,Azure Container Apps,0.0
+2023-03-08,Azure Cosmos DB,6.261422384990623
+2023-03-08,Azure DNS,0.083378305087875
+2023-03-08,Azure Data Factory v2,0.0
+2023-03-08,Azure Database for MariaDB,3.7310843373493965
+2023-03-08,Azure Database for MySQL,6.748720596672403
+2023-03-08,Azure Database for PostgreSQL,0.91832267138899
+2023-03-08,Azure Defender,0.0
+2023-03-08,Azure DevOps,2.249279446543032
+2023-03-08,Azure Firewall,0.0
+2023-03-08,Azure Front Door Service,0.533261600538
+2023-03-08,Azure Kubernetes Service,0.0
+2023-03-08,Azure Monitor,0.019382790434654
+2023-03-08,Azure Site Recovery,0.598313253011959
+2023-03-08,Azure Synapse Analytics,0.0
+2023-03-08,Backup,1.519655756961009
+2023-03-08,Bandwidth,0.029410364649325
+2023-03-08,Container Instances,0.0
+2023-03-08,Container Registry,2.718552585173486
+2023-03-08,Content Delivery Network,0.0
+2023-03-08,Event Hubs,0.0
+2023-03-08,ExpressRoute,0.0
+2023-03-08,Functions,0.0009934448931910001
+2023-03-08,Insight and Analytics,0.0
+2023-03-08,Key Vault,0.001027863991816
+2023-03-08,Load Balancer,2.231974600349525
+2023-03-08,Log Analytics,0.35584548758248197
+2023-03-08,Logic Apps,0.700400116845406
+2023-03-08,Network Watcher,0.0
+2023-03-08,Redis Cache,0.0
+2023-03-08,SQL Database,0.118995785671282
+2023-03-08,Security Center,3.069307781842367
+2023-03-08,Service Bus,0.000302084738151
+2023-03-08,Storage,17.768186523234075
+2023-03-08,Unassigned,0.0
+2023-03-08,VPN Gateway,0.640777223865833
+2023-03-08,Virtual Machines,6.969266984884469
+2023-03-08,Virtual Machines Licenses,0.0
+2023-03-08,Virtual Network,3.9325862423738704
+2023-03-08,Virtual WAN,0.0
+2023-03-09,API Management,2.34236154231347
+2023-03-09,Advanced Data Security,1.436074854536876
+2023-03-09,Advanced Threat Protection,13.844307950057582
+2023-03-09,Application Gateway,6.053115996357973
+2023-03-09,Automation,0.008496089916712
+2023-03-09,Azure Active Directory for External Identities,0.0
+2023-03-09,Azure App Service,3.5663770855867
+2023-03-09,Azure Arc,0.0
+2023-03-09,Azure Arc Enabled Databases,0.0
+2023-03-09,Azure Bastion,0.0
+2023-03-09,Azure Container Apps,0.0
+2023-03-09,Azure Cosmos DB,6.261422384990623
+2023-03-09,Azure DNS,0.083378305087875
+2023-03-09,Azure Data Factory v2,0.0
+2023-03-09,Azure Database for MariaDB,3.7310843373493965
+2023-03-09,Azure Database for MySQL,6.748720596672403
+2023-03-09,Azure Database for PostgreSQL,0.803532337465365
+2023-03-09,Azure Defender,0.321090909090909
+2023-03-09,Azure DevOps,2.392826836028206
+2023-03-09,Azure Firewall,0.0
+2023-03-09,Azure Front Door Service,0.42216543375925003
+2023-03-09,Azure Kubernetes Service,0.426399414065449
+2023-03-09,Azure Monitor,0.019889883397007
+2023-03-09,Azure Site Recovery,0.598313253011959
+2023-03-09,Azure Synapse Analytics,0.0
+2023-03-09,Backup,1.519655756961009
+2023-03-09,Bandwidth,0.026637764377538998
+2023-03-09,Container Instances,0.0
+2023-03-09,Container Registry,2.718552585173486
+2023-03-09,Content Delivery Network,0.0
+2023-03-09,Event Hubs,0.0
+2023-03-09,ExpressRoute,0.0
+2023-03-09,Functions,0.000243284004494
+2023-03-09,Insight and Analytics,0.0
+2023-03-09,Key Vault,5.6178801172e-05
+2023-03-09,Load Balancer,2.263624848145243
+2023-03-09,Log Analytics,0.590725034409065
+2023-03-09,Logic Apps,0.701835097558412
+2023-03-09,Network Watcher,0.0
+2023-03-09,Redis Cache,0.0
+2023-03-09,SQL Database,0.118995785671282
+2023-03-09,Security Center,3.069307781842368
+2023-03-09,Service Bus,0.000369233911044
+2023-03-09,Storage,18.004743026897287
+2023-03-09,Unassigned,0.0
+2023-03-09,VPN Gateway,0.640777223865833
+2023-03-09,Virtual Machines,8.307100142831413
+2023-03-09,Virtual Machines Licenses,0.0
+2023-03-09,Virtual Network,4.024522423521048
+2023-03-09,Virtual WAN,0.0
+2023-03-10,API Management,2.34236154231347
+2023-03-10,Advanced Data Security,1.436074854536876
+2023-03-10,Advanced Threat Protection,13.836571383354041
+2023-03-10,Application Gateway,6.053115996357973
+2023-03-10,Automation,0.007562203357502
+2023-03-10,Azure Active Directory for External Identities,0.0
+2023-03-10,Azure App Service,3.5663770855867
+2023-03-10,Azure Arc,0.0
+2023-03-10,Azure Arc Enabled Databases,0.0
+2023-03-10,Azure Bastion,0.0
+2023-03-10,Azure Container Apps,0.0
+2023-03-10,Azure Cosmos DB,6.261422384990623
+2023-03-10,Azure DNS,0.083378305087875
+2023-03-10,Azure Data Factory v2,0.0
+2023-03-10,Azure Database for MariaDB,3.7310843373493965
+2023-03-10,Azure Database for MySQL,6.748720596672403
+2023-03-10,Azure Database for PostgreSQL,0.746137170503555
+2023-03-10,Azure Defender,0.167525691699605
+2023-03-10,Azure DevOps,2.392826836028206
+2023-03-10,Azure Firewall,0.0
+2023-03-10,Azure Front Door Service,0.533261600538
+2023-03-10,Azure Kubernetes Service,0.0
+2023-03-10,Azure Monitor,0.019878887135736
+2023-03-10,Azure Site Recovery,0.598313253011959
+2023-03-10,Azure Synapse Analytics,0.0
+2023-03-10,Backup,1.519655756961009
+2023-03-10,Bandwidth,0.019364761017075
+2023-03-10,Container Instances,0.016159203243011
+2023-03-10,Container Registry,2.885357223601908
+2023-03-10,Content Delivery Network,0.0
+2023-03-10,Event Hubs,0.0
+2023-03-10,ExpressRoute,0.0
+2023-03-10,Functions,0.000420065872839
+2023-03-10,Insight and Analytics,0.0
+2023-03-10,Key Vault,1.6645570718e-05
+2023-03-10,Load Balancer,2.389484586900916
+2023-03-10,Log Analytics,0.259694002832507
+2023-03-10,Logic Apps,0.702641165982176
+2023-03-10,Network Watcher,0.0
+2023-03-10,Redis Cache,0.0
+2023-03-10,SQL Database,4.378113990807489
+2023-03-10,Security Center,2.994810359161956
+2023-03-10,Service Bus,0.029827106231317
+2023-03-10,Storage,17.9652588915572
+2023-03-10,Unassigned,0.0
+2023-03-10,VPN Gateway,0.640777223865833
+2023-03-10,Virtual Machines,6.516392295996458
+2023-03-10,Virtual Machines Licenses,0.0
+2023-03-10,Virtual Network,4.226284797499947
+2023-03-10,Virtual WAN,0.0
+2023-03-11,API Management,2.34236154231347
+2023-03-11,Advanced Data Security,1.436074854536876
+2023-03-11,Advanced Threat Protection,13.775415998245172
+2023-03-11,Application Gateway,6.053115996357973
+2023-03-11,Automation,0.007881091450891
+2023-03-11,Azure Active Directory for External Identities,0.0
+2023-03-11,Azure App Service,3.5663770855867
+2023-03-11,Azure Arc,0.0
+2023-03-11,Azure Arc Enabled Databases,0.0
+2023-03-11,Azure Bastion,0.0
+2023-03-11,Azure Container Apps,0.0
+2023-03-11,Azure Cosmos DB,6.261422384990623
+2023-03-11,Azure DNS,0.083378305087875
+2023-03-11,Azure Data Factory v2,0.0
+2023-03-11,Azure Database for MariaDB,3.7310843373493965
+2023-03-11,Azure Database for MySQL,6.748720596672403
+2023-03-11,Azure Database for PostgreSQL,0.459161335694495
+2023-03-11,Azure Defender,0.0
+2023-03-11,Azure DevOps,2.392826836028206
+2023-03-11,Azure Firewall,0.0
+2023-03-11,Azure Front Door Service,0.51104236718225
+2023-03-11,Azure Kubernetes Service,0.0
+2023-03-11,Azure Monitor,0.019878887135736
+2023-03-11,Azure Site Recovery,0.598313253011959
+2023-03-11,Azure Synapse Analytics,0.0
+2023-03-11,Backup,1.519655756961009
+2023-03-11,Bandwidth,0.02178213385871
+2023-03-11,Container Instances,0.0
+2023-03-11,Container Registry,3.21319172885452
+2023-03-11,Content Delivery Network,0.0
+2023-03-11,Event Hubs,0.0
+2023-03-11,ExpressRoute,0.0
+2023-03-11,Functions,0.000315652719783
+2023-03-11,Insight and Analytics,0.0
+2023-03-11,Key Vault,1.6645570718e-05
+2023-03-11,Load Balancer,2.231974600349525
+2023-03-11,Log Analytics,0.256213834412534
+2023-03-11,Logic Apps,0.70478597905697
+2023-03-11,Network Watcher,0.0
+2023-03-11,Redis Cache,0.0
+2023-03-11,SQL Database,10.126086738153752
+2023-03-11,Security Center,2.860714998337213
+2023-03-11,Service Bus,0.029765417724472
+2023-03-11,Storage,18.156954188738776
+2023-03-11,Unassigned,0.0
+2023-03-11,VPN Gateway,0.640777223865833
+2023-03-11,Virtual Machines,5.554450535117117
+2023-03-11,Virtual Machines Licenses,0.0
+2023-03-11,Virtual Network,4.248986725925282
+2023-03-11,Virtual WAN,0.0
+2023-03-12,API Management,2.34236154231347
+2023-03-12,Advanced Data Security,1.436074854536876
+2023-03-12,Advanced Threat Protection,13.983913910207232
+2023-03-12,Application Gateway,6.053115996357973
+2023-03-12,Automation,0.007767202846109
+2023-03-12,Azure Active Directory for External Identities,0.0
+2023-03-12,Azure App Service,3.5663770855867
+2023-03-12,Azure Arc,0.0
+2023-03-12,Azure Arc Enabled Databases,0.0
+2023-03-12,Azure Bastion,0.0
+2023-03-12,Azure Container Apps,0.0
+2023-03-12,Azure Cosmos DB,6.261422384990623
+2023-03-12,Azure DNS,0.083378305087875
+2023-03-12,Azure Data Factory v2,0.0
+2023-03-12,Azure Database for MariaDB,3.7310843373493965
+2023-03-12,Azure Database for MySQL,6.748720596672403
+2023-03-12,Azure Database for PostgreSQL,0.459161335694495
+2023-03-12,Azure Defender,0.0
+2023-03-12,Azure DevOps,2.392826836028206
+2023-03-12,Azure Firewall,0.0
+2023-03-12,Azure Front Door Service,0.51104236718225
+2023-03-12,Azure Kubernetes Service,0.0
+2023-03-12,Azure Monitor,0.019878887135736
+2023-03-12,Azure Site Recovery,0.598313253011959
+2023-03-12,Azure Synapse Analytics,0.0
+2023-03-12,Backup,1.519655756961009
+2023-03-12,Bandwidth,0.022842097458118
+2023-03-12,Container Instances,0.0
+2023-03-12,Container Registry,3.21319172885452
+2023-03-12,Content Delivery Network,0.0
+2023-03-12,Event Hubs,0.0
+2023-03-12,ExpressRoute,0.0
+2023-03-12,Functions,0.000291529638744
+2023-03-12,Insight and Analytics,0.0
+2023-03-12,Key Vault,1.4564874378e-05
+2023-03-12,Load Balancer,2.231974600349525
+2023-03-12,Log Analytics,0.25636188757241096
+2023-03-12,Logic Apps,0.7045247866693489
+2023-03-12,Network Watcher,0.0
+2023-03-12,Redis Cache,0.0
+2023-03-12,SQL Database,10.126086738153752
+2023-03-12,Security Center,2.8607149983372127
+2023-03-12,Service Bus,0.03966114243771499
+2023-03-12,Storage,18.16659243740589
+2023-03-12,Unassigned,0.0
+2023-03-12,VPN Gateway,0.640777223865833
+2023-03-12,Virtual Machines,5.55781506552491
+2023-03-12,Virtual Machines Licenses,0.0
+2023-03-12,Virtual Network,4.248986725925282
+2023-03-12,Virtual WAN,0.0
+2023-03-13,API Management,2.34236154231347
+2023-03-13,Advanced Data Security,1.436074854536876
+2023-03-13,Advanced Threat Protection,14.054676401999972
+2023-03-13,Application Gateway,6.053115996357973
+2023-03-13,Automation,0.009361643313053
+2023-03-13,Azure Active Directory for External Identities,0.0
+2023-03-13,Azure App Service,3.5663770855867
+2023-03-13,Azure Arc,0.0
+2023-03-13,Azure Arc Enabled Databases,0.0
+2023-03-13,Azure Bastion,0.0
+2023-03-13,Azure Container Apps,0.0
+2023-03-13,Azure Cosmos DB,6.261422384990623
+2023-03-13,Azure DNS,0.090326115727242
+2023-03-13,Azure Data Factory v2,0.0
+2023-03-13,Azure Database for MariaDB,3.7310843373493965
+2023-03-13,Azure Database for MySQL,6.748720596672403
+2023-03-13,Azure Database for PostgreSQL,0.172185500885435
+2023-03-13,Azure Defender,0.251288537549407
+2023-03-13,Azure DevOps,2.392826836028206
+2023-03-13,Azure Firewall,0.0
+2023-03-13,Azure Front Door Service,0.533261600538
+2023-03-13,Azure Kubernetes Service,0.0
+2023-03-13,Azure Monitor,0.019878887135736
+2023-03-13,Azure Site Recovery,0.598313253011959
+2023-03-13,Azure Synapse Analytics,0.0
+2023-03-13,Backup,1.519931461975809
+2023-03-13,Bandwidth,0.035342519444376
+2023-03-13,Container Instances,0.0
+2023-03-13,Container Registry,3.543076747238851
+2023-03-13,Content Delivery Network,0.0
+2023-03-13,Event Hubs,0.0
+2023-03-13,ExpressRoute,0.0
+2023-03-13,Functions,0.000295984679771
+2023-03-13,Insight and Analytics,0.0
+2023-03-13,Key Vault,1.6645570718e-05
+2023-03-13,Load Balancer,2.414352529288261
+2023-03-13,Log Analytics,0.251915718829488
+2023-03-13,Logic Apps,0.7040234279772439
+2023-03-13,Network Watcher,0.0
+2023-03-13,Redis Cache,0.0
+2023-03-13,SQL Database,4.497443290721058
+2023-03-13,Security Center,3.054408297306285
+2023-03-13,Service Bus,0.020087714646577
+2023-03-13,Storage,18.73168687615039
+2023-03-13,Unassigned,0.0
+2023-03-13,VPN Gateway,0.640777223865833
+2023-03-13,Virtual Machines,8.065739120483451
+2023-03-13,Virtual Machines Licenses,0.0
+2023-03-13,Virtual Network,4.427604133597955
+2023-03-13,Virtual WAN,0.0
+2023-03-14,API Management,2.34236154231347
+2023-03-14,Advanced Data Security,1.495911306809246
+2023-03-14,Advanced Threat Protection,12.549949812910064
+2023-03-14,Application Gateway,6.053115996357973
+2023-03-14,Automation,0.010637195686606999
+2023-03-14,Azure Active Directory for External Identities,0.0
+2023-03-14,Azure App Service,3.578047396848846
+2023-03-14,Azure Arc,0.0
+2023-03-14,Azure Arc Enabled Databases,0.0
+2023-03-14,Azure Bastion,0.0
+2023-03-14,Azure Container Apps,0.0
+2023-03-14,Azure Cosmos DB,6.261422384990623
+2023-03-14,Azure DNS,0.10151339909158
+2023-03-14,Azure Data Factory v2,0.0
+2023-03-14,Azure Database for MariaDB,3.7310843373493965
+2023-03-14,Azure Database for MySQL,6.748720596672403
+2023-03-14,Azure Database for PostgreSQL,0.0
+2023-03-14,Azure Defender,0.251288537549407
+2023-03-14,Azure DevOps,2.392826836028206
+2023-03-14,Azure Firewall,0.0
+2023-03-14,Azure Front Door Service,0.8443308675185001
+2023-03-14,Azure Kubernetes Service,0.0
+2023-03-14,Azure Monitor,0.036869122395923
+2023-03-14,Azure Site Recovery,0.598313253011959
+2023-03-14,Azure Synapse Analytics,0.0
+2023-03-14,Backup,1.52039097033381
+2023-03-14,Bandwidth,0.055701908514421
+2023-03-14,Container Instances,0.0
+2023-03-14,Container Registry,2.767969197700804
+2023-03-14,Content Delivery Network,0.0
+2023-03-14,Event Hubs,0.0
+2023-03-14,ExpressRoute,0.0
+2023-03-14,Functions,0.005217122051042
+2023-03-14,Insight and Analytics,0.0
+2023-03-14,Key Vault,0.000120680387703
+2023-03-14,Load Balancer,2.443144637050262
+2023-03-14,Log Analytics,0.271371864138784
+2023-03-14,Logic Apps,0.7052679598547199
+2023-03-14,Network Watcher,0.0
+2023-03-14,Redis Cache,0.0
+2023-03-14,SQL Database,14.504194259552543
+2023-03-14,Security Center,4.007975307615563
+2023-03-14,Service Bus,0.029844379013234
+2023-03-14,Storage,20.14475275894733
+2023-03-14,Unassigned,0.0
+2023-03-14,VPN Gateway,0.640777223865833
+2023-03-14,Virtual Machines,12.733394996692788
+2023-03-14,Virtual Machines Licenses,0.0
+2023-03-14,Virtual Network,4.566207352483775
+2023-03-14,Virtual WAN,0.0
+2023-03-15,API Management,2.34236154231347
+2023-03-15,Advanced Data Security,1.64550243749017
+2023-03-15,Advanced Threat Protection,11.218639521882679
+2023-03-15,Application Gateway,6.053115996357973
+2023-03-15,Automation,0.009452754196877999
+2023-03-15,Azure Active Directory for External Identities,0.0
+2023-03-15,Azure App Service,4.184438704664454
+2023-03-15,Azure Arc,0.0
+2023-03-15,Azure Arc Enabled Databases,0.0
+2023-03-15,Azure Bastion,0.0
+2023-03-15,Azure Container Apps,0.0
+2023-03-15,Azure Cosmos DB,6.261667661261214
+2023-03-15,Azure DNS,0.102893414580881
+2023-03-15,Azure Data Factory v2,0.0
+2023-03-15,Azure Database for MariaDB,3.7310843373493965
+2023-03-15,Azure Database for MySQL,6.748720596672403
+2023-03-15,Azure Database for PostgreSQL,0.0
+2023-03-15,Azure Defender,0.558418972332016
+2023-03-15,Azure DevOps,2.392826836028206
+2023-03-15,Azure Firewall,0.0
+2023-03-15,Azure Front Door Service,0.7332347007397501
+2023-03-15,Azure Kubernetes Service,0.0
+2023-03-15,Azure Monitor,0.055595586076858994
+2023-03-15,Azure Site Recovery,0.598313253011959
+2023-03-15,Azure Synapse Analytics,0.0
+2023-03-15,Backup,1.52039097033381
+2023-03-15,Bandwidth,0.052199300817825
+2023-03-15,Container Instances,0.36
+2023-03-15,Container Registry,3.3581659881292136
+2023-03-15,Content Delivery Network,0.0
+2023-03-15,Event Hubs,0.0
+2023-03-15,ExpressRoute,0.0
+2023-03-15,Functions,0.000992271941033
+2023-03-15,Insight and Analytics,0.0
+2023-03-15,Key Vault,6.0340193853e-05
+2023-03-15,Load Balancer,2.799968025177211
+2023-03-15,Log Analytics,0.17243599543813698
+2023-03-15,Logic Apps,0.700952231251714
+2023-03-15,Network Watcher,0.0
+2023-03-15,Redis Cache,0.0
+2023-03-15,SQL Database,19.668470683084443
+2023-03-15,Security Center,3.933479436869527
+2023-03-15,Service Bus,0.02994818878448
+2023-03-15,Storage,22.318837294126197
+2023-03-15,Unassigned,0.0
+2023-03-15,VPN Gateway,0.640777223865833
+2023-03-15,Virtual Machines,22.18661598579537
+2023-03-15,Virtual Machines Licenses,0.799683745860828
+2023-03-15,Virtual Network,4.984812848051291
+2023-03-15,Virtual WAN,0.0
+2023-03-16,API Management,3.07434952428643
+2023-03-16,Advanced Data Security,1.645502437490171
+2023-03-16,Advanced Threat Protection,11.575954370179566
+2023-03-16,Application Gateway,6.053115996357973
+2023-03-16,Automation,0.010113308104611
+2023-03-16,Azure Active Directory for External Identities,0.0
+2023-03-16,Azure App Service,4.929215516590747
+2023-03-16,Azure Arc,0.0
+2023-03-16,Azure Arc Enabled Databases,0.0
+2023-03-16,Azure Bastion,0.0
+2023-03-16,Azure Container Apps,0.0
+2023-03-16,Azure Cosmos DB,6.261422384990623
+2023-03-16,Azure DNS,0.107327675102448
+2023-03-16,Azure Data Factory v2,0.0
+2023-03-16,Azure Database for MariaDB,3.7310843373493965
+2023-03-16,Azure Database for MySQL,6.748720596672403
+2023-03-16,Azure Database for PostgreSQL,0.0
+2023-03-16,Azure Defender,1.116837944664032
+2023-03-16,Azure DevOps,2.392826836028206
+2023-03-16,Azure Firewall,0.0
+2023-03-16,Azure Front Door Service,0.51104236718225
+2023-03-16,Azure Kubernetes Service,0.005806516013916
+2023-03-16,Azure Monitor,0.057754822785749
+2023-03-16,Azure Site Recovery,0.598313253011959
+2023-03-16,Azure Synapse Analytics,0.0
+2023-03-16,Backup,1.52039097033381
+2023-03-16,Bandwidth,0.049812949822111
+2023-03-16,Container Instances,0.0
+2023-03-16,Container Registry,4.201496369137872
+2023-03-16,Content Delivery Network,0.0
+2023-03-16,Event Hubs,0.0
+2023-03-16,ExpressRoute,0.0
+2023-03-16,Functions,0.001105578166975
+2023-03-16,Insight and Analytics,0.0
+2023-03-16,Key Vault,2.0806963397e-05
+2023-03-16,Load Balancer,3.979139000414576
+2023-03-16,Log Analytics,1.92008566713895
+2023-03-16,Logic Apps,2.807516758661872
+2023-03-16,Network Watcher,0.0
+2023-03-16,Redis Cache,0.0
+2023-03-16,SQL Database,2.177551797567156
+2023-03-16,Security Center,4.291071721538632
+2023-03-16,Service Bus,0.039887451131395996
+2023-03-16,Storage,22.502129257361254
+2023-03-16,Unassigned,0.0
+2023-03-16,VPN Gateway,0.640777223865833
+2023-03-16,Virtual Machines,25.287116541642472
+2023-03-16,Virtual Machines Licenses,0.8359273012143591
+2023-03-16,Virtual Network,5.298765914876571
+2023-03-16,Virtual WAN,0.0
+2023-03-17,API Management,2.8303535302954432
+2023-03-17,Advanced Data Security,1.585665985217801
+2023-03-17,Advanced Threat Protection,11.885005319390686
+2023-03-17,Application Gateway,6.053115996357973
+2023-03-17,Automation,0.016627736298123003
+2023-03-17,Azure Active Directory for External Identities,0.0
+2023-03-17,Azure App Service,3.5663770855867
+2023-03-17,Azure Arc,0.0
+2023-03-17,Azure Arc Enabled Databases,0.0
+2023-03-17,Azure Bastion,0.0
+2023-03-17,Azure Container Apps,0.0
+2023-03-17,Azure Cosmos DB,6.261422384990623
+2023-03-17,Azure DNS,0.107273000158383
+2023-03-17,Azure Data Factory v2,0.0
+2023-03-17,Azure Database for MariaDB,3.7310843373493965
+2023-03-17,Azure Database for MySQL,6.748720596672403
+2023-03-17,Azure Database for PostgreSQL,0.0
+2023-03-17,Azure Defender,3.238830039525692
+2023-03-17,Azure DevOps,2.392826836028206
+2023-03-17,Azure Firewall,0.0
+2023-03-17,Azure Front Door Service,0.51104236718225
+2023-03-17,Azure Kubernetes Service,0.0
+2023-03-17,Azure Monitor,0.059581869231732996
+2023-03-17,Azure Site Recovery,0.598313253011959
+2023-03-17,Azure Synapse Analytics,0.0
+2023-03-17,Backup,1.52039097033381
+2023-03-17,Bandwidth,0.063279844232966
+2023-03-17,Container Instances,0.38383615806786703
+2023-03-17,Container Registry,4.258384289064606
+2023-03-17,Content Delivery Network,0.0
+2023-03-17,Event Hubs,0.0
+2023-03-17,ExpressRoute,0.0
+2023-03-17,Functions,0.001108427542635
+2023-03-17,Insight and Analytics,0.0
+2023-03-17,Key Vault,2.2887659737e-05
+2023-03-17,Load Balancer,4.522182997683555
+2023-03-17,Log Analytics,6.575137328599842
+2023-03-17,Logic Apps,0.7384685235097029
+2023-03-17,Network Watcher,0.0
+2023-03-17,Redis Cache,0.0
+2023-03-17,SQL Database,2.786900400982081
+2023-03-17,Security Center,3.277900565347522
+2023-03-17,Service Bus,0.030089723017597998
+2023-03-17,Storage,22.328961484853966
+2023-03-17,Unassigned,0.0
+2023-03-17,VPN Gateway,0.640777223865833
+2023-03-17,Virtual Machines,36.318784818145495
+2023-03-17,Virtual Machines Licenses,0.238941685622626
+2023-03-17,Virtual Network,5.29629426677837
+2023-03-17,Virtual WAN,0.0
+2023-03-18,API Management,2.34236154231347
+2023-03-18,Advanced Data Security,1.436074854536876
+2023-03-18,Advanced Threat Protection,11.99500173614549
+2023-03-18,Application Gateway,6.053115996357973
+2023-03-18,Automation,0.013393299922323
+2023-03-18,Azure Active Directory for External Identities,0.0
+2023-03-18,Azure App Service,3.5663770855867
+2023-03-18,Azure Arc,0.0
+2023-03-18,Azure Arc Enabled Databases,0.0
+2023-03-18,Azure Bastion,0.0
+2023-03-18,Azure Container Apps,0.0
+2023-03-18,Azure Cosmos DB,6.261422384990623
+2023-03-18,Azure DNS,0.107200677970125
+2023-03-18,Azure Data Factory v2,0.0
+2023-03-18,Azure Database for MariaDB,3.7310843373493965
+2023-03-18,Azure Database for MySQL,6.748720596672403
+2023-03-18,Azure Database for PostgreSQL,0.0
+2023-03-18,Azure Defender,5.081612648221344
+2023-03-18,Azure DevOps,2.392826836028206
+2023-03-18,Azure Firewall,0.0
+2023-03-18,Azure Front Door Service,0.533261600538
+2023-03-18,Azure Kubernetes Service,0.0
+2023-03-18,Azure Monitor,0.059581869231732996
+2023-03-18,Azure Site Recovery,0.598313253011959
+2023-03-18,Azure Synapse Analytics,0.0
+2023-03-18,Backup,1.5203909703338099
+2023-03-18,Bandwidth,0.030131429883723002
+2023-03-18,Container Instances,0.0
+2023-03-18,Container Registry,4.201496369137872
+2023-03-18,Content Delivery Network,0.0
+2023-03-18,Event Hubs,0.0
+2023-03-18,ExpressRoute,0.0
+2023-03-18,Functions,0.001100270626497
+2023-03-18,Insight and Analytics,0.0
+2023-03-18,Key Vault,2.4968356077e-05
+2023-03-18,Load Balancer,4.481229247383649
+2023-03-18,Log Analytics,3.6338752083378685
+2023-03-18,Logic Apps,0.7482215618183039
+2023-03-18,Network Watcher,0.0
+2023-03-18,Redis Cache,0.0
+2023-03-18,SQL Database,0.769982740739446
+2023-03-18,Security Center,2.920312936481543
+2023-03-18,Service Bus,0.019874945558496
+2023-03-18,Storage,22.150437629865902
+2023-03-18,Unassigned,0.0
+2023-03-18,VPN Gateway,0.640777223865833
+2023-03-18,Virtual Machines,49.65638263560579
+2023-03-18,Virtual Machines Licenses,0.0
+2023-03-18,Virtual Network,5.315729759376142
+2023-03-18,Virtual WAN,0.0
+2023-03-19,API Management,2.34236154231347
+2023-03-19,Advanced Data Security,1.436074854536876
+2023-03-19,Advanced Threat Protection,11.883466947338668
+2023-03-19,Application Gateway,6.053115996357973
+2023-03-19,Automation,0.013484410806148999
+2023-03-19,Azure Active Directory for External Identities,0.0
+2023-03-19,Azure App Service,3.5663770855867
+2023-03-19,Azure Arc,0.0
+2023-03-19,Azure Arc Enabled Databases,0.0
+2023-03-19,Azure Bastion,0.0
+2023-03-19,Azure Container Apps,0.0
+2023-03-19,Azure Cosmos DB,6.261422384990623
+2023-03-19,Azure DNS,0.107200677970125
+2023-03-19,Azure Data Factory v2,0.0
+2023-03-19,Azure Database for MariaDB,3.7310843373493965
+2023-03-19,Azure Database for MySQL,6.748720596672403
+2023-03-19,Azure Database for PostgreSQL,0.0
+2023-03-19,Azure Defender,0.642181818181818
+2023-03-19,Azure DevOps,2.392826836028206
+2023-03-19,Azure Firewall,0.0
+2023-03-19,Azure Front Door Service,0.533261600538
+2023-03-19,Azure Kubernetes Service,0.0
+2023-03-19,Azure Monitor,0.059581869231732996
+2023-03-19,Azure Site Recovery,0.598313253011959
+2023-03-19,Azure Synapse Analytics,0.0
+2023-03-19,Backup,1.52039097033381
+2023-03-19,Bandwidth,0.031770200192263995
+2023-03-19,Container Instances,0.0
+2023-03-19,Container Registry,4.201496369137872
+2023-03-19,Content Delivery Network,0.0
+2023-03-19,Event Hubs,0.0
+2023-03-19,ExpressRoute,0.0
+2023-03-19,Functions,0.001090660447129
+2023-03-19,Insight and Analytics,0.0
+2023-03-19,Key Vault,2.4968356077e-05
+2023-03-19,Load Balancer,4.466664910509763
+2023-03-19,Log Analytics,0.105923998260774
+2023-03-19,Logic Apps,0.704859173310121
+2023-03-19,Network Watcher,0.0
+2023-03-19,Redis Cache,0.0
+2023-03-19,SQL Database,0.652768569709038
+2023-03-19,Security Center,2.920312936481543
+2023-03-19,Service Bus,0.019895951516729
+2023-03-19,Storage,22.136043980170573
+2023-03-19,Unassigned,0.0
+2023-03-19,VPN Gateway,0.640777223865833
+2023-03-19,Virtual Machines,15.93685262117877
+2023-03-19,Virtual Machines Licenses,0.0
+2023-03-19,Virtual Network,5.315729759376142
+2023-03-19,Virtual WAN,0.0
+2023-03-20,API Management,2.34236154231347
+2023-03-20,Advanced Data Security,1.436074854536876
+2023-03-20,Advanced Threat Protection,11.766547358833282
+2023-03-20,Application Gateway,6.053115996357973
+2023-03-20,Automation,0.009224976987315
+2023-03-20,Azure Active Directory for External Identities,0.0
+2023-03-20,Azure App Service,3.5663770855867
+2023-03-20,Azure Arc,0.0
+2023-03-20,Azure Arc Enabled Databases,0.0
+2023-03-20,Azure Bastion,0.0
+2023-03-20,Azure Container Apps,0.0
+2023-03-20,Azure Cosmos DB,6.261422384990623
+2023-03-20,Azure DNS,0.107200677970125
+2023-03-20,Azure Data Factory v2,0.0
+2023-03-20,Azure Database for MariaDB,3.7310843373493965
+2023-03-20,Azure Database for MySQL,6.748720596672403
+2023-03-20,Azure Database for PostgreSQL,0.0
+2023-03-20,Azure Defender,2.847936758893281
+2023-03-20,Azure DevOps,2.392826836028206
+2023-03-20,Azure Firewall,0.0
+2023-03-20,Azure Front Door Service,0.51104236718225
+2023-03-20,Azure Kubernetes Service,0.0
+2023-03-20,Azure Monitor,0.059011532532921
+2023-03-20,Azure Site Recovery,0.598313253011959
+2023-03-20,Azure Synapse Analytics,0.0
+2023-03-20,Backup,1.520531341073383
+2023-03-20,Bandwidth,0.037404231201115995
+2023-03-20,Container Instances,0.216073190622571
+2023-03-20,Container Registry,4.232521956920514
+2023-03-20,Content Delivery Network,0.0
+2023-03-20,Event Hubs,0.0
+2023-03-20,ExpressRoute,0.0
+2023-03-20,Functions,0.001082129329317
+2023-03-20,Insight and Analytics,0.0
+2023-03-20,Key Vault,3.5371837775e-05
+2023-03-20,Load Balancer,4.507242287292775
+2023-03-20,Log Analytics,1.980578312540489
+2023-03-20,Logic Apps,0.70168586332645
+2023-03-20,Network Watcher,0.0
+2023-03-20,Redis Cache,0.0
+2023-03-20,SQL Database,5.598595254267349
+2023-03-20,Security Center,3.6950861323578312
+2023-03-20,Service Bus,0.010101220759543998
+2023-03-20,Storage,22.699362298034114
+2023-03-20,Unassigned,0.0
+2023-03-20,VPN Gateway,0.640777223865833
+2023-03-20,Virtual Machines,37.515937887196365
+2023-03-20,Virtual Machines Licenses,0.396510261229702
+2023-03-20,Virtual Network,5.330571747891408
+2023-03-20,Virtual WAN,0.0

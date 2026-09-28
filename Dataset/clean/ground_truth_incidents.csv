@@ -1,0 +1,13 @@
+incident_id,start,end,duration_days,anomaly_type,driver_primary,driver_secondary,k_multiplier,extra_cost_usd
+INC-01,2026-01-26,2026-01-26,1,vm_left_running,Virtual Machines,,0.633,1.4176
+INC-02,2026-02-01,2026-02-01,1,new_app_deploy,Azure App Service,,1.178,2.3327
+INC-03,2026-02-15,2026-02-16,2,ai_agent_rollout,Foundry Models,MS Bing Services,1.551,6.1432
+INC-04,2026-02-23,2026-02-23,1,runaway_llm_tokens,Foundry Models,,0.397,0.7867
+INC-05,2026-03-23,2026-03-23,1,runaway_llm_tokens,Foundry Models,,1.023,1.9335
+INC-06,2026-04-05,2026-04-05,1,ai_agent_rollout,Foundry Models,MS Bing Services,0.391,0.704
+INC-07,2026-05-10,2026-05-11,2,storage_growth,Storage,,1.011,3.5854
+INC-08,2026-05-18,2026-05-20,3,vm_left_running,Virtual Machines,,0.549,2.9214
+INC-09,2026-05-26,2026-05-26,1,runaway_egress,Bandwidth,,1.086,1.9258
+INC-10,2026-06-02,2026-06-03,2,runaway_egress,Bandwidth,,1.182,4.1905
+INC-11,2026-06-12,2026-06-12,1,new_app_deploy,Azure App Service,,1.869,3.3127
+INC-12,2026-06-22,2026-06-22,1,storage_growth,Storage,,0.482,0.8549

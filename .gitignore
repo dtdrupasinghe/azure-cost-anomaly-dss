@@ -1,0 +1,29 @@
+# Allow-list: everything is ignored unless listed below. This keeps the raw Azure
+# bills (subscription IDs, names), the Kaggle raw file (licence unknown), papers,
+# thesis drafts and planning notes out of the repository.
+*
+!*/
+
+!/.gitignore
+!/README.md
+!/app.py
+!/requirements.txt
+!.streamlit/config.toml
+!scripts/*.py
+
+# Dashboard data (anonymised / derived only)
+!Dataset/clean/augmented_daily.csv
+!Dataset/clean/augmented_daily_totals.csv
+!Dataset/clean/ground_truth_incidents.csv
+!Dataset/clean/kaggle_daily_by_service.csv
+!Dataset/clean/kaggle_daily_totals.csv
+
+# Evaluation outputs shown in the dashboard / thesis
+!results/evaluation/*.png
+!results/evaluation/*.md
+!results/evaluation/*.csv
+
+# Never commit, even if matched above
+.venv/
+__pycache__/
+.DS_Store
