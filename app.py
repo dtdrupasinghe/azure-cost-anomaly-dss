@@ -231,7 +231,7 @@ def alert_text(day, row, drivers: pd.DataFrame, money) -> str:
              f"(+{money(row['extra'])}, about {money(row['extra'] * 30)} per month if it continues)",
              "Top drivers:"]
     for svc, r in drivers.head(3).iterrows():
-        if r["increase"] > 0:
+        if r["increase"] > 0 and r["share_of_increase"] >= 0.05:
             lines.append(f"- {svc}: +{money(r['increase'])} ({r['share_of_increase']:.0%} of the increase)")
     lines.append("_Sent by the Azure Cost Anomaly DSS._")
     return "\n".join(lines)
@@ -487,7 +487,10 @@ elif page == "Investigate":
         if send:
             if webhook:
                 ok, info = send_alert(webhook, platform, alert_text(day, r, drivers, money))
-                st.success(f"Alert sent ({info}).") if ok else st.error(f"Alert failed: {info}")
+                if ok:
+                    st.success("Alert sent.")
+                else:
+                    st.error(f"Alert failed: {info}")
             else:
                 st.warning("Add a webhook URL under Alert channel in the sidebar.")
         if DECISIONS.exists():
