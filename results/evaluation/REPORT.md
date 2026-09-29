@@ -3,10 +3,24 @@
 Runs: 2 datasets x 6 incident sizes x 10 seeds. Evaluation excludes the first 14 warm-up days.
 
 
+## Detector selection (F1 averaged over all incident sizes)
+
+The DSS uses the detector with the best F1 across both datasets.
+
+| detector | startup | kaggle | both |
+|---|---|---|---|
+| consensus | 0.80 | 0.52 | 0.66 |
+| median_mad | 0.84 | 0.37 | 0.60 |
+| moving_avg | 0.54 | 0.56 | 0.55 |
+| isolation_forest | 0.63 | 0.43 | 0.53 |
+| three_sigma | 0.59 | 0.42 | 0.51 |
+| fixed_budget | 0.26 | 0.26 | 0.26 |
+
 ## Detection - startup (incident size 30% of a normal day)
 
 | detector | precision | recall_days | f1 | event_recall | false_alerts_per_30d | mean_delay_days | cost_exposed_pct |
 |---|---|---|---|---|---|---|---|
+| consensus | 1.00 | 0.96 | 0.98 | 98% | 0.0 | 0.00 | 2% |
 | fixed_budget | 0.80 | 0.08 | 0.14 | 9% | 0.0 | 0.06 | 87% |
 | isolation_forest | 0.74 | 0.70 | 0.72 | 75% | 0.8 | 0.07 | 23% |
 | median_mad | 0.98 | 0.96 | 0.97 | 97% | 0.1 | 0.00 | 4% |
@@ -17,6 +31,7 @@ Runs: 2 datasets x 6 incident sizes x 10 seeds. Evaluation excludes the first 14
 
 | detector | 5% | 10% | 20% | 30% | 50% | 100% |
 |---|---|---|---|---|---|---|
+| consensus | 24% | 57% | 86% | 98% | 100% | 100% |
 | fixed_budget | 0% | 0% | 0% | 9% | 29% | 100% |
 | isolation_forest | 31% | 51% | 67% | 75% | 84% | 88% |
 | median_mad | 27% | 71% | 97% | 97% | 98% | 100% |
@@ -56,6 +71,7 @@ The real background already contains unlabelled real spikes (see the real-cases 
 
 | detector | precision | recall_days | f1 | event_recall | false_alerts_per_30d | mean_delay_days | cost_exposed_pct |
 |---|---|---|---|---|---|---|---|
+| consensus | 0.52 | 0.61 | 0.56 | 68% | 2.1 | 0.02 | 33% |
 | fixed_budget | 0.15 | 1.00 | 0.27 | 100% | 20.8 | 0.00 | 0% |
 | isolation_forest | 0.50 | 0.43 | 0.46 | 52% | 1.6 | 0.10 | 46% |
 | median_mad | 0.30 | 0.43 | 0.35 | 48% | 3.8 | 0.00 | 54% |
@@ -66,6 +82,7 @@ The real background already contains unlabelled real spikes (see the real-cases 
 
 | detector | 5% | 10% | 20% | 30% | 50% | 100% |
 |---|---|---|---|---|---|---|
+| consensus | 32% | 40% | 60% | 68% | 88% | 100% |
 | fixed_budget | 90% | 93% | 100% | 100% | 100% | 100% |
 | isolation_forest | 18% | 20% | 40% | 52% | 73% | 87% |
 | median_mad | 30% | 35% | 47% | 48% | 73% | 93% |
@@ -107,11 +124,11 @@ Driver ranking = cost_delta (increase vs each service's trailing 7-day median).
 
 | Date | Cost | Normal | Increase | Flagged by | Top drivers (increase) |
 |---|---|---|---|---|---|
-| 2023-02-01 | 164.49 | 133.68 | +30.81 (23%) | isolation_forest, three_sigma, moving_avg, fixed_budget | Azure Firewall +12.52; Virtual Machines +7.86; Azure Database for MariaDB +3.73 |
-| 2023-02-03 | 169.61 | 136.01 | +33.60 (25%) | isolation_forest, moving_avg, fixed_budget | Azure Synapse Analytics +54.95; Azure Database for MariaDB +2.67; Log Analytics +2.62 |
-| 2023-03-15 | 130.16 | 96.17 | +34.00 (35%) | isolation_forest, median_mad, three_sigma, moving_avg, fixed_budget | Virtual Machines +15.22; SQL Database +15.17; Storage +4.16 |
-| 2023-03-17 | 138.57 | 97.78 | +40.78 (42%) | median_mad, moving_avg, fixed_budget | Virtual Machines +28.25; Log Analytics +6.32; Storage +3.60 |
-| 2023-03-18 | 147.01 | 111.39 | +35.62 (32%) | isolation_forest, median_mad, moving_avg, fixed_budget | Virtual Machines +36.92; Azure Defender +4.83; Log Analytics +3.38 |
+| 2023-02-01 | 164.49 | 133.68 | +30.81 (23%) | consensus, isolation_forest, three_sigma, moving_avg, fixed_budget | Azure Firewall +12.52; Virtual Machines +7.86; Azure Database for MariaDB +3.73 |
+| 2023-02-03 | 169.61 | 136.01 | +33.60 (25%) | consensus, isolation_forest, moving_avg, fixed_budget | Azure Synapse Analytics +54.95; Azure Database for MariaDB +2.67; Log Analytics +2.62 |
+| 2023-03-15 | 130.16 | 96.17 | +34.00 (35%) | consensus, isolation_forest, median_mad, three_sigma, moving_avg, fixed_budget | Virtual Machines +15.22; SQL Database +15.17; Storage +4.16 |
+| 2023-03-17 | 138.57 | 97.78 | +40.78 (42%) | consensus, median_mad, moving_avg, fixed_budget | Virtual Machines +28.25; Log Analytics +6.32; Storage +3.60 |
+| 2023-03-18 | 147.01 | 111.39 | +35.62 (32%) | consensus, isolation_forest, median_mad, moving_avg, fixed_budget | Virtual Machines +36.92; Azure Defender +4.83; Log Analytics +3.38 |
 
 ## Case organisation (Sri Lankan startup) - 28 June 2026 vs 1 June 2026
 

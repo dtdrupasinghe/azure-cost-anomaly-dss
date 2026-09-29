@@ -38,14 +38,15 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.append(str(ROOT / "scripts"))
 import augment_dataset as aug  # noqa: E402
 from attribution import METHODS, explain_day, rank_drivers  # noqa: E402
-from detector import baseline_flags, detect  # noqa: E402
+from detector import all_flags  # noqa: E402
 
 CLEAN = ROOT / "Dataset" / "clean"
 OUT = ROOT / "results" / "evaluation"
 K_LEVELS = [0.05, 0.1, 0.2, 0.3, 0.5, 1.0]
 SEEDS = range(10)
 WARMUP = 14
-DETECTORS = ["isolation_forest", "median_mad", "three_sigma", "moving_avg", "fixed_budget"]
+# consensus = final DSS detector (>= 2 of median_mad, moving_avg, three_sigma, isolation_forest)
+DETECTORS = ["consensus", "isolation_forest", "median_mad", "three_sigma", "moving_avg", "fixed_budget"]
 
 KAGGLE_INCIDENTS = [
     ("vm_left_running",     ["Virtual Machines"],                          (1, 3)),
@@ -56,8 +57,8 @@ KAGGLE_INCIDENTS = [
     ("analytics_rollout",   ["Azure Synapse Analytics", "Log Analytics"],  (1, 2)),
 ]
 
-# Reference palette, categorical slots 1-5 in fixed order (dataviz skill).
-PALETTE = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4"]
+# Reference palette, categorical slots 1-6 in fixed order (dataviz skill).
+PALETTE = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300"]
 INK, INK2, GRID, SURFACE = "#0b0b0b", "#52514e", "#e4e3df", "#fcfcfb"
 
 
@@ -93,12 +94,7 @@ def make_run(dataset: str, k: float, seed: int, startup_levels, kaggle_clean):
 # Detection
 # --------------------------------------------------------------------------- #
 def detection_flags(W: pd.DataFrame) -> pd.DataFrame:
-    totals = W.sum(axis=1)
-    flags = baseline_flags(totals, WARMUP)
-    iso = detect(pd.DataFrame({"date": W.index, "total_cost_usd": totals.values}))
-    flags.insert(0, "isolation_forest", iso["predicted"].values)
-    flags.index = W.index
-    return flags
+    return all_flags(W.sum(axis=1))
 
 
 def score_detection(flags, labels, extra, truth) -> list[dict]:
@@ -223,7 +219,7 @@ def fig_detection(summary: pd.DataFrame) -> None:
             ax.set_xticks([5, 10, 20, 30, 50, 100], ["5%", "10%", "20%", "30%", "50%", "100%"])
             if row == 1:
                 ax.set_xlabel("Incident size (extra cost as % of a normal day)", color=INK2)
-    fig.legend(*axes[0, 0].get_legend_handles_labels(), loc="upper center", ncol=5,
+    fig.legend(*axes[0, 0].get_legend_handles_labels(), loc="upper center", ncol=6,
                frameon=False, fontsize=9, labelcolor=INK)
     fig.tight_layout(rect=(0, 0, 1, 0.95))
     fig.savefig(OUT / "fig_detection_vs_size.png", dpi=150, facecolor=SURFACE)
@@ -292,6 +288,12 @@ def main() -> None:
     rep = ["# Evaluation report\n",
            f"Runs: 2 datasets x {len(K_LEVELS)} incident sizes x {len(SEEDS)} seeds. "
            f"Evaluation excludes the first {WARMUP} warm-up days.\n"]
+    sel = dsum.groupby(["detector", "dataset"])["f1"].mean().unstack()[["startup", "kaggle"]]
+    sel["both"] = sel.mean(axis=1)
+    sel = sel.sort_values("both", ascending=False).reset_index()
+    rep.append("\n## Detector selection (F1 averaged over all incident sizes)\n")
+    rep.append("The DSS uses the detector with the best F1 across both datasets.\n")
+    rep.append(md_table(sel, {"startup": "{:.2f}", "kaggle": "{:.2f}", "both": "{:.2f}"}))
     for ds in ["startup", "kaggle"]:
         rep.append(f"\n## Detection - {ds} (incident size 30% of a normal day)\n")
         if ds == "kaggle":

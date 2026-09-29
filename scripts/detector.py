@@ -66,3 +66,21 @@ def detect(df: pd.DataFrame, contamination: float = 0.09) -> pd.DataFrame:
     df["anomaly_score"] = -model.score_samples(X)   # higher = more anomalous
     df["predicted"] = (model.predict(X) == -1).astype(int)
     return df
+
+
+# Final detector used by the DSS, chosen by the evaluation (best F1 averaged over both
+# datasets): a day is anomalous when at least 2 of these 4 detectors agree. Fixed budget
+# is excluded (it floods alerts when spend grows).
+CONSENSUS_MEMBERS = ["median_mad", "moving_avg", "three_sigma", "isolation_forest"]
+CONSENSUS_MIN_VOTES = 2
+
+
+def all_flags(totals: pd.Series) -> pd.DataFrame:
+    """Every detector's 0/1 flag for a daily-total series, plus the `consensus` detector."""
+    flags = baseline_flags(totals)
+    iso = detect(pd.DataFrame({"date": totals.index, "total_cost_usd": totals.values}))
+    flags.insert(0, "isolation_forest", iso["predicted"].values)
+    flags.index = totals.index
+    flags["votes"] = flags[CONSENSUS_MEMBERS].sum(axis=1)
+    flags.insert(0, "consensus", (flags["votes"] >= CONSENSUS_MIN_VOTES).astype(int))
+    return flags

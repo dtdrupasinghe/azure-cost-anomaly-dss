@@ -24,7 +24,7 @@ import streamlit as st
 ROOT = Path(__file__).resolve().parent
 sys.path.append(str(ROOT / "scripts"))
 from attribution import explain_day, shap_contributions  # noqa: E402
-from detector import baseline_flags, detect  # noqa: E402
+from detector import CONSENSUS_MEMBERS, all_flags  # noqa: E402
 
 CLEAN = ROOT / "Dataset" / "clean"
 EVAL = ROOT / "results" / "evaluation"
@@ -40,14 +40,12 @@ DATASETS = {
         "short": "Public Azure subscription", "key": "kaggle",
         "note": "Real daily Azure billing (Kaggle, c.carrucciu 2023). Amounts in the billing currency."},
 }
-DETECTORS = {
-    "Median + MAD": "median_mad",
-    "Moving-average band": "moving_avg",
-    "Isolation Forest": "isolation_forest",
-    "3-sigma rule": "three_sigma",
-    "Fixed budget": "fixed_budget",
-}
-DETECTOR_NAMES = {v: k for k, v in DETECTORS.items()}
+# The DSS runs one detector, chosen by the evaluation: the consensus of four detectors
+# (anomalous when >= 2 agree). The others appear only on the Evaluation page.
+DET = "consensus"
+DETECTOR_NAMES = {"consensus": "Consensus (final)", "median_mad": "Median + MAD",
+                  "moving_avg": "Moving-average band", "isolation_forest": "Isolation Forest",
+                  "three_sigma": "3-sigma rule", "fixed_budget": "Fixed budget"}
 METHOD_NAMES = {"cost_delta": "Cost change vs normal", "robust_z": "Relative change (robust z)",
                 "shap_if": "SHAP on Isolation Forest", "largest_cost": "Largest cost that day"}
 ACTIONS = {
@@ -103,6 +101,9 @@ section[data-testid="stSidebar"] div[role="radiogroup"] > label > div:first-chil
 section[data-testid="stSidebar"] div[role="radiogroup"] > label:has(input:checked) { background: var(--accent-soft); }
 section[data-testid="stSidebar"] div[role="radiogroup"] > label:has(input:checked) p { color: var(--accent); font-weight: 600; }
 section[data-testid="stSidebar"] div[role="radiogroup"] p { font-size: 0.92rem; color: #2b2e36; }
+.modelbox { font-size:0.8rem; color:var(--ink2); line-height:1.5; background:#f6f7f9; border:1px solid var(--line);
+  border-radius:10px; padding:10px 12px; margin-bottom: 12px; }
+.modelbox b { color:var(--ink); font-weight:600; }
 .sidefoot { font-size:0.74rem; color:var(--ink3); line-height:1.45; margin-top: 22px; padding-top: 14px; border-top:1px solid var(--line); }
 
 /* Page header */
@@ -192,15 +193,11 @@ def load(path: str) -> pd.DataFrame:
 @st.cache_data
 def analyse(W: pd.DataFrame) -> pd.DataFrame:
     total = W.sum(axis=1)
-    flags = baseline_flags(total)
-    iso = detect(pd.DataFrame({"date": W.index, "total_cost_usd": total.values}))
-    flags.insert(0, "isolation_forest", iso["predicted"].values)
-    flags.index = W.index
+    flags = all_flags(total)
     normal = total.shift(1).rolling(7, min_periods=3).median()
     out = pd.DataFrame({"total": total, "normal": normal}).join(flags)
     out["extra"] = (out["total"] - out["normal"]).clip(lower=0).fillna(0)
     out["pct"] = (out["extra"] / out["normal"]).fillna(0)
-    out["agree"] = out[list(DETECTORS.values())].sum(axis=1)
     return out
 
 
@@ -298,11 +295,11 @@ page = st.sidebar.radio("Navigation", [f"{icon}  {name}" for name, icon in PAGES
 
 html('<div class="navlabel">Data source</div>', st.sidebar)
 ds_name = st.sidebar.selectbox("Dataset", list(DATASETS) + ["Upload a CSV"], label_visibility="collapsed")
-html('<div class="navlabel">Detection method</div>', st.sidebar)
-det_label = st.sidebar.selectbox("Detection method", list(DETECTORS), label_visibility="collapsed",
-                                 help="Median + MAD was the most reliable on the case data; the moving-average "
-                                      "band on the real public data.")
-det = DETECTORS[det_label]
+html('<div class="navlabel">Detection model</div><div class="modelbox"><b>Consensus detector</b><br>'
+     'A day is flagged when at least 2 of 4 detectors agree: Isolation Forest, median + MAD, '
+     'moving-average band and 3-sigma. Chosen for the best F1 across both evaluation datasets.</div>',
+     st.sidebar)
+det, det_label = DET, "Consensus detector"
 with st.sidebar.expander("Alert channel"):
     platform = st.selectbox("Platform", ["Slack", "Microsoft Teams"])
     webhook = st.text_input("Incoming webhook URL", type="password", placeholder="https://hooks...")
@@ -394,7 +391,7 @@ if page == "Overview":
                 "Cost": flagged["total"].values, "Normal": flagged["normal"].values,
                 "Extra cost": flagged["extra"].values, "Increase": (flagged["pct"] * 100).values,
                 "Main driver": [top_driver(W, d) for d in flagged.index],
-                "Methods agreeing": flagged["agree"].values,
+                "Detectors agreeing": flagged["votes"].values,
             }).iloc[::-1]
             st.dataframe(tbl, hide_index=True, width="stretch", column_config={
                 "Date": st.column_config.DateColumn(format="D MMM YYYY"),
@@ -403,7 +400,7 @@ if page == "Overview":
                 "Extra cost": st.column_config.NumberColumn(format=num_fmt),
                 "Increase": st.column_config.ProgressColumn(format="%.0f%%", min_value=0,
                                                             max_value=float(max(100, tbl["Increase"].max()))),
-                "Methods agreeing": st.column_config.ProgressColumn(format="%d of 5", min_value=0, max_value=5),
+                "Detectors agreeing": st.column_config.ProgressColumn(format="%d of 4", min_value=0, max_value=4),
             })
 
 # --------------------------------------------------------------------------- #
@@ -423,7 +420,7 @@ elif page == "Investigate":
     top = drivers[drivers["increase"] > 0].head(3)
 
     html(f'<div class="banner"><div>{pill(r["pct"])}<div class="b-title">Cost anomaly on {day:%A, %d %B %Y}</div>'
-         f'<div class="csub">Flagged by {int(r["agree"])} of 5 detection methods</div></div>'
+         f'<div class="csub">Flagged by {int(r["votes"])} of 4 detectors</div></div>'
          f'<div class="stats"><div><div class="stat-l">Cost that day</div><div class="stat-v">{money(r["total"])}</div></div>'
          f'<div><div class="stat-l">Normal</div><div class="stat-v">{money(r["normal"])}</div></div>'
          f'<div><div class="stat-l">Extra cost</div><div class="stat-v">+{money(r["extra"])}</div></div>'
@@ -521,9 +518,9 @@ elif page == "Evaluation":
         kpi(k2, "target", "#1f8a4c", "Driver named correctly", f"{(res['Driver correct'] == 'Yes').sum()} of {len(res)}",
             "First-ranked service")
         if dsum is not None:
-            best = dsum[(dsum.dataset == "kaggle") & (dsum.k == 0.3)].sort_values("f1").iloc[-1]
-            kpi(k3, "insights", "#7b5cd6", "Best detector on real data", DETECTOR_NAMES[best["detector"]],
-                f"F1 {best['f1']:.2f} · {best['event_recall']:.0%} of +30% incidents caught", small=True)
+            both = dsum.groupby("detector")["f1"].mean()
+            kpi(k3, "insights", "#7b5cd6", "Detection model in use", "Consensus (2 of 4)",
+                f"F1 {both['consensus']:.2f} averaged over both datasets, best of 6", small=True)
         if asum is not None:
             pooled = asum[asum.dataset == "kaggle"].groupby("method")["top1"].mean()
             kpi(k4, "psychology", "#c9591c", "Best explanation method", METHOD_NAMES[pooled.idxmax()],
@@ -538,7 +535,8 @@ elif page == "Evaluation":
 
     if dsum is not None:
         with st.container(key="card_detectors"):
-            card_head("Detection methods compared", "Incidents 30% above a normal day, ranked by F1")
+            card_head("Detection models compared", "Why the consensus detector is used. Incidents 30% above a "
+                      "normal day, ranked by F1")
             cols = st.columns(2, gap="medium")
             for col, (ds, label) in zip(cols, [("startup", "Case startup"), ("kaggle", "Public Azure (real daily)")]):
                 t = dsum[(dsum.dataset == ds) & (dsum.k == 0.3)].sort_values("f1", ascending=False)
@@ -613,10 +611,9 @@ else:
             cols = st.columns(2, gap="medium")
         rr = Ak.loc[d]
         ex = explain_day(Wk, d, 3)
-        by = [DETECTOR_NAMES[k] for k in DETECTORS.values() if rr[k] == 1]
         with cols[i % 2].container(key=f"card_case_k{i}"):
             card_head(f"{d:%d %B %Y}", f"Cost {rr['total']:,.2f} vs normal {rr['normal']:,.2f} "
-                      f"· flagged by {len(by)} of 5 methods",
+                      f"· {'flagged' if rr[DET] else 'not flagged'} ({int(rr['votes'])} of 4 detectors)",
                       pill(rr["pct"]).replace("</span>", f" · {rr['pct']:+.0%}</span>"))
             html(bars_html(ex["increase"].clip(lower=0)))
         if i % 2 == 1:
