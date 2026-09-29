@@ -43,9 +43,10 @@ DATASETS = {
 # The DSS runs one detector, chosen by the evaluation: the consensus of four detectors
 # (anomalous when >= 2 agree). The others appear only on the Evaluation page.
 DET = "consensus"
-DETECTOR_NAMES = {"consensus": "Consensus (final)", "median_mad": "Median + MAD",
-                  "moving_avg": "Moving-average band", "isolation_forest": "Isolation Forest",
-                  "three_sigma": "3-sigma rule", "fixed_budget": "Fixed budget"}
+DETECTOR_NAMES = {"consensus": "Consensus (final)", "isolation_forest": "Isolation Forest (ML)",
+                  "one_class_svm": "One-Class SVM (ML)", "lof": "Local Outlier Factor (ML)",
+                  "kmeans": "K-Means (ML)", "median_mad": "Median + MAD", "moving_avg": "Moving-average band",
+                  "three_sigma": "3-sigma rule", "ewma": "EWMA", "fixed_budget": "Fixed budget"}
 METHOD_NAMES = {"cost_delta": "Cost change vs normal", "robust_z": "Relative change (robust z)",
                 "shap_if": "SHAP on Isolation Forest", "largest_cost": "Largest cost that day"}
 ACTIONS = {
@@ -523,7 +524,7 @@ elif page == "Evaluation":
         if dsum is not None:
             both = dsum.groupby("detector")["f1"].mean()
             kpi(k3, "insights", "#7b5cd6", "Detection model in use", "Consensus (2 of 4)",
-                f"F1 {both['consensus']:.2f} averaged over both datasets, best of 6", small=True)
+                f"F1 {both['consensus']:.2f} averaged over both datasets, best of {len(both)}", small=True)
         if asum is not None:
             pooled = asum[asum.dataset == "kaggle"].groupby("method")["top1"].mean()
             kpi(k4, "psychology", "#c9591c", "Best explanation method", METHOD_NAMES[pooled.idxmax()],
@@ -540,8 +541,8 @@ elif page == "Evaluation":
         with st.container(key="card_detectors"):
             card_head("Detection models compared", "Why the consensus detector is used. Incidents 30% above a "
                       "normal day, ranked by F1")
-            cols = st.columns(2, gap="medium")
-            for col, (ds, label) in zip(cols, [("startup", "Case startup"), ("kaggle", "Public Azure (real daily)")]):
+            for ds, label in [("startup", "Case startup"), ("kaggle", "Public Azure (real daily)")]:
+                col = st
                 t = dsum[(dsum.dataset == ds) & (dsum.k == 0.3)].sort_values("f1", ascending=False)
                 col.markdown(f"**{label}**")
                 col.dataframe(pd.DataFrame({
@@ -571,8 +572,40 @@ elif page == "Evaluation":
                                   "Top-3": st.column_config.ProgressColumn(format="%.0f%%", min_value=0, max_value=100),
                                   "MRR": st.column_config.NumberColumn(format="%.2f")})
         st.write("")
-    with st.expander("Figures by incident size"):
-        for img in ("fig_detection_vs_size.png", "fig_attribution.png"):
+    mlx_file = EVAL / "ml_evaluation.csv"
+    if dsum is not None and mlx_file.exists():
+        det_runs = pd.read_csv(EVAL / "detection_runs.csv")
+        mlx = pd.read_csv(mlx_file)
+        ml = ["isolation_forest", "one_class_svm", "lof", "kmeans"]
+        with st.container(key="card_ml"):
+            card_head("Machine-learning model evaluation",
+                      "Four unsupervised ML models, same features, threshold-free and deployment-style tests")
+            for ds, label in [("startup", "Case startup"), ("kaggle", "Public Azure (real daily)")]:
+                col = st
+                r = det_runs[(det_runs.dataset == ds) & det_runs.detector.isin(ml + ["consensus"])]
+                g = r.groupby("detector").agg(roc=("roc_auc", "mean"), pr=("pr_auc", "mean"))
+                g["f1"] = r[r.k == 0.3].groupby("detector")["f1"].mean()
+                wf = mlx[(mlx.dataset == ds) & (mlx.experiment == "walk_forward")].groupby("detector")["f1"].mean()
+                g["walk"] = wf.reindex(g.index).map(lambda v: f"{v:.2f}" if pd.notna(v) else "n/a")
+                g = g.sort_values("roc", ascending=False)
+                col.markdown(f"**{label}**")
+                col.dataframe(pd.DataFrame({
+                    "Model": g.index.map(DETECTOR_NAMES), "ROC-AUC": g["roc"].values, "PR-AUC": g["pr"].values,
+                    "F1": g["f1"].values, "F1 walk-forward": g["walk"].values}),
+                    hide_index=True, width="stretch", column_config={
+                        "ROC-AUC": st.column_config.ProgressColumn(format="%.2f", min_value=0.5, max_value=1.0,
+                                                                   help="0.5 = random ranking, 1.0 = perfect"),
+                        "PR-AUC": st.column_config.NumberColumn(format="%.2f"),
+                        "F1": st.column_config.NumberColumn(format="%.2f", help="Incidents of +30%, fitted on the whole period"),
+                        "F1 walk-forward": st.column_config.TextColumn(
+                            help="Incidents of +30%, retrained weekly on past days only (deployment-style)")})
+            html('<div class="csub" style="margin-top:8px">In the main evaluation Isolation Forest is the strongest '
+                 'ML model on both datasets (Wilcoxon p &lt; 0.01 against each other ML model), so it is the ML '
+                 'member of the consensus detector. Retrained weekly on past days only, all four lose accuracy on '
+                 'the real public data; on the case startup data LOF and K-Means improve.</div>')
+        st.write("")
+    with st.expander("Figures"):
+        for img in ("fig_detection_ml.png", "fig_detection_stat.png", "fig_auc.png", "fig_attribution.png"):
             if (EVAL / img).exists():
                 st.image(str(EVAL / img), width="stretch")
     if dsum is None:

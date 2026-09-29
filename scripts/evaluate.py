@@ -16,7 +16,8 @@ Incident size k = extra cost as a fraction of a normal day's total
 Outputs (results/evaluation/):
   detection_runs.csv, detection_summary.csv      per detector, dataset, k
   attribution_runs.csv, attribution_summary.csv  per method, dataset, k
-  fig_detection_vs_size.png, fig_attribution.png
+  ml_evaluation.csv                              walk-forward + contamination-sensitivity runs
+  fig_detection_ml.png, fig_detection_stat.png, fig_auc.png, fig_attribution.png
   real_cases.md                                  unlabelled REAL spikes explained
   REPORT.md                                      thesis-ready tables
 """
@@ -38,7 +39,9 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.append(str(ROOT / "scripts"))
 import augment_dataset as aug  # noqa: E402
 from attribution import METHODS, explain_day, rank_drivers  # noqa: E402
-from detector import all_flags  # noqa: E402
+from detector import CONTAMINATION, ML_MODELS, all_flags, ml_features, ml_scores  # noqa: E402
+from scipy.stats import wilcoxon  # noqa: E402
+from sklearn.metrics import average_precision_score, roc_auc_score  # noqa: E402
 
 CLEAN = ROOT / "Dataset" / "clean"
 OUT = ROOT / "results" / "evaluation"
@@ -46,7 +49,10 @@ K_LEVELS = [0.05, 0.1, 0.2, 0.3, 0.5, 1.0]
 SEEDS = range(10)
 WARMUP = 14
 # consensus = final DSS detector (>= 2 of median_mad, moving_avg, three_sigma, isolation_forest)
-DETECTORS = ["consensus", "isolation_forest", "median_mad", "three_sigma", "moving_avg", "fixed_budget"]
+STATS = ["median_mad", "moving_avg", "three_sigma", "ewma", "fixed_budget"]
+DETECTORS = ["consensus"] + ML_MODELS + STATS
+KIND = {"consensus": "Ensemble", **{m: "ML" for m in ML_MODELS}, **{m: "Statistical" for m in STATS}}
+CONTAMINATIONS = [0.03, 0.05, 0.09, 0.15]
 
 KAGGLE_INCIDENTS = [
     ("vm_left_running",     ["Virtual Machines"],                          (1, 3)),
@@ -93,14 +99,29 @@ def make_run(dataset: str, k: float, seed: int, startup_levels, kaggle_clean):
 # --------------------------------------------------------------------------- #
 # Detection
 # --------------------------------------------------------------------------- #
-def detection_flags(W: pd.DataFrame) -> pd.DataFrame:
-    return all_flags(W.sum(axis=1))
+def detection_flags(W: pd.DataFrame):
+    """(flags, scores) for every detector on the daily total, fitted on the whole period."""
+    return all_flags(W.sum(axis=1), with_scores=True)
 
 
-def score_detection(flags, labels, extra, truth) -> list[dict]:
+def walk_forward(W: pd.DataFrame, seed: int, block: int = 7, contamination: float = CONTAMINATION):
+    """Deployment-style ML evaluation: every `block` days, retrain each ML model on the PAST
+    days only (expanding window) and score the next block. No future data is ever seen."""
+    X, n = ml_features(W.sum(axis=1)), len(W)
+    S = {m: np.zeros(n) for m in ML_MODELS}
+    F = {m: np.zeros(n, dtype=int) for m in ML_MODELS}
+    for b in range(WARMUP, n, block):
+        rows = np.arange(b, min(b + block, n))
+        s, f = ml_scores(X, np.arange(b), rows, contamination, seed)
+        for m in ML_MODELS:
+            S[m][rows], F[m][rows] = s[m], f[m]
+    return pd.DataFrame(F, index=W.index), pd.DataFrame(S, index=W.index)
+
+
+def score_detection(flags, labels, extra, truth, scores=None, detectors=DETECTORS) -> list[dict]:
     ev = flags.index[WARMUP:]
     rows = []
-    for det in DETECTORS:
+    for det in detectors:
         f, y = flags.loc[ev, det], labels.loc[ev]
         tp, fp = int(((f == 1) & (y == 1)).sum()), int(((f == 1) & (y == 0)).sum())
         fn = int(((f == 0) & (y == 1)).sum())
@@ -124,6 +145,9 @@ def score_detection(flags, labels, extra, truth) -> list[dict]:
                      "false_alerts_per_30d": fp / len(ev) * 30,
                      "mean_delay_days": np.mean(delays) if delays else np.nan,
                      "cost_exposed_pct": exposed / total_extra * 100 if total_extra else 0.0})
+        if scores is not None and y.nunique() == 2:   # threshold-free ranking quality
+            rows[-1]["roc_auc"] = roc_auc_score(y, scores.loc[ev, det])
+            rows[-1]["pr_auc"] = average_precision_score(y, scores.loc[ev, det])
     return rows
 
 
@@ -156,7 +180,7 @@ def real_cases() -> str:
     k = pd.read_csv(CLEAN / "kaggle_daily_by_service.csv", parse_dates=["date"])
     W = k.pivot_table(index="date", columns="ServiceName", values="cost_usd", aggfunc="sum")
     t = W.sum(axis=1)
-    flags = detection_flags(W)
+    flags = detection_flags(W)[0]
     base = t.shift(1).rolling(7, min_periods=3).median()
     top = (t - base).iloc[WARMUP:].sort_values(ascending=False).head(5).index.sort_values()
     lines.append("## Public Azure subscription (Kaggle) - five largest day-over-normal increases\n")
@@ -204,25 +228,48 @@ def style(ax, title):
     ax.set_title(title, color=INK, fontsize=11, loc="left")
 
 
-def fig_detection(summary: pd.DataFrame) -> None:
+def fig_detection(summary: pd.DataFrame, detectors: list[str], name: str, title: str) -> None:
     fig, axes = plt.subplots(2, 2, figsize=(12, 8), sharex=True, facecolor=SURFACE)
     for col, ds in enumerate(["startup", "kaggle"]):
         for row, (metric, label) in enumerate([("event_recall", "Incidents detected (event recall)"),
                                                ("false_alerts_per_30d", "False alerts per 30 days")]):
             ax = axes[row, col]
-            for det, colr in zip(DETECTORS, PALETTE):
+            for det, colr in zip(detectors, PALETTE):
                 d = summary[(summary.dataset == ds) & (summary.detector == det)]
-                ax.plot(d["k"] * 100, d[metric], color=colr, lw=2, marker="o", ms=5, label=det)
-            name = "Case startup (anchored synthetic)" if ds == "startup" else "Public Azure (real daily + injected)"
-            style(ax, f"{name}\n{label}")
+                ax.plot(d["k"] * 100, d[metric], color=colr, lw=2.6 if det == "consensus" else 2,
+                        marker="o", ms=5, label=det)
+            name_ds = "Case startup (anchored synthetic)" if ds == "startup" else "Public Azure (real daily + injected)"
+            style(ax, f"{name_ds}\n{label}")
             ax.set_xscale("log")
             ax.set_xticks([5, 10, 20, 30, 50, 100], ["5%", "10%", "20%", "30%", "50%", "100%"])
             if row == 1:
                 ax.set_xlabel("Incident size (extra cost as % of a normal day)", color=INK2)
+    fig.suptitle(title, x=0.01, ha="left", color=INK, fontsize=12)
     fig.legend(*axes[0, 0].get_legend_handles_labels(), loc="upper center", ncol=6,
-               frameon=False, fontsize=9, labelcolor=INK)
-    fig.tight_layout(rect=(0, 0, 1, 0.95))
-    fig.savefig(OUT / "fig_detection_vs_size.png", dpi=150, facecolor=SURFACE)
+               frameon=False, fontsize=9, labelcolor=INK, bbox_to_anchor=(0.5, 0.965))
+    fig.tight_layout(rect=(0, 0, 1, 0.93))
+    fig.savefig(OUT / name, dpi=150, facecolor=SURFACE)
+    plt.close(fig)
+
+
+def fig_auc(det: pd.DataFrame) -> None:
+    """ROC-AUC per detector (all sizes and seeds), one bar per dataset."""
+    m = det.groupby(["detector", "dataset"])["roc_auc"].mean().unstack()[["startup", "kaggle"]]
+    m = m.reindex(m.mean(axis=1).sort_values().index)
+    fig, ax = plt.subplots(figsize=(9, 5.2), facecolor=SURFACE)
+    y = np.arange(len(m))
+    for i, (ds, colr, lab) in enumerate([("startup", PALETTE[0], "Case startup"),
+                                         ("kaggle", PALETTE[1], "Public Azure (real daily)")]):
+        ax.barh(y + (i - 0.5) * 0.38, m[ds], height=0.34, color=colr, label=lab)
+    ax.axvline(0.5, color=INK2, lw=1, ls="--")
+    ax.text(0.505, len(m) - 0.4, "random ranking", color=INK2, fontsize=8)
+    ax.set_yticks(y, [f"{d}  ({KIND[d]})" for d in m.index])
+    ax.set_xlim(0.4, 1.0)
+    style(ax, "How well each detector ranks anomalous days (ROC-AUC, higher is better)")
+    ax.grid(axis="y", visible=False)
+    ax.legend(frameon=False, fontsize=9, labelcolor=INK, loc="lower right")
+    fig.tight_layout()
+    fig.savefig(OUT / "fig_auc.png", dpi=150, facecolor=SURFACE)
     plt.close(fig)
 
 
@@ -254,24 +301,52 @@ def md_table(df: pd.DataFrame, fmt: dict) -> str:
     return head + body
 
 
+def significance(det: pd.DataFrame, ref: str, others: list[str]) -> pd.DataFrame:
+    """Wilcoxon signed-rank test on paired F1 (same dataset, size and seed) of `ref` vs each other."""
+    rows = []
+    for ds in ["startup", "kaggle"]:
+        piv = det[det.dataset == ds].pivot_table(index=["k", "seed"], columns="detector", values="f1")
+        for o in others:
+            diff = piv[ref] - piv[o]
+            try:
+                p = wilcoxon(piv[ref], piv[o], zero_method="zsplit").pvalue
+            except ValueError:
+                p = 1.0
+            rows.append({"dataset": ds, "comparison": f"{ref} vs {o}", "mean_f1_diff": diff.mean(),
+                         "ref_better_runs": f"{(diff > 0).sum()}/{len(diff)}", "p_value": p})
+    return pd.DataFrame(rows)
+
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     levels, kclean = aug.monthly_levels(), kaggle_frame()
-    det_rows, att_rows = [], []
+    det_rows, att_rows, ml_rows = [], [], []
     for ds in ["startup", "kaggle"]:
         for k in K_LEVELS:
             for seed in SEEDS:
                 W, clean_total, labels, truth = make_run(ds, k, seed, levels, kclean)
                 extra = (W.sum(axis=1) - clean_total).clip(lower=0)
                 tag = {"dataset": ds, "k": k, "seed": seed}
-                det_rows += [{**tag, **r} for r in score_detection(detection_flags(W), labels, extra, truth)]
+                flags, scores = detection_flags(W)
+                det_rows += [{**tag, **r} for r in score_detection(flags, labels, extra, truth, scores)]
                 att_rows += [{**tag, **r} for r in score_attribution(W, truth, seed)]
+                if k == 0.3:   # ML-specific experiments at the reference incident size
+                    Fw, Sw = walk_forward(W, seed)
+                    ml_rows += [{**tag, "experiment": "walk_forward", "contamination": CONTAMINATION, **r}
+                                for r in score_detection(Fw, labels, extra, truth, Sw, ML_MODELS)]
+                    X, rows = ml_features(W.sum(axis=1)), np.arange(len(W))
+                    for c in CONTAMINATIONS:
+                        s_c, f_c = ml_scores(X, rows, rows, c, seed)
+                        Fc = pd.DataFrame(f_c, index=W.index)
+                        Sc = pd.DataFrame(s_c, index=W.index)
+                        ml_rows += [{**tag, "experiment": "contamination", "contamination": c, **r}
+                                    for r in score_detection(Fc, labels, extra, truth, Sc, ML_MODELS)]
             print(f"done {ds} k={k}")
 
-    det = pd.DataFrame(det_rows)
-    att = pd.DataFrame(att_rows)
+    det, att, mlx = pd.DataFrame(det_rows), pd.DataFrame(att_rows), pd.DataFrame(ml_rows)
     det.to_csv(OUT / "detection_runs.csv", index=False)
     att.to_csv(OUT / "attribution_runs.csv", index=False)
+    mlx.to_csv(OUT / "ml_evaluation.csv", index=False)
 
     dsum = det.groupby(["dataset", "k", "detector"]).mean(numeric_only=True).drop(columns="seed").reset_index()
     asum = (att.groupby(["dataset", "k", "method"])
@@ -279,21 +354,98 @@ def main() -> None:
                  n=("rr", "size")).reset_index())
     dsum.to_csv(OUT / "detection_summary.csv", index=False)
     asum.to_csv(OUT / "attribution_summary.csv", index=False)
-    fig_detection(dsum)
+    fig_detection(dsum, ["consensus"] + ML_MODELS, "fig_detection_ml.png",
+                  "Machine-learning detectors vs the consensus detector")
+    fig_detection(dsum, ["consensus"] + STATS, "fig_detection_stat.png",
+                  "Statistical detectors vs the consensus detector")
+    fig_auc(det)
     fig_attribution(asum)
     (OUT / "real_cases.md").write_text(real_cases())
 
     # ---- thesis report ----------------------------------------------------
     pct = "{:.0%}"
+    f2 = "{:.2f}"
     rep = ["# Evaluation report\n",
-           f"Runs: 2 datasets x {len(K_LEVELS)} incident sizes x {len(SEEDS)} seeds. "
-           f"Evaluation excludes the first {WARMUP} warm-up days.\n"]
+           f"Runs: 2 datasets x {len(K_LEVELS)} incident sizes x {len(SEEDS)} seeds = "
+           f"{2 * len(K_LEVELS) * len(SEEDS)} runs per detector. Evaluation excludes the first {WARMUP} "
+           "warm-up days. Labels are used only for scoring, never for fitting; model settings were "
+           "fixed in advance, not tuned on labels.\n",
+           "\n## Models compared\n",
+           "| Detector | Type | Rule / model |\n|---|---|---|",
+           "| consensus | Ensemble (final DSS) | anomalous when >= 2 of isolation_forest, median_mad, moving_avg, three_sigma agree |",
+           "| isolation_forest | ML | 200 trees, contamination 0.09, 4 features |",
+           "| one_class_svm | ML | RBF kernel, nu 0.09, standardised features |",
+           "| lof | ML | Local Outlier Factor, 10 neighbours, contamination 0.09 |",
+           "| kmeans | ML | 3 clusters; distance to nearest centre, top 9% flagged |",
+           "| median_mad | Statistical | > trailing-14-day median + 3.5 robust SD |",
+           "| moving_avg | Statistical | > 1.2 x trailing 7-day mean |",
+           "| three_sigma | Statistical | > trailing-14-day mean + 3 SD |",
+           "| ewma | Statistical | > EWMA(span 7) mean + 3 EWMA SD |",
+           "| fixed_budget | Statistical | > 1.3 x mean of the first 14 days |",
+           "\nAll ML models use the same 4 features: daily total, deviation from the 7-day median, "
+           "day of week, weekend flag.\n"]
+
     sel = dsum.groupby(["detector", "dataset"])["f1"].mean().unstack()[["startup", "kaggle"]]
     sel["both"] = sel.mean(axis=1)
     sel = sel.sort_values("both", ascending=False).reset_index()
+    sel.insert(1, "type", sel["detector"].map(KIND))
     rep.append("\n## Detector selection (F1 averaged over all incident sizes)\n")
-    rep.append("The DSS uses the detector with the best F1 across both datasets.\n")
-    rep.append(md_table(sel, {"startup": "{:.2f}", "kaggle": "{:.2f}", "both": "{:.2f}"}))
+    rep.append("The DSS uses the detector with the best F1 across both datasets. The consensus rule was "
+               "fixed before the extra ML models were added, so it was not tuned on these results.\n")
+    rep.append(md_table(sel, {"startup": f2, "kaggle": f2, "both": f2}))
+
+    # ML model evaluation --------------------------------------------------
+    rep.append("\n## ML model evaluation\n")
+    rep.append("### 1. Threshold-free ranking quality (ROC-AUC and PR-AUC, all sizes, mean ± SD over runs)\n")
+    rep.append("ROC-AUC = chance that a random anomalous day scores higher than a random normal day "
+               "(0.5 = random). PR-AUC focuses on the rare anomalous days.\n")
+    auc = (det.groupby(["dataset", "detector"])
+           .agg(roc=("roc_auc", "mean"), roc_sd=("roc_auc", "std"), pr=("pr_auc", "mean"),
+                pr_sd=("pr_auc", "std")).reset_index())
+    for ds in ["startup", "kaggle"]:
+        t = auc[auc.dataset == ds].sort_values("roc", ascending=False)
+        t = pd.DataFrame({"detector": t["detector"], "type": t["detector"].map(KIND),
+                          "ROC-AUC": [f"{a:.3f} ± {b:.3f}" for a, b in zip(t.roc, t.roc_sd)],
+                          "PR-AUC": [f"{a:.3f} ± {b:.3f}" for a, b in zip(t.pr, t.pr_sd)]})
+        rep.append(f"\n**{ds}**\n")
+        rep.append(md_table(t, {}))
+
+    rep.append("\n### 2. ML models at incident size 30% (mean ± SD over 10 seeds)\n")
+    for ds in ["startup", "kaggle"]:
+        t = (det[(det.dataset == ds) & (det.k == 0.3) & det.detector.isin(ML_MODELS + ["consensus"])]
+             .groupby("detector").agg(f1=("f1", "mean"), f1_sd=("f1", "std"), rec=("event_recall", "mean"),
+                                      fa=("false_alerts_per_30d", "mean"), roc=("roc_auc", "mean"))
+             .sort_values("f1", ascending=False).reset_index())
+        t = pd.DataFrame({"detector": t.detector, "F1": [f"{a:.2f} ± {b:.2f}" for a, b in zip(t.f1, t.f1_sd)],
+                          "incidents caught": t.rec.map(pct.format), "false alerts / 30d": t.fa.map(f"{{:.1f}}".format),
+                          "ROC-AUC": t.roc.map("{:.3f}".format)})
+        rep.append(f"\n**{ds}**\n")
+        rep.append(md_table(t, {}))
+
+    rep.append("\n### 3. Walk-forward (deployment-style) vs whole-period fitting, incident size 30%\n")
+    rep.append("Walk-forward retrains each ML model every 7 days on past days only and scores the next "
+               "7 days, as a live deployment would. Whole-period fitting sees all days at once.\n")
+    batch = (det[(det.k == 0.3) & det.detector.isin(ML_MODELS)]
+             .groupby(["dataset", "detector"])[["f1", "roc_auc"]].mean())
+    wf = (mlx[mlx.experiment == "walk_forward"].groupby(["dataset", "detector"])[["f1", "roc_auc"]].mean())
+    cmp_ = batch.join(wf, lsuffix="_whole", rsuffix="_walk").reset_index()
+    rep.append(md_table(cmp_, {c: f2 for c in cmp_.columns if c not in ("dataset", "detector")}))
+
+    rep.append("\n### 4. Sensitivity to the contamination setting (incident size 30%, F1)\n")
+    rep.append("Contamination = expected share of anomalous days. 0.09 is the fixed prior used everywhere else.\n")
+    sens = (mlx[mlx.experiment == "contamination"].groupby(["dataset", "detector", "contamination"])["f1"]
+            .mean().unstack("contamination").reset_index())
+    sens.columns = [c if isinstance(c, str) else f"c={c}" for c in sens.columns]
+    rep.append(md_table(sens, {c: f2 for c in sens.columns if c.startswith("c=")}))
+
+    rep.append("\n### 5. Statistical significance (Wilcoxon signed-rank test on paired F1, 60 runs per dataset)\n")
+    rep.append("p < 0.05 means the difference is unlikely to be chance. `ref_better_runs` = runs where the "
+               "first detector had the higher F1.\n")
+    sig = pd.concat([significance(det, "consensus", [d for d in DETECTORS if d != "consensus"]),
+                     significance(det, "isolation_forest", [m for m in ML_MODELS if m != "isolation_forest"])])
+    rep.append(md_table(sig, {"mean_f1_diff": "{:+.3f}", "p_value": "{:.4f}"}))
+
+    # Detection / attribution detail --------------------------------------
     for ds in ["startup", "kaggle"]:
         rep.append(f"\n## Detection - {ds} (incident size 30% of a normal day)\n")
         if ds == "kaggle":
@@ -301,10 +453,10 @@ def main() -> None:
                        "section), so alerts on them count as false here: precision is a lower bound.\n")
         t = dsum[(dsum.dataset == ds) & (dsum.k == 0.3)][
             ["detector", "precision", "recall_days", "f1", "event_recall",
-             "false_alerts_per_30d", "mean_delay_days", "cost_exposed_pct"]]
-        rep.append(md_table(t, {"precision": "{:.2f}", "recall_days": "{:.2f}", "f1": "{:.2f}",
+             "false_alerts_per_30d", "mean_delay_days", "cost_exposed_pct", "roc_auc"]]
+        rep.append(md_table(t, {"precision": f2, "recall_days": f2, "f1": f2, "roc_auc": f2,
                                 "event_recall": pct, "false_alerts_per_30d": "{:.1f}",
-                                "mean_delay_days": "{:.2f}", "cost_exposed_pct": "{:.0f}%"}))
+                                "mean_delay_days": f2, "cost_exposed_pct": "{:.0f}%"}))
         rep.append(f"\n### Event recall by incident size - {ds}\n")
         piv = dsum[dsum.dataset == ds].pivot(index="detector", columns="k", values="event_recall")
         piv.columns = [f"{int(c*100)}%" for c in piv.columns]
@@ -313,7 +465,7 @@ def main() -> None:
         a = att[att.dataset == ds].groupby("method").agg(
             top1=("top1", "mean"), top3=("top3", "mean"), mrr=("rr", "mean"),
             n=("rr", "size")).reindex(METHODS).reset_index()
-        rep.append(md_table(a, {"top1": pct, "top3": pct, "mrr": "{:.2f}"}))
+        rep.append(md_table(a, {"top1": pct, "top3": pct, "mrr": f2}))
         rep.append(f"\n### Top-1 accuracy by incident size - {ds}\n")
         piv = asum[asum.dataset == ds].pivot(index="method", columns="k", values="top1").reindex(METHODS)
         piv.columns = [f"{int(c*100)}%" for c in piv.columns]

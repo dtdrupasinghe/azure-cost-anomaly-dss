@@ -6,11 +6,11 @@ Driver ranking = cost_delta (increase vs each service's trailing 7-day median).
 
 | Date | Cost | Normal | Increase | Flagged by | Top drivers (increase) |
 |---|---|---|---|---|---|
-| 2023-02-01 | 164.49 | 133.68 | +30.81 (23%) | consensus, isolation_forest, three_sigma, moving_avg, fixed_budget | Azure Firewall +12.52; Virtual Machines +7.86; Azure Database for MariaDB +3.73 |
-| 2023-02-03 | 169.61 | 136.01 | +33.60 (25%) | consensus, isolation_forest, moving_avg, fixed_budget | Azure Synapse Analytics +54.95; Azure Database for MariaDB +2.67; Log Analytics +2.62 |
-| 2023-03-15 | 130.16 | 96.17 | +34.00 (35%) | consensus, isolation_forest, median_mad, three_sigma, moving_avg, fixed_budget | Virtual Machines +15.22; SQL Database +15.17; Storage +4.16 |
+| 2023-02-01 | 164.49 | 133.68 | +30.81 (23%) | consensus, isolation_forest, lof, moving_avg, three_sigma, ewma, fixed_budget | Azure Firewall +12.52; Virtual Machines +7.86; Azure Database for MariaDB +3.73 |
+| 2023-02-03 | 169.61 | 136.01 | +33.60 (25%) | consensus, isolation_forest, lof, kmeans, moving_avg, fixed_budget | Azure Synapse Analytics +54.95; Azure Database for MariaDB +2.67; Log Analytics +2.62 |
+| 2023-03-15 | 130.16 | 96.17 | +34.00 (35%) | consensus, isolation_forest, one_class_svm, median_mad, moving_avg, three_sigma, ewma, fixed_budget | Virtual Machines +15.22; SQL Database +15.17; Storage +4.16 |
 | 2023-03-17 | 138.57 | 97.78 | +40.78 (42%) | consensus, median_mad, moving_avg, fixed_budget | Virtual Machines +28.25; Log Analytics +6.32; Storage +3.60 |
-| 2023-03-18 | 147.01 | 111.39 | +35.62 (32%) | consensus, isolation_forest, median_mad, moving_avg, fixed_budget | Virtual Machines +36.92; Azure Defender +4.83; Log Analytics +3.38 |
+| 2023-03-18 | 147.01 | 111.39 | +35.62 (32%) | consensus, isolation_forest, one_class_svm, lof, kmeans, median_mad, moving_avg, fixed_budget | Virtual Machines +36.92; Azure Defender +4.83; Log Analytics +3.38 |
 
 ## Case organisation (Sri Lankan startup) - 28 June 2026 vs 1 June 2026
 
