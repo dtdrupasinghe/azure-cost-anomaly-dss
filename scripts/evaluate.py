@@ -177,6 +177,9 @@ def real_cases() -> str:
     S = s.pivot_table(index="ServiceName", columns="date", values="CostUSD", aggfunc="sum", fill_value=0)
     normal, spike = S[pd.Timestamp("2026-06-01")], S[pd.Timestamp("2026-06-28")]
     diff = (spike - normal).sort_values(ascending=False)
+    # Service-level only (no resource names), used by the dashboard's Real cases page.
+    pd.DataFrame({"normal_day": normal, "spike_day": spike, "change": spike - normal}).loc[diff.index] \
+        .rename_axis("service").round(4).to_csv(OUT / "real_case_startup.csv")
     lines.append("\n## Case organisation (Sri Lankan startup) - 28 June 2026 vs 1 June 2026\n")
     lines.append(f"Total USD {spike.sum():.2f} vs {normal.sum():.2f} "
                  f"(+{(spike.sum()/normal.sum()-1)*100:.0f}%).\n")

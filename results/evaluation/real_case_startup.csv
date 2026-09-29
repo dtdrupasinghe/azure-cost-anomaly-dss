@@ -1,0 +1,11 @@
+service,normal_day,spike_day,change
+MS Bing Services,0.0,1.302,1.302
+Foundry Models,0.0317,0.5418,0.5101
+Azure App Service,0.0,0.15,0.15
+Azure Arc,0.0,0.0,0.0
+Bandwidth,0.0088,0.0049,-0.004
+Traffic Manager,0.0358,0.0219,-0.0138
+Storage,0.1544,0.0976,-0.0568
+Container Registry,0.1666,0.0972,-0.0694
+Virtual Network,0.24,0.15,-0.09
+Virtual Machines,1.1328,0.6608,-0.472
