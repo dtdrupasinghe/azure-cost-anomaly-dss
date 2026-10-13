@@ -1,9 +1,13 @@
 [theme]
 base = "light"
-primaryColor = "#2a78d6"
+# Accent darkened from #2a78d6 to #2876d2 so white button text clears WCAG AA
+# (4.55:1, was 4.42:1) -- same hue, verified not just eyeballed.
+primaryColor = "#2876d2"
 backgroundColor = "#ffffff"
-secondaryBackgroundColor = "#f6f6f4"
-textColor = "#1a1a19"
+# Cool neutral matching the app's own --bg token (was a warm #f6f6f4, which
+# clashed against the cool-grey custom cards).
+secondaryBackgroundColor = "#f5f6f8"
+textColor = "#12141a"
 font = "sans serif"
 
 [client]

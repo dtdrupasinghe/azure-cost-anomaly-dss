@@ -172,6 +172,34 @@ def score_attribution(W, truth, seed) -> list[dict]:
 
 
 # --------------------------------------------------------------------------- #
+# Financial impact: estimated extra cost vs the true injected extra cost
+# --------------------------------------------------------------------------- #
+def estimate_extra(W: pd.DataFrame) -> pd.Series:
+    """The DSS's own estimate of a day's extra cost: trailing 7-day median of the
+    OBSERVED total (exactly app.py's `analyse()` -- the system never sees the clean,
+    pre-injection series, only what a real deployment would see)."""
+    total = W.sum(axis=1)
+    normal = total.shift(1).rolling(7, min_periods=3).median()
+    return (total - normal).clip(lower=0).fillna(0)
+
+
+def score_financial(W: pd.DataFrame, truth: pd.DataFrame) -> list[dict]:
+    """Per incident: estimated vs true total extra cost over its window. True cost is
+    `extra_cost_usd` from injection itself (augment_dataset.inject_incidents), known
+    exactly only because this dataset is synthetic -- it is not derived or re-estimated."""
+    est = estimate_extra(W)
+    rows = []
+    for _, inc in truth.iterrows():
+        window = pd.date_range(inc["start"], inc["end"], freq="D")
+        true_cost, est_cost = float(inc["extra_cost_usd"]), float(est.loc[window].sum())
+        rows.append({"incident_id": inc["incident_id"], "anomaly_type": inc["anomaly_type"],
+                     "true_extra_cost": true_cost, "estimated_extra_cost": est_cost,
+                     "abs_error": abs(est_cost - true_cost),
+                     "pct_error": abs(est_cost - true_cost) / true_cost * 100 if true_cost > 0 else np.nan})
+    return rows
+
+
+# --------------------------------------------------------------------------- #
 # Real, unlabelled spikes
 # --------------------------------------------------------------------------- #
 def real_cases() -> str:
@@ -293,6 +321,28 @@ def fig_attribution(att: pd.DataFrame) -> None:
     plt.close(fig)
 
 
+def fig_financial(fin: pd.DataFrame) -> None:
+    """Estimated vs true extra cost, one point per incident, log-log (incidents span two
+    orders of magnitude by design -- incident size k runs from 5% to 100% of a normal day)."""
+    fig, ax = plt.subplots(figsize=(6.4, 6.0), facecolor=SURFACE)
+    for ds, colr, lab in [("startup", PALETTE[0], "Case startup"), ("kaggle", PALETTE[1], "Public Azure (real daily)")]:
+        d = fin[fin.dataset == ds]
+        ax.scatter(d["true_extra_cost"], d["estimated_extra_cost"], s=22, color=colr, alpha=0.55,
+                  label=lab, edgecolors="none")
+    lo = max(fin[["true_extra_cost", "estimated_extra_cost"]].min().min(), 0.01)
+    hi = fin[["true_extra_cost", "estimated_extra_cost"]].max().max() * 1.1
+    ax.plot([lo, hi], [lo, hi], color=INK2, lw=1.2, ls="--", label="Perfect estimate")
+    ax.set_xscale("log"); ax.set_yscale("log")
+    ax.set_xlim(lo, hi); ax.set_ylim(lo, hi)
+    ax.set_xlabel("True extra cost (USD, log scale)", color=INK2)
+    ax.set_ylabel("Estimated extra cost (USD, log scale)", color=INK2)
+    style(ax, "Estimated vs true financial impact, every injected incident")
+    ax.legend(frameon=False, fontsize=9, labelcolor=INK, loc="upper left")
+    fig.tight_layout()
+    fig.savefig(OUT / "fig_financial_impact.png", dpi=150, facecolor=SURFACE)
+    plt.close(fig)
+
+
 # --------------------------------------------------------------------------- #
 def md_table(df: pd.DataFrame, fmt: dict) -> str:
     head = "| " + " | ".join(df.columns) + " |\n|" + "---|" * len(df.columns) + "\n"
@@ -320,7 +370,7 @@ def significance(det: pd.DataFrame, ref: str, others: list[str]) -> pd.DataFrame
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     levels, kclean = aug.monthly_levels(), kaggle_frame()
-    det_rows, att_rows, ml_rows = [], [], []
+    det_rows, att_rows, ml_rows, fin_rows = [], [], [], []
     for ds in ["startup", "kaggle"]:
         for k in K_LEVELS:
             for seed in SEEDS:
@@ -330,6 +380,7 @@ def main() -> None:
                 flags, scores = detection_flags(W)
                 det_rows += [{**tag, **r} for r in score_detection(flags, labels, extra, truth, scores)]
                 att_rows += [{**tag, **r} for r in score_attribution(W, truth, seed)]
+                fin_rows += [{**tag, **r} for r in score_financial(W, truth)]
                 if k == 0.3:   # ML-specific experiments at the reference incident size
                     Fw, Sw = walk_forward(W, seed)
                     ml_rows += [{**tag, "experiment": "walk_forward", "contamination": CONTAMINATION, **r}
@@ -344,22 +395,29 @@ def main() -> None:
             print(f"done {ds} k={k}")
 
     det, att, mlx = pd.DataFrame(det_rows), pd.DataFrame(att_rows), pd.DataFrame(ml_rows)
+    fin = pd.DataFrame(fin_rows)
     det.to_csv(OUT / "detection_runs.csv", index=False)
     att.to_csv(OUT / "attribution_runs.csv", index=False)
     mlx.to_csv(OUT / "ml_evaluation.csv", index=False)
+    fin.to_csv(OUT / "financial_runs.csv", index=False)
 
     dsum = det.groupby(["dataset", "k", "detector"]).mean(numeric_only=True).drop(columns="seed").reset_index()
     asum = (att.groupby(["dataset", "k", "method"])
             .agg(top1=("top1", "mean"), top3=("top3", "mean"), mrr=("rr", "mean"),
                  n=("rr", "size")).reset_index())
+    fsum = (fin.groupby("dataset")
+            .agg(n=("abs_error", "size"), mae=("abs_error", "mean"), mae_sd=("abs_error", "std"),
+                 mape=("pct_error", "mean"), mape_sd=("pct_error", "std")).reset_index())
     dsum.to_csv(OUT / "detection_summary.csv", index=False)
     asum.to_csv(OUT / "attribution_summary.csv", index=False)
+    fsum.to_csv(OUT / "financial_summary.csv", index=False)
     fig_detection(dsum, ["consensus"] + ML_MODELS, "fig_detection_ml.png",
                   "Machine-learning detectors vs the consensus detector")
     fig_detection(dsum, ["consensus"] + STATS, "fig_detection_stat.png",
                   "Statistical detectors vs the consensus detector")
     fig_auc(det)
     fig_attribution(asum)
+    fig_financial(fin)
     (OUT / "real_cases.md").write_text(real_cases())
 
     # ---- thesis report ----------------------------------------------------
@@ -393,6 +451,26 @@ def main() -> None:
     rep.append("The DSS uses the detector with the best F1 across both datasets. The consensus rule was "
                "fixed before the extra ML models were added, so it was not tuned on these results.\n")
     rep.append(md_table(sel, {"startup": f2, "kaggle": f2, "both": f2}))
+
+    # Financial impact: estimated vs true extra cost -----------------------
+    rep.append("\n## Financial impact estimation accuracy (Table 7.3)\n")
+    rep.append("For every injected incident, the DSS's own estimate of the extra cost (a trailing "
+               "7-day median baseline on the observed series, exactly what app.py uses) is compared "
+               "against the true extra cost injected (known exactly, since this dataset is synthetic). "
+               f"MAE = mean absolute error in USD. MAPE = mean absolute percentage error. N = {len(fin)} "
+               "incidents across all incident sizes and seeds.\n")
+    both = pd.DataFrame([{"dataset": "both (pooled)", "n": len(fin),
+                         "mae": fin["abs_error"].mean(), "mae_sd": fin["abs_error"].std(),
+                         "mape": fin["pct_error"].mean(), "mape_sd": fin["pct_error"].std()}])
+    fin_tbl = pd.concat([fsum, both], ignore_index=True)
+    fin_tbl = pd.DataFrame({"Dataset": fin_tbl["dataset"].map(
+                               {"startup": "Case startup", "kaggle": "Public Azure (real daily)",
+                                "both (pooled)": "Both (pooled)"}),
+                            "N incidents": fin_tbl["n"],
+                            "MAE (USD)": [f"{a:.3f} ± {b:.3f}" for a, b in zip(fin_tbl.mae, fin_tbl.mae_sd)],
+                            "MAPE (%)": [f"{a:.1f} ± {b:.1f}" for a, b in zip(fin_tbl.mape, fin_tbl.mape_sd)]})
+    rep.append(md_table(fin_tbl, {}))
+    rep.append("\nFigure: fig_financial_impact.png (estimated vs true extra cost, every incident, log-log).\n")
 
     # ML model evaluation --------------------------------------------------
     rep.append("\n## ML model evaluation\n")

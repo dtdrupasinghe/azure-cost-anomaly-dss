@@ -38,6 +38,19 @@ The DSS uses the detector with the best F1 across both datasets. The consensus r
 | lof | ML | 0.23 | 0.38 | 0.30 |
 | fixed_budget | Statistical | 0.26 | 0.26 | 0.26 |
 
+## Financial impact estimation accuracy (Table 7.3)
+
+For every injected incident, the DSS's own estimate of the extra cost (a trailing 7-day median baseline on the observed series, exactly what app.py uses) is compared against the true extra cost injected (known exactly, since this dataset is synthetic). MAE = mean absolute error in USD. MAPE = mean absolute percentage error. N = 1080 incidents across all incident sizes and seeds.
+
+| Dataset | N incidents | MAE (USD) | MAPE (%) |
+|---|---|---|---|
+| Public Azure (real daily) | 360 | 19.620 ± 16.702 | 75.0 ± 102.2 |
+| Case startup | 720 | 0.061 ± 0.102 | 13.9 ± 19.9 |
+| Both (pooled) | 1080 | 6.581 ± 13.338 | 34.3 ± 67.6 |
+
+Figure: fig_financial_impact.png (estimated vs true extra cost, every incident, log-log).
+
+
 ## ML model evaluation
 
 ### 1. Threshold-free ranking quality (ROC-AUC and PR-AUC, all sizes, mean ± SD over runs)
